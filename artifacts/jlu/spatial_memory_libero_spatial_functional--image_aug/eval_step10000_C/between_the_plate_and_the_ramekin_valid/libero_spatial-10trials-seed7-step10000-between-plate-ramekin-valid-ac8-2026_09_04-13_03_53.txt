@@ -1,0 +1,73 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/between_the_plate_and_the_ramekin_valid/libero_spatial-10trials-seed7-step10000-between-plate-ramekin-valid-ac8-2026_09_04-13_03_53_videos/2026_09_04/pick_up_the_black_bowl_between_the_plate_and_the_r/1-True-2026_09_04-13_03_53.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 2...
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/between_the_plate_and_the_ramekin_valid/libero_spatial-10trials-seed7-step10000-between-plate-ramekin-valid-ac8-2026_09_04-13_03_53_videos/2026_09_04/pick_up_the_black_bowl_between_the_plate_and_the_r/2-True-2026_09_04-13_03_53.mp4
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 3...
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/between_the_plate_and_the_ramekin_valid/libero_spatial-10trials-seed7-step10000-between-plate-ramekin-valid-ac8-2026_09_04-13_03_53_videos/2026_09_04/pick_up_the_black_bowl_between_the_plate_and_the_r/3-True-2026_09_04-13_03_53.mp4
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 4...
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/between_the_plate_and_the_ramekin_valid/libero_spatial-10trials-seed7-step10000-between-plate-ramekin-valid-ac8-2026_09_04-13_03_53_videos/2026_09_04/pick_up_the_black_bowl_between_the_plate_and_the_r/4-True-2026_09_04-13_03_53.mp4
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 5...
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/between_the_plate_and_the_ramekin_valid/libero_spatial-10trials-seed7-step10000-between-plate-ramekin-valid-ac8-2026_09_04-13_03_53_videos/2026_09_04/pick_up_the_black_bowl_between_the_plate_and_the_r/5-True-2026_09_04-13_03_53.mp4
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 6...
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/between_the_plate_and_the_ramekin_valid/libero_spatial-10trials-seed7-step10000-between-plate-ramekin-valid-ac8-2026_09_04-13_03_53_videos/2026_09_04/pick_up_the_black_bowl_between_the_plate_and_the_r/6-True-2026_09_04-13_03_53.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 7...
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/between_the_plate_and_the_ramekin_valid/libero_spatial-10trials-seed7-step10000-between-plate-ramekin-valid-ac8-2026_09_04-13_03_53_videos/2026_09_04/pick_up_the_black_bowl_between_the_plate_and_the_r/7-True-2026_09_04-13_03_53.mp4
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 8...
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/between_the_plate_and_the_ramekin_valid/libero_spatial-10trials-seed7-step10000-between-plate-ramekin-valid-ac8-2026_09_04-13_03_53_videos/2026_09_04/pick_up_the_black_bowl_between_the_plate_and_the_r/8-True-2026_09_04-13_03_53.mp4
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 9...
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/between_the_plate_and_the_ramekin_valid/libero_spatial-10trials-seed7-step10000-between-plate-ramekin-valid-ac8-2026_09_04-13_03_53_videos/2026_09_04/pick_up_the_black_bowl_between_the_plate_and_the_r/9-True-2026_09_04-13_03_53.mp4
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 10...
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/between_the_plate_and_the_ramekin_valid/libero_spatial-10trials-seed7-step10000-between-plate-ramekin-valid-ac8-2026_09_04-13_03_53_videos/2026_09_04/pick_up_the_black_bowl_between_the_plate_and_the_r/10-True-2026_09_04-13_03_53.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+Current task success rate: 1.0
+Current total success rate: 1.0

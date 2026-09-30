@@ -1,0 +1,380 @@
+2026-09-06 14:52:15.891298: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-06 14:52:15.930877: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-06 14:52:15.930926: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-06 14:52:15.932039: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-06 14:52:15.937813: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-06 14:52:16.657560: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /home/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-006/libero_spatial-50trials-seed7-A-50ep-task6-seed7-ac8-2026_09_06-14_52_17.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+  0%|          | 0/10 [00:00<?, ?it/s]Skipping task 0...
+Skipping task 1...
+Skipping task 2...
+Skipping task 3...
+Skipping task 4...
+Skipping task 5...
+
+  0%|          | 0/50 [00:00<?, ?it/s][A
+  2%|▏         | 1/50 [00:36<30:05, 36.84s/it][A
+  4%|▍         | 2/50 [01:09<27:23, 34.24s/it][A
+  6%|▌         | 3/50 [01:40<25:38, 32.74s/it][A
+  8%|▊         | 4/50 [02:41<33:41, 43.95s/it][A
+ 10%|█         | 5/50 [03:13<29:48, 39.75s/it][A
+ 12%|█▏        | 6/50 [03:47<27:45, 37.84s/it][A
+ 14%|█▍        | 7/50 [04:22<26:19, 36.73s/it][A
+ 16%|█▌        | 8/50 [04:54<24:42, 35.29s/it][A
+ 18%|█▊        | 9/50 [05:29<24:04, 35.22s/it][A
+ 20%|██        | 10/50 [06:00<22:40, 34.02s/it][A
+ 22%|██▏       | 11/50 [06:35<22:09, 34.09s/it][A
+ 24%|██▍       | 12/50 [07:08<21:27, 33.87s/it][A
+ 26%|██▌       | 13/50 [07:41<20:43, 33.60s/it][A
+ 28%|██▊       | 14/50 [08:13<19:51, 33.10s/it][A
+ 30%|███       | 15/50 [08:46<19:16, 33.04s/it][A
+ 32%|███▏      | 16/50 [09:18<18:35, 32.79s/it][A
+ 34%|███▍      | 17/50 [09:49<17:40, 32.14s/it][A
+ 36%|███▌      | 18/50 [10:19<16:52, 31.65s/it][A
+ 38%|███▊      | 19/50 [10:53<16:46, 32.45s/it][A
+ 40%|████      | 20/50 [11:25<16:07, 32.25s/it][A
+ 42%|████▏     | 21/50 [11:57<15:32, 32.14s/it][A
+ 44%|████▍     | 22/50 [12:31<15:16, 32.74s/it][A
+ 46%|████▌     | 23/50 [13:04<14:44, 32.74s/it][A
+ 48%|████▊     | 24/50 [13:36<14:05, 32.51s/it][A
+ 50%|█████     | 25/50 [14:09<13:35, 32.62s/it][A
+ 52%|█████▏    | 26/50 [14:42<13:03, 32.66s/it][A
+ 54%|█████▍    | 27/50 [15:15<12:35, 32.85s/it][A
+ 56%|█████▌    | 28/50 [15:47<11:57, 32.62s/it][A
+ 58%|█████▊    | 29/50 [16:19<11:19, 32.38s/it][A
+ 60%|██████    | 30/50 [16:52<10:53, 32.65s/it][A
+ 62%|██████▏   | 31/50 [17:26<10:27, 33.01s/it][A
+ 64%|██████▍   | 32/50 [18:01<10:07, 33.75s/it][A
+ 66%|██████▌   | 33/50 [18:36<09:39, 34.10s/it][A
+ 68%|██████▊   | 34/50 [19:10<09:03, 33.99s/it][A
+ 70%|███████   | 35/50 [19:42<08:20, 33.40s/it][A
+ 72%|███████▏  | 36/50 [20:18<07:56, 34.00s/it][A
+ 74%|███████▍  | 37/50 [20:51<07:20, 33.88s/it][A
+ 76%|███████▌  | 38/50 [21:28<06:58, 34.85s/it][A
+ 78%|███████▊  | 39/50 [22:01<06:17, 34.31s/it][A
+ 80%|████████  | 40/50 [22:38<05:51, 35.11s/it][A
+ 82%|████████▏ | 41/50 [23:09<05:05, 33.92s/it][A
+ 84%|████████▍ | 42/50 [23:45<04:34, 34.29s/it][A
+ 86%|████████▌ | 43/50 [24:18<03:58, 34.01s/it][A
+ 88%|████████▊ | 44/50 [24:49<03:19, 33.23s/it][A
+ 90%|█████████ | 45/50 [25:21<02:43, 32.63s/it][A
+ 92%|█████████▏| 46/50 [25:52<02:09, 32.36s/it][A
+ 94%|█████████▍| 47/50 [26:27<01:38, 32.98s/it][A
+ 96%|█████████▌| 48/50 [27:00<01:06, 33.05s/it][A
+ 98%|█████████▊| 49/50 [27:31<00:32, 32.59s/it][A
+100%|██████████| 50/50 [28:05<00:00, 32.79s/it][A100%|██████████| 50/50 [28:05<00:00, 33.70s/it]
+ 70%|███████   | 7/10 [28:09<12:04, 241.41s/it]100%|██████████| 10/10 [28:09<00:00, 168.99s/it]
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 1...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 2...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 3...
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 4...
+Success: False
+# episodes completed so far: 4
+# successes: 3 (75.0%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 5...
+Success: True
+# episodes completed so far: 5
+# successes: 4 (80.0%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 6...
+Success: True
+# episodes completed so far: 6
+# successes: 5 (83.3%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 7...
+Success: True
+# episodes completed so far: 7
+# successes: 6 (85.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 8...
+Success: True
+# episodes completed so far: 8
+# successes: 7 (87.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 9...
+Success: True
+# episodes completed so far: 9
+# successes: 8 (88.9%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 10...
+Success: True
+# episodes completed so far: 10
+# successes: 9 (90.0%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 11...
+Success: True
+# episodes completed so far: 11
+# successes: 10 (90.9%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 12...
+Success: True
+# episodes completed so far: 12
+# successes: 11 (91.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 13...
+Success: True
+# episodes completed so far: 13
+# successes: 12 (92.3%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 14...
+Success: True
+# episodes completed so far: 14
+# successes: 13 (92.9%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 15...
+Success: True
+# episodes completed so far: 15
+# successes: 14 (93.3%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 16...
+Success: True
+# episodes completed so far: 16
+# successes: 15 (93.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 17...
+Success: True
+# episodes completed so far: 17
+# successes: 16 (94.1%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 18...
+Success: True
+# episodes completed so far: 18
+# successes: 17 (94.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 19...
+Success: True
+# episodes completed so far: 19
+# successes: 18 (94.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 20...
+Success: True
+# episodes completed so far: 20
+# successes: 19 (95.0%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 21...
+Success: True
+# episodes completed so far: 21
+# successes: 20 (95.2%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 22...
+Success: True
+# episodes completed so far: 22
+# successes: 21 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 23...
+Success: True
+# episodes completed so far: 23
+# successes: 22 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 24...
+Success: True
+# episodes completed so far: 24
+# successes: 23 (95.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 25...
+Success: True
+# episodes completed so far: 25
+# successes: 24 (96.0%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 26...
+Success: True
+# episodes completed so far: 26
+# successes: 25 (96.2%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 27...
+Success: True
+# episodes completed so far: 27
+# successes: 26 (96.3%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 28...
+Success: True
+# episodes completed so far: 28
+# successes: 27 (96.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 29...
+Success: True
+# episodes completed so far: 29
+# successes: 28 (96.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 30...
+Success: True
+# episodes completed so far: 30
+# successes: 29 (96.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 31...
+Success: True
+# episodes completed so far: 31
+# successes: 30 (96.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 32...
+Success: True
+# episodes completed so far: 32
+# successes: 31 (96.9%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 33...
+Success: True
+# episodes completed so far: 33
+# successes: 32 (97.0%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 34...
+Success: True
+# episodes completed so far: 34
+# successes: 33 (97.1%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 35...
+Success: True
+# episodes completed so far: 35
+# successes: 34 (97.1%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 36...
+Success: True
+# episodes completed so far: 36
+# successes: 35 (97.2%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 37...
+Success: True
+# episodes completed so far: 37
+# successes: 36 (97.3%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 38...
+Success: True
+# episodes completed so far: 38
+# successes: 37 (97.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 39...
+Success: True
+# episodes completed so far: 39
+# successes: 38 (97.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 40...
+Success: True
+# episodes completed so far: 40
+# successes: 39 (97.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 41...
+Success: True
+# episodes completed so far: 41
+# successes: 40 (97.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 42...
+Success: True
+# episodes completed so far: 42
+# successes: 41 (97.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 43...
+Success: True
+# episodes completed so far: 43
+# successes: 42 (97.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 44...
+Success: True
+# episodes completed so far: 44
+# successes: 43 (97.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 45...
+Success: True
+# episodes completed so far: 45
+# successes: 44 (97.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 46...
+Success: True
+# episodes completed so far: 46
+# successes: 45 (97.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 47...
+Success: True
+# episodes completed so far: 47
+# successes: 46 (97.9%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 48...
+Success: True
+# episodes completed so far: 48
+# successes: 47 (97.9%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 49...
+Success: True
+# episodes completed so far: 49
+# successes: 48 (98.0%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 50...
+Success: True
+# episodes completed so far: 50
+# successes: 49 (98.0%)
+Current task success rate: 0.98
+Current total success rate: 0.98
+Skipping task 7...
+Skipping task 8...
+Skipping task 9...

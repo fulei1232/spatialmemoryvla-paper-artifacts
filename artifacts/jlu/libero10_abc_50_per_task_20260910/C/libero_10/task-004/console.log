@@ -1,0 +1,380 @@
+2026-09-10 15:54:50.829966: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-10 15:54:50.870025: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-10 15:54:50.870073: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-10 15:54:50.871264: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-10 15:54:50.877223: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-10 15:54:51.614957: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /home/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/libero10_abc_50_per_task_20260910/C/libero_10/task-004/libero_10-50trials-seed7-C-50ep-task4-seed7-ac8-2026_09_10-15_54_52.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_10
+  0%|          | 0/10 [00:00<?, ?it/s]Skipping task 0...
+Skipping task 1...
+Skipping task 2...
+Skipping task 3...
+
+  0%|          | 0/50 [00:00<?, ?it/s][A
+  2%|▏         | 1/50 [00:34<28:21, 34.73s/it][A
+  4%|▍         | 2/50 [01:10<28:25, 35.54s/it][A
+  6%|▌         | 3/50 [01:44<27:00, 34.48s/it][A
+  8%|▊         | 4/50 [02:19<26:49, 34.99s/it][A
+ 10%|█         | 5/50 [02:54<26:12, 34.95s/it][A
+ 12%|█▏        | 6/50 [03:32<26:19, 35.89s/it][A
+ 14%|█▍        | 7/50 [04:09<26:00, 36.29s/it][A
+ 16%|█▌        | 8/50 [04:46<25:28, 36.38s/it][A
+ 18%|█▊        | 9/50 [05:56<32:04, 46.94s/it][A
+ 20%|██        | 10/50 [06:32<29:00, 43.51s/it][A
+ 22%|██▏       | 11/50 [07:08<26:46, 41.20s/it][A
+ 24%|██▍       | 12/50 [08:18<31:45, 50.14s/it][A
+ 26%|██▌       | 13/50 [08:50<27:34, 44.72s/it][A
+ 28%|██▊       | 14/50 [09:24<24:46, 41.29s/it][A
+ 30%|███       | 15/50 [09:58<22:53, 39.25s/it][A
+ 32%|███▏      | 16/50 [10:37<22:06, 39.02s/it][A
+ 34%|███▍      | 17/50 [11:14<21:11, 38.54s/it][A
+ 36%|███▌      | 18/50 [11:50<20:05, 37.66s/it][A
+ 38%|███▊      | 19/50 [12:27<19:24, 37.55s/it][A
+ 40%|████      | 20/50 [13:39<23:52, 47.75s/it][A
+ 42%|████▏     | 21/50 [14:14<21:18, 44.07s/it][A
+ 44%|████▍     | 22/50 [14:46<18:50, 40.37s/it][A
+ 46%|████▌     | 23/50 [15:20<17:22, 38.61s/it][A
+ 48%|████▊     | 24/50 [15:58<16:37, 38.35s/it][A
+ 50%|█████     | 25/50 [16:32<15:23, 36.92s/it][A
+ 52%|█████▏    | 26/50 [17:14<15:26, 38.62s/it][A
+ 54%|█████▍    | 27/50 [17:49<14:24, 37.57s/it][A
+ 56%|█████▌    | 28/50 [18:25<13:35, 37.05s/it][A
+ 58%|█████▊    | 29/50 [19:10<13:45, 39.31s/it][A
+ 60%|██████    | 30/50 [19:46<12:49, 38.48s/it][A
+ 62%|██████▏   | 31/50 [20:22<11:53, 37.53s/it][A
+ 64%|██████▍   | 32/50 [20:56<11:00, 36.69s/it][A
+ 66%|██████▌   | 33/50 [21:30<10:09, 35.87s/it][A
+ 68%|██████▊   | 34/50 [22:08<09:42, 36.44s/it][A
+ 70%|███████   | 35/50 [22:44<09:04, 36.30s/it][A
+ 72%|███████▏  | 36/50 [23:21<08:30, 36.47s/it][A
+ 74%|███████▍  | 37/50 [23:57<07:50, 36.21s/it][A
+ 76%|███████▌  | 38/50 [24:33<07:15, 36.32s/it][A
+ 78%|███████▊  | 39/50 [25:08<06:33, 35.76s/it][A
+ 80%|████████  | 40/50 [25:44<05:58, 35.83s/it][A
+ 82%|████████▏ | 41/50 [26:18<05:19, 35.50s/it][A
+ 84%|████████▍ | 42/50 [27:30<06:11, 46.48s/it][A
+ 86%|████████▌ | 43/50 [28:07<05:04, 43.56s/it][A
+ 88%|████████▊ | 44/50 [28:43<04:07, 41.26s/it][A
+ 90%|█████████ | 45/50 [29:20<03:20, 40.06s/it][A
+ 92%|█████████▏| 46/50 [29:55<02:34, 38.52s/it][A
+ 94%|█████████▍| 47/50 [30:31<01:53, 37.69s/it][A
+ 96%|█████████▌| 48/50 [31:05<01:13, 36.67s/it][A
+ 98%|█████████▊| 49/50 [31:39<00:35, 35.80s/it][A
+100%|██████████| 50/50 [32:49<00:00, 46.11s/it][A100%|██████████| 50/50 [32:49<00:00, 39.39s/it]
+ 50%|█████     | 5/10 [32:55<32:55, 395.10s/it]100%|██████████| 10/10 [32:55<00:00, 197.55s/it]
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 1 (global index 0)...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 2 (global index 1)...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 3 (global index 2)...
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 4 (global index 3)...
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 5 (global index 4)...
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 6 (global index 5)...
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 7 (global index 6)...
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 8 (global index 7)...
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 9 (global index 8)...
+Success: False
+# episodes completed so far: 9
+# successes: 8 (88.9%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 10 (global index 9)...
+Success: True
+# episodes completed so far: 10
+# successes: 9 (90.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 11 (global index 10)...
+Success: True
+# episodes completed so far: 11
+# successes: 10 (90.9%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 12 (global index 11)...
+Success: False
+# episodes completed so far: 12
+# successes: 10 (83.3%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 13 (global index 12)...
+Success: True
+# episodes completed so far: 13
+# successes: 11 (84.6%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 14 (global index 13)...
+Success: True
+# episodes completed so far: 14
+# successes: 12 (85.7%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 15 (global index 14)...
+Success: True
+# episodes completed so far: 15
+# successes: 13 (86.7%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 16 (global index 15)...
+Success: True
+# episodes completed so far: 16
+# successes: 14 (87.5%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 17 (global index 16)...
+Success: True
+# episodes completed so far: 17
+# successes: 15 (88.2%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 18 (global index 17)...
+Success: True
+# episodes completed so far: 18
+# successes: 16 (88.9%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 19 (global index 18)...
+Success: True
+# episodes completed so far: 19
+# successes: 17 (89.5%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 20 (global index 19)...
+Success: False
+# episodes completed so far: 20
+# successes: 17 (85.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 21 (global index 20)...
+Success: True
+# episodes completed so far: 21
+# successes: 18 (85.7%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 22 (global index 21)...
+Success: True
+# episodes completed so far: 22
+# successes: 19 (86.4%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 23 (global index 22)...
+Success: True
+# episodes completed so far: 23
+# successes: 20 (87.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 24 (global index 23)...
+Success: True
+# episodes completed so far: 24
+# successes: 21 (87.5%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 25 (global index 24)...
+Success: True
+# episodes completed so far: 25
+# successes: 22 (88.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 26 (global index 25)...
+Success: True
+# episodes completed so far: 26
+# successes: 23 (88.5%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 27 (global index 26)...
+Success: True
+# episodes completed so far: 27
+# successes: 24 (88.9%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 28 (global index 27)...
+Success: True
+# episodes completed so far: 28
+# successes: 25 (89.3%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 29 (global index 28)...
+Success: True
+# episodes completed so far: 29
+# successes: 26 (89.7%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 30 (global index 29)...
+Success: True
+# episodes completed so far: 30
+# successes: 27 (90.0%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 31 (global index 30)...
+Success: True
+# episodes completed so far: 31
+# successes: 28 (90.3%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 32 (global index 31)...
+Success: True
+# episodes completed so far: 32
+# successes: 29 (90.6%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 33 (global index 32)...
+Success: True
+# episodes completed so far: 33
+# successes: 30 (90.9%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 34 (global index 33)...
+Success: True
+# episodes completed so far: 34
+# successes: 31 (91.2%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 35 (global index 34)...
+Success: True
+# episodes completed so far: 35
+# successes: 32 (91.4%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 36 (global index 35)...
+Success: True
+# episodes completed so far: 36
+# successes: 33 (91.7%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 37 (global index 36)...
+Success: True
+# episodes completed so far: 37
+# successes: 34 (91.9%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 38 (global index 37)...
+Success: True
+# episodes completed so far: 38
+# successes: 35 (92.1%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 39 (global index 38)...
+Success: True
+# episodes completed so far: 39
+# successes: 36 (92.3%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 40 (global index 39)...
+Success: True
+# episodes completed so far: 40
+# successes: 37 (92.5%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 41 (global index 40)...
+Success: True
+# episodes completed so far: 41
+# successes: 38 (92.7%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 42 (global index 41)...
+Success: False
+# episodes completed so far: 42
+# successes: 38 (90.5%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 43 (global index 42)...
+Success: True
+# episodes completed so far: 43
+# successes: 39 (90.7%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 44 (global index 43)...
+Success: True
+# episodes completed so far: 44
+# successes: 40 (90.9%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 45 (global index 44)...
+Success: True
+# episodes completed so far: 45
+# successes: 41 (91.1%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 46 (global index 45)...
+Success: True
+# episodes completed so far: 46
+# successes: 42 (91.3%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 47 (global index 46)...
+Success: True
+# episodes completed so far: 47
+# successes: 43 (91.5%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 48 (global index 47)...
+Success: True
+# episodes completed so far: 48
+# successes: 44 (91.7%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 49 (global index 48)...
+Success: True
+# episodes completed so far: 49
+# successes: 45 (91.8%)
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Starting episode 50 (global index 49)...
+Success: False
+# episodes completed so far: 50
+# successes: 45 (90.0%)
+Current task success rate: 0.9
+Current total success rate: 0.9
+Skipping task 5...
+Skipping task 6...
+Skipping task 7...
+Skipping task 8...
+Skipping task 9...

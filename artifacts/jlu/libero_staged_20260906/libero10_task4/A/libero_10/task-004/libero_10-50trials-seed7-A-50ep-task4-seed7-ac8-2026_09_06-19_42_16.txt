@@ -1,0 +1,9 @@
+Task suite: libero_10
+
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+Official initial state index: 0
+Starting episode 1...
+Saved rollout MP4 at path /media/fulei/jlu/libero_staged_20260906/libero10_task4/A/libero_10/task-004/libero_10-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-19_42_16_videos/2026_09_06/put_the_white_mug_on_the_left_plate_and_put_the_ye/1-False-2026_09_06-19_42_16.mp4
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)

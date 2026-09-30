@@ -1,0 +1,28 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 1...
+Caught exception: Expecting value: line 1 column 1 (char 0)
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/next_to_the_plate/libero_spatial-10trials-seed7-step10000-next_to_plate-ac8-2026_09_04-12_56_07_videos/2026_09_04/pick_up_the_black_bowl_next_to_the_plate_and_place/1-False-2026_09_04-12_56_07.mp4
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 2...
+Caught exception: Expecting value: line 1 column 1 (char 0)
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/next_to_the_plate/libero_spatial-10trials-seed7-step10000-next_to_plate-ac8-2026_09_04-12_56_07_videos/2026_09_04/pick_up_the_black_bowl_next_to_the_plate_and_place/2-False-2026_09_04-12_56_07.mp4
+Success: False
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 3...
+Caught exception: Expecting value: line 1 column 1 (char 0)
+Saved rollout MP4 at path /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/eval_step10000_C/next_to_the_plate/libero_spatial-10trials-seed7-step10000-next_to_plate-ac8-2026_09_04-12_56_07_videos/2026_09_04/pick_up_the_black_bowl_next_to_the_plate_and_place/3-False-2026_09_04-12_56_07.mp4
+Success: False
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 4...

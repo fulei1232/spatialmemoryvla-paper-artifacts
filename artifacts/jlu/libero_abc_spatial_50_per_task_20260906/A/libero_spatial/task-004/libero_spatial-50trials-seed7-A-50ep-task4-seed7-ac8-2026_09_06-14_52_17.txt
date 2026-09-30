@@ -1,0 +1,403 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 0
+Starting episode 1...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/1-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 1
+Starting episode 2...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/2-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 2
+Starting episode 3...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/3-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 3
+Starting episode 4...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/4-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 4
+Starting episode 5...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/5-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 5
+Starting episode 6...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/6-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 6
+Starting episode 7...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/7-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 7
+Starting episode 8...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/8-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 8
+Starting episode 9...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/9-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 9
+Starting episode 10...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/10-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 10
+Starting episode 11...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/11-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 11
+# successes: 11 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 11
+Starting episode 12...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/12-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 12
+# successes: 12 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 12
+Starting episode 13...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/13-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 13
+# successes: 13 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 13
+Starting episode 14...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/14-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 14
+# successes: 14 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 14
+Starting episode 15...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/15-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 15
+# successes: 15 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 15
+Starting episode 16...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/16-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 16
+# successes: 16 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 16
+Starting episode 17...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/17-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 17
+# successes: 17 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 17
+Starting episode 18...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/18-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 18
+# successes: 18 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 18
+Starting episode 19...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/19-False-2026_09_06-14_52_17.mp4
+Success: False
+# episodes completed so far: 19
+# successes: 18 (94.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 19
+Starting episode 20...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/20-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 20
+# successes: 19 (95.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 20
+Starting episode 21...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/21-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 21
+# successes: 20 (95.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 21
+Starting episode 22...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/22-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 22
+# successes: 21 (95.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 22
+Starting episode 23...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/23-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 23
+# successes: 22 (95.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 23
+Starting episode 24...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/24-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 24
+# successes: 23 (95.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 24
+Starting episode 25...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/25-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 25
+# successes: 24 (96.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 25
+Starting episode 26...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/26-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 26
+# successes: 25 (96.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 26
+Starting episode 27...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/27-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 27
+# successes: 26 (96.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 27
+Starting episode 28...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/28-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 28
+# successes: 27 (96.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 28
+Starting episode 29...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/29-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 29
+# successes: 28 (96.6%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 29
+Starting episode 30...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/30-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 30
+# successes: 29 (96.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 30
+Starting episode 31...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/31-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 31
+# successes: 30 (96.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 31
+Starting episode 32...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/32-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 31 (96.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 32
+Starting episode 33...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/33-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 33
+# successes: 32 (97.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 33
+Starting episode 34...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/34-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 34
+# successes: 33 (97.1%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 34
+Starting episode 35...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/35-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 35
+# successes: 34 (97.1%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 35
+Starting episode 36...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/36-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 36
+# successes: 35 (97.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 36
+Starting episode 37...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/37-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 37
+# successes: 36 (97.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 37
+Starting episode 38...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/38-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 38
+# successes: 37 (97.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 38
+Starting episode 39...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/39-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 39
+# successes: 38 (97.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 39
+Starting episode 40...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/40-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 40
+# successes: 39 (97.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 40
+Starting episode 41...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/41-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 41
+# successes: 40 (97.6%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 41
+Starting episode 42...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/42-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 42
+# successes: 41 (97.6%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 42
+Starting episode 43...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/43-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 43
+# successes: 42 (97.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 43
+Starting episode 44...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/44-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 44
+# successes: 43 (97.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 44
+Starting episode 45...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/45-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 44 (97.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 45
+Starting episode 46...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/46-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 46
+# successes: 45 (97.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 46
+Starting episode 47...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/47-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 47
+# successes: 46 (97.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 47
+Starting episode 48...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/48-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 48
+# successes: 47 (97.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 48
+Starting episode 49...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/49-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 49
+# successes: 48 (98.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Official initial state index: 49
+Starting episode 50...
+Saved rollout MP4 at path /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/A/libero_spatial/task-004/libero_spatial-50trials-seed7-A-50ep-task4-seed7-ac8-2026_09_06-14_52_17_videos/2026_09_06/pick_up_the_black_bowl_in_the_top_drawer_of_the_wo/50-True-2026_09_06-14_52_17.mp4
+Success: True
+# episodes completed so far: 50
+# successes: 49 (98.0%)
+Current task success rate: 0.98
+Current total success rate: 0.98

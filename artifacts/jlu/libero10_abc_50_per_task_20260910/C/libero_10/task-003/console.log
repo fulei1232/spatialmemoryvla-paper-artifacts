@@ -1,0 +1,380 @@
+2026-09-10 15:54:50.792222: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-10 15:54:50.832156: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-10 15:54:50.832207: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-10 15:54:50.833366: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-10 15:54:50.839315: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-10 15:54:51.596729: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /home/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/libero10_abc_50_per_task_20260910/C/libero_10/task-003/libero_10-50trials-seed7-C-50ep-task3-seed7-ac8-2026_09_10-15_54_52.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_10
+  0%|          | 0/10 [00:00<?, ?it/s]Skipping task 0...
+Skipping task 1...
+Skipping task 2...
+
+  0%|          | 0/50 [00:00<?, ?it/s][A
+  2%|▏         | 1/50 [00:50<41:04, 50.29s/it][A
+  4%|▍         | 2/50 [01:32<36:22, 45.47s/it][A
+  6%|▌         | 3/50 [03:06<53:04, 67.76s/it][A
+  8%|▊         | 4/50 [04:40<59:46, 77.96s/it][A
+ 10%|█         | 5/50 [05:35<52:15, 69.68s/it][A
+ 12%|█▏        | 6/50 [06:17<44:10, 60.23s/it][A
+ 14%|█▍        | 7/50 [07:50<50:50, 70.94s/it][A
+ 16%|█▌        | 8/50 [08:29<42:40, 60.95s/it][A
+ 18%|█▊        | 9/50 [09:12<37:48, 55.34s/it][A
+ 20%|██        | 10/50 [10:06<36:38, 54.96s/it][A
+ 22%|██▏       | 11/50 [11:03<36:03, 55.46s/it][A
+ 24%|██▍       | 12/50 [11:46<32:44, 51.69s/it][A
+ 26%|██▌       | 13/50 [12:30<30:22, 49.26s/it][A
+ 28%|██▊       | 14/50 [13:15<28:49, 48.03s/it][A
+ 30%|███       | 15/50 [13:58<27:09, 46.57s/it][A
+ 32%|███▏      | 16/50 [15:31<34:16, 60.50s/it][A
+ 34%|███▍      | 17/50 [17:05<38:47, 70.52s/it][A
+ 36%|███▌      | 18/50 [17:47<33:06, 62.09s/it][A
+ 38%|███▊      | 19/50 [18:30<29:09, 56.42s/it][A
+ 40%|████      | 20/50 [19:12<26:01, 52.05s/it][A
+ 42%|████▏     | 21/50 [19:55<23:49, 49.31s/it][A
+ 44%|████▍     | 22/50 [21:29<29:11, 62.56s/it][A
+ 46%|████▌     | 23/50 [23:00<32:02, 71.20s/it][A
+ 48%|████▊     | 24/50 [23:43<27:07, 62.61s/it][A
+ 50%|█████     | 25/50 [24:23<23:22, 56.11s/it][A
+ 52%|█████▏    | 26/50 [25:56<26:51, 67.16s/it][A
+ 54%|█████▍    | 27/50 [26:48<23:57, 62.51s/it][A
+ 56%|█████▌    | 28/50 [27:32<20:55, 57.05s/it][A
+ 58%|█████▊    | 29/50 [28:18<18:48, 53.76s/it][A
+ 60%|██████    | 30/50 [29:03<17:01, 51.10s/it][A
+ 62%|██████▏   | 31/50 [29:41<14:55, 47.14s/it][A
+ 64%|██████▍   | 32/50 [30:21<13:30, 45.02s/it][A
+ 66%|██████▌   | 33/50 [31:05<12:39, 44.70s/it][A
+ 68%|██████▊   | 34/50 [31:47<11:42, 43.90s/it][A
+ 70%|███████   | 35/50 [32:32<11:03, 44.26s/it][A
+ 72%|███████▏  | 36/50 [33:13<10:05, 43.24s/it][A
+ 74%|███████▍  | 37/50 [33:59<09:31, 43.94s/it][A
+ 76%|███████▌  | 38/50 [34:41<08:40, 43.35s/it][A
+ 78%|███████▊  | 39/50 [35:23<07:51, 42.85s/it][A
+ 80%|████████  | 40/50 [36:06<07:09, 42.99s/it][A
+ 82%|████████▏ | 41/50 [37:36<08:34, 57.16s/it][A
+ 84%|████████▍ | 42/50 [38:16<06:54, 51.87s/it][A
+ 86%|████████▌ | 43/50 [39:00<05:47, 49.59s/it][A
+ 88%|████████▊ | 44/50 [39:44<04:47, 47.89s/it][A
+ 90%|█████████ | 45/50 [41:14<05:02, 60.54s/it][A
+ 92%|█████████▏| 46/50 [42:44<04:38, 69.55s/it][A
+ 94%|█████████▍| 47/50 [44:17<03:48, 76.33s/it][A
+ 96%|█████████▌| 48/50 [44:58<02:11, 65.80s/it][A
+ 98%|█████████▊| 49/50 [45:39<00:58, 58.44s/it][A
+100%|██████████| 50/50 [46:19<00:00, 52.96s/it][A100%|██████████| 50/50 [46:19<00:00, 55.59s/it]
+ 40%|████      | 4/10 [46:23<1:09:34, 695.77s/it]100%|██████████| 10/10 [46:23<00:00, 278.31s/it] 
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 1 (global index 0)...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 2 (global index 1)...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 3 (global index 2)...
+Success: False
+# episodes completed so far: 3
+# successes: 2 (66.7%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 4 (global index 3)...
+Success: False
+# episodes completed so far: 4
+# successes: 2 (50.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 5 (global index 4)...
+Success: True
+# episodes completed so far: 5
+# successes: 3 (60.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 6 (global index 5)...
+Success: True
+# episodes completed so far: 6
+# successes: 4 (66.7%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 7 (global index 6)...
+Success: False
+# episodes completed so far: 7
+# successes: 4 (57.1%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 8 (global index 7)...
+Success: True
+# episodes completed so far: 8
+# successes: 5 (62.5%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 9 (global index 8)...
+Success: True
+# episodes completed so far: 9
+# successes: 6 (66.7%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 10 (global index 9)...
+Success: True
+# episodes completed so far: 10
+# successes: 7 (70.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 11 (global index 10)...
+Success: True
+# episodes completed so far: 11
+# successes: 8 (72.7%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 12 (global index 11)...
+Success: True
+# episodes completed so far: 12
+# successes: 9 (75.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 13 (global index 12)...
+Success: True
+# episodes completed so far: 13
+# successes: 10 (76.9%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 14 (global index 13)...
+Success: True
+# episodes completed so far: 14
+# successes: 11 (78.6%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 15 (global index 14)...
+Success: True
+# episodes completed so far: 15
+# successes: 12 (80.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 16 (global index 15)...
+Success: False
+# episodes completed so far: 16
+# successes: 12 (75.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 17 (global index 16)...
+Success: False
+# episodes completed so far: 17
+# successes: 12 (70.6%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 18 (global index 17)...
+Success: True
+# episodes completed so far: 18
+# successes: 13 (72.2%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 19 (global index 18)...
+Success: True
+# episodes completed so far: 19
+# successes: 14 (73.7%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 20 (global index 19)...
+Success: True
+# episodes completed so far: 20
+# successes: 15 (75.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 21 (global index 20)...
+Success: True
+# episodes completed so far: 21
+# successes: 16 (76.2%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 22 (global index 21)...
+Success: False
+# episodes completed so far: 22
+# successes: 16 (72.7%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 23 (global index 22)...
+Success: False
+# episodes completed so far: 23
+# successes: 16 (69.6%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 24 (global index 23)...
+Success: True
+# episodes completed so far: 24
+# successes: 17 (70.8%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 25 (global index 24)...
+Success: True
+# episodes completed so far: 25
+# successes: 18 (72.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 26 (global index 25)...
+Success: False
+# episodes completed so far: 26
+# successes: 18 (69.2%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 27 (global index 26)...
+Success: True
+# episodes completed so far: 27
+# successes: 19 (70.4%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 28 (global index 27)...
+Success: True
+# episodes completed so far: 28
+# successes: 20 (71.4%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 29 (global index 28)...
+Success: True
+# episodes completed so far: 29
+# successes: 21 (72.4%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 30 (global index 29)...
+Success: True
+# episodes completed so far: 30
+# successes: 22 (73.3%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 31 (global index 30)...
+Success: True
+# episodes completed so far: 31
+# successes: 23 (74.2%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 32 (global index 31)...
+Success: True
+# episodes completed so far: 32
+# successes: 24 (75.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 33 (global index 32)...
+Success: True
+# episodes completed so far: 33
+# successes: 25 (75.8%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 34 (global index 33)...
+Success: True
+# episodes completed so far: 34
+# successes: 26 (76.5%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 35 (global index 34)...
+Success: True
+# episodes completed so far: 35
+# successes: 27 (77.1%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 36 (global index 35)...
+Success: True
+# episodes completed so far: 36
+# successes: 28 (77.8%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 37 (global index 36)...
+Success: True
+# episodes completed so far: 37
+# successes: 29 (78.4%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 38 (global index 37)...
+Success: True
+# episodes completed so far: 38
+# successes: 30 (78.9%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 39 (global index 38)...
+Success: True
+# episodes completed so far: 39
+# successes: 31 (79.5%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 40 (global index 39)...
+Success: True
+# episodes completed so far: 40
+# successes: 32 (80.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 41 (global index 40)...
+Success: False
+# episodes completed so far: 41
+# successes: 32 (78.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 42 (global index 41)...
+Success: True
+# episodes completed so far: 42
+# successes: 33 (78.6%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 43 (global index 42)...
+Success: True
+# episodes completed so far: 43
+# successes: 34 (79.1%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 44 (global index 43)...
+Success: True
+# episodes completed so far: 44
+# successes: 35 (79.5%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 45 (global index 44)...
+Success: False
+# episodes completed so far: 45
+# successes: 35 (77.8%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 46 (global index 45)...
+Success: False
+# episodes completed so far: 46
+# successes: 35 (76.1%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 47 (global index 46)...
+Success: False
+# episodes completed so far: 47
+# successes: 35 (74.5%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 48 (global index 47)...
+Success: True
+# episodes completed so far: 48
+# successes: 36 (75.0%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 49 (global index 48)...
+Success: True
+# episodes completed so far: 49
+# successes: 37 (75.5%)
+
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+Starting episode 50 (global index 49)...
+Success: True
+# episodes completed so far: 50
+# successes: 38 (76.0%)
+Current task success rate: 0.76
+Current total success rate: 0.76
+Skipping task 4...
+Skipping task 5...
+Skipping task 6...
+Skipping task 7...
+Skipping task 8...
+Skipping task 9...

@@ -1,0 +1,33 @@
+[2026-09-06T19:45:21+08:00] scheduled A/B/C rollout matrix
+target=2026-09-06T19:45:21+08:00
+protocol=50 official episodes/task, seed=7, cfg=1.5, action_chunk=8
+parallelism=8 task workers; models remain sequential A->B->C
+output_root=/media/fulei/jlu/libero_staged_20260906_v3/libero10
+[2026-09-06T19:45:21+08:00] scheduled time reached
+Validated /media/fulei/jlu/memoryvla_libero_spatial_ab_A--image_aug/checkpoints/step-010000-epoch-48-loss=0.0157.pt (33507493282 bytes)
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 143: ss: command not found
+Started A replica gpu=0 port=26820 pid=957111
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 143: ss: command not found
+Started A replica gpu=1 port=26821 pid=957115
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 143: ss: command not found
+Started A replica gpu=2 port=26822 pid=957119
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 143: ss: command not found
+Started A replica gpu=3 port=26823 pid=957123
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 143: ss: command not found
+Started A replica gpu=4 port=26824 pid=957127
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 143: ss: command not found
+Started A replica gpu=5 port=26825 pid=957131
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 143: ss: command not found
+Started A replica gpu=6 port=26826 pid=957136
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 143: ss: command not found
+Started A replica gpu=7 port=26827 pid=957140
+[2026-09-06T19:49:15+08:00] all 8 replicas for model A are ready
+[2026-09-06T19:49:15+08:00] START A/libero_10/task-0 worker=0 port=26820
+[2026-09-06T19:49:15+08:00] START A/libero_10/task-1 worker=1 port=26821
+[2026-09-06T19:49:15+08:00] START A/libero_10/task-2 worker=2 port=26822
+[2026-09-06T19:49:15+08:00] START A/libero_10/task-3 worker=3 port=26823
+[2026-09-06T19:49:15+08:00] START A/libero_10/task-4 worker=4 port=26824
+[2026-09-06T19:49:15+08:00] START A/libero_10/task-5 worker=5 port=26825
+[2026-09-06T19:49:15+08:00] START A/libero_10/task-6 worker=6 port=26826
+[2026-09-06T19:49:15+08:00] START A/libero_10/task-7 worker=7 port=26827
+[2026-09-06T21:15:24+08:00] scheduler exit status=0

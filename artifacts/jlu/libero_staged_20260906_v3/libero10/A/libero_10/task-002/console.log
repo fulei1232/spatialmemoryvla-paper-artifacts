@@ -1,0 +1,61 @@
+2026-09-06 19:49:17.037428: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-06 19:49:17.075785: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-06 19:49:17.075835: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-06 19:49:17.077115: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-06 19:49:17.083015: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-06 19:49:17.818785: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /home/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/libero_staged_20260906_v3/libero10/A/libero_10/task-002/libero_10-50trials-seed7-A-50ep-task2-seed7-ac8-2026_09_06-19_49_18.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_10
+  0%|          | 0/10 [00:00<?, ?it/s]Skipping task 0...
+Skipping task 1...
+
+  0%|          | 0/50 [00:00<?, ?it/s][A
+  2%|▏         | 1/50 [02:03<1:41:03, 123.74s/it][A
+  4%|▍         | 2/50 [04:10<1:40:17, 125.36s/it][A
+  6%|▌         | 3/50 [06:16<1:38:29, 125.74s/it][A
+  8%|▊         | 4/50 [08:20<1:35:49, 124.99s/it][A
+ 10%|█         | 5/50 [10:25<1:33:49, 125.11s/it][A
+ 12%|█▏        | 6/50 [12:31<1:31:51, 125.26s/it][A
+ 14%|█▍        | 7/50 [14:38<1:30:11, 125.86s/it][A
+ 16%|█▌        | 8/50 [16:43<1:27:51, 125.52s/it][A
+ 18%|█▊        | 9/50 [18:46<1:25:18, 124.83s/it][A
+ 20%|██        | 10/50 [20:50<1:22:59, 124.48s/it][A
+ 22%|██▏       | 11/50 [22:56<1:21:22, 125.20s/it][A
+ 24%|██▍       | 12/50 [25:01<1:19:16, 125.17s/it][A
+ 26%|██▌       | 13/50 [27:07<1:17:11, 125.18s/it][A
+ 28%|██▊       | 14/50 [29:11<1:14:53, 124.82s/it][A
+ 30%|███       | 15/50 [31:17<1:12:59, 125.13s/it][A
+ 32%|███▏      | 16/50 [33:24<1:11:15, 125.76s/it][A
+ 34%|███▍      | 17/50 [35:29<1:09:01, 125.49s/it][A
+ 36%|███▌      | 18/50 [37:34<1:06:58, 125.57s/it][A
+ 38%|███▊      | 19/50 [39:38<1:04:35, 125.02s/it][A
+ 40%|████      | 20/50 [41:43<1:02:26, 124.87s/it][A
+ 42%|████▏     | 21/50 [43:50<1:00:40, 125.52s/it][A
+ 44%|████▍     | 22/50 [45:56<58:40, 125.72s/it]  [A
+ 46%|████▌     | 23/50 [48:02<56:34, 125.73s/it][A
+ 48%|████▊     | 24/50 [50:06<54:21, 125.45s/it][A
+ 50%|█████     | 25/50 [52:12<52:17, 125.51s/it][A
+ 52%|█████▏    | 26/50 [54:19<50:21, 125.89s/it][A
+ 54%|█████▍    | 27/50 [56:24<48:12, 125.76s/it][A
+ 56%|█████▌    | 28/50 [58:29<46:02, 125.57s/it][A
+ 58%|█████▊    | 29/50 [1:00:34<43:50, 125.24s/it][A
+ 60%|██████    | 30/50 [1:02:38<41:37, 124.88s/it][A
+ 62%|██████▏   | 31/50 [1:04:41<39:22, 124.34s/it][A
+ 64%|██████▍   | 32/50 [1:06:43<37:07, 123.77s/it][A
+ 66%|██████▌   | 33/50 [1:08:45<34:50, 122.99s/it][A
+ 68%|██████▊   | 34/50 [1:10:45<32:34, 122.17s/it][A
+ 70%|███████   | 35/50 [1:12:46<30:26, 121.74s/it][A
+ 72%|███████▏  | 36/50 [1:14:49<28:29, 122.12s/it][A
+ 74%|███████▍  | 37/50 [1:16:48<26:16, 121.29s/it][A
+ 76%|███████▌  | 38/50 [1:18:45<23:59, 119.99s/it][A
+ 78%|███████▊  | 39/50 [1:20:46<22:01, 120.18s/it][A
+ 80%|████████  | 40/50 [1:22:46<20:02, 120.20s/it][A
+ 82%|████████▏ | 41/50 [1:24:43<17:52, 119.20s/it][A

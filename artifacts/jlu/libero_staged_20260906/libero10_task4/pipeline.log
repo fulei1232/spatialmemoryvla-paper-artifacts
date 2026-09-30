@@ -1,0 +1,12 @@
+[2026-09-06T19:39:53+08:00] scheduled A/B/C rollout matrix
+target=2026-09-06T19:39:53+08:00
+protocol=50 official episodes/task, seed=7, cfg=1.5, action_chunk=8
+parallelism=1 task workers; models remain sequential A->B->C
+output_root=/media/fulei/jlu/libero_staged_20260906/libero10_task4
+[2026-09-06T19:39:53+08:00] scheduled time reached
+Validated /media/fulei/jlu/memoryvla_libero_spatial_ab_A--image_aug/checkpoints/step-010000-epoch-48-loss=0.0157.pt (33507493282 bytes)
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 143: ss: command not found
+Started A replica gpu=0 port=26820 pid=946834
+[2026-09-06T19:42:13+08:00] all 1 replicas for model A are ready
+[2026-09-06T19:42:13+08:00] START A/libero_10/task-4 worker=0 port=26820
+[2026-09-06T19:43:47+08:00] scheduler exit status=0

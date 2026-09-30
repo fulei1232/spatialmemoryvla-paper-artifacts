@@ -1,0 +1,101 @@
+[2026-09-04T13:37:26+08:00] scheduled A/B/C rollout matrix
+target=2026-09-06T20:00:00+08:00
+protocol=50 official episodes/task, seed=7, cfg=1.5, action_chunk=8
+output_root=/media/fulei/jlu/libero_abc_spatial_50_per_task_20260906
+[2026-09-04T13:41:43+08:00] scheduled A/B/C rollout matrix
+target=2026-09-06T20:00:00+08:00
+protocol=50 official episodes/task, seed=7, cfg=1.5, action_chunk=8
+parallelism=8 task workers; models remain sequential A->B->C
+output_root=/media/fulei/jlu/libero_abc_spatial_50_per_task_20260906
+[2026-09-06T14:48:25+08:00] scheduled A/B/C rollout matrix
+target=2026-09-06T14:48:25+08:00
+protocol=50 official episodes/task, seed=7, cfg=1.5, action_chunk=8
+parallelism=8 task workers; models remain sequential A->B->C
+output_root=/media/fulei/jlu/libero_abc_spatial_50_per_task_20260906
+[2026-09-06T14:48:25+08:00] scheduled time reached
+Validated /media/fulei/jlu/memoryvla_libero_spatial_ab_A--image_aug/checkpoints/step-010000-epoch-48-loss=0.0157.pt (33507493282 bytes)
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started A replica gpu=0 port=26820 pid=3677252
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started A replica gpu=1 port=26821 pid=3677256
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started A replica gpu=2 port=26822 pid=3677260
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started A replica gpu=3 port=26823 pid=3677264
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started A replica gpu=4 port=26824 pid=3677268
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started A replica gpu=5 port=26825 pid=3677272
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started A replica gpu=6 port=26826 pid=3677276
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started A replica gpu=7 port=26827 pid=3677280
+[2026-09-06T14:52:14+08:00] all 8 replicas for model A are ready
+[2026-09-06T14:52:14+08:00] START A/libero_spatial/task-0 worker=0 port=26820
+[2026-09-06T14:52:14+08:00] START A/libero_spatial/task-1 worker=1 port=26821
+[2026-09-06T14:52:14+08:00] START A/libero_spatial/task-2 worker=2 port=26822
+[2026-09-06T14:52:14+08:00] START A/libero_spatial/task-3 worker=3 port=26823
+[2026-09-06T14:52:14+08:00] START A/libero_spatial/task-4 worker=4 port=26824
+[2026-09-06T14:52:14+08:00] START A/libero_spatial/task-5 worker=5 port=26825
+[2026-09-06T14:52:14+08:00] START A/libero_spatial/task-6 worker=6 port=26826
+[2026-09-06T14:52:14+08:00] START A/libero_spatial/task-7 worker=7 port=26827
+[2026-09-06T15:26:57+08:00] START A/libero_spatial/task-8 worker=0 port=26820
+[2026-09-06T15:26:57+08:00] START A/libero_spatial/task-9 worker=1 port=26821
+Validated /media/fulei/jlu/memoryvla_spatial_forcing_libero_spatial_ab_B--image_aug/checkpoints/step-010000-epoch-48-loss=0.0171.pt (33562696646 bytes)
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started B replica gpu=0 port=26820 pid=4151269
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started B replica gpu=1 port=26821 pid=4151273
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started B replica gpu=2 port=26822 pid=4151277
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started B replica gpu=3 port=26823 pid=4151281
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started B replica gpu=4 port=26824 pid=4151285
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started B replica gpu=5 port=26825 pid=4151289
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started B replica gpu=6 port=26826 pid=4151293
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started B replica gpu=7 port=26827 pid=4151297
+[2026-09-06T16:01:43+08:00] all 8 replicas for model B are ready
+[2026-09-06T16:01:43+08:00] START B/libero_spatial/task-0 worker=0 port=26820
+[2026-09-06T16:01:43+08:00] START B/libero_spatial/task-1 worker=1 port=26821
+[2026-09-06T16:01:43+08:00] START B/libero_spatial/task-2 worker=2 port=26822
+[2026-09-06T16:01:43+08:00] START B/libero_spatial/task-3 worker=3 port=26823
+[2026-09-06T16:01:43+08:00] START B/libero_spatial/task-4 worker=4 port=26824
+[2026-09-06T16:01:43+08:00] START B/libero_spatial/task-5 worker=5 port=26825
+[2026-09-06T16:01:43+08:00] START B/libero_spatial/task-6 worker=6 port=26826
+[2026-09-06T16:01:43+08:00] START B/libero_spatial/task-7 worker=7 port=26827
+[2026-09-06T16:36:23+08:00] START B/libero_spatial/task-8 worker=0 port=26820
+[2026-09-06T16:36:23+08:00] START B/libero_spatial/task-9 worker=1 port=26821
+Validated /media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/checkpoints/step-010000-epoch-48-loss=0.0210.pt (33562696646 bytes)
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started C replica gpu=0 port=26820 pid=427447
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started C replica gpu=1 port=26821 pid=427451
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started C replica gpu=2 port=26822 pid=427455
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started C replica gpu=3 port=26823 pid=427459
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started C replica gpu=4 port=26824 pid=427463
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started C replica gpu=5 port=26825 pid=427467
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started C replica gpu=6 port=26826 pid=427471
+script/eval/libero/run_abc_all_suites_100_per_task.sh: line 138: ss: command not found
+Started C replica gpu=7 port=26827 pid=427475
+[2026-09-06T17:11:13+08:00] all 8 replicas for model C are ready
+[2026-09-06T17:11:13+08:00] START C/libero_spatial/task-0 worker=0 port=26820
+[2026-09-06T17:11:13+08:00] START C/libero_spatial/task-1 worker=1 port=26821
+[2026-09-06T17:11:13+08:00] START C/libero_spatial/task-2 worker=2 port=26822
+[2026-09-06T17:11:13+08:00] START C/libero_spatial/task-3 worker=3 port=26823
+[2026-09-06T17:11:13+08:00] START C/libero_spatial/task-4 worker=4 port=26824
+[2026-09-06T17:11:13+08:00] START C/libero_spatial/task-5 worker=5 port=26825
+[2026-09-06T17:11:13+08:00] START C/libero_spatial/task-6 worker=6 port=26826
+[2026-09-06T17:11:13+08:00] START C/libero_spatial/task-7 worker=7 port=26827
+[2026-09-06T17:44:05+08:00] START C/libero_spatial/task-8 worker=0 port=26820
+[2026-09-06T17:44:05+08:00] START C/libero_spatial/task-9 worker=1 port=26821
+[2026-09-06T18:14:59+08:00] all scheduled A/B/C suite tasks attempted
+[2026-09-06T18:14:59+08:00] scheduler exit status=0
