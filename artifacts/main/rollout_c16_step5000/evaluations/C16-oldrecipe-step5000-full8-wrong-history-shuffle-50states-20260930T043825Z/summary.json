@@ -1,0 +1,29 @@
+{
+  "states_per_task": 50,
+  "condition": "full8",
+  "mode": "same-task cyclic shuffled history: target i uses donor (i+1) mod N",
+  "episodes": 100,
+  "successes": 52,
+  "success_rate": 0.52,
+  "recovery_successes": 52,
+  "recovery_success_rate": 0.52,
+  "exceptions": 0,
+  "tasks": {
+    "0": {
+      "episodes": 50,
+      "successes": 38,
+      "success_rate": 0.76,
+      "recovery_successes": 38,
+      "recovery_success_rate": 0.76,
+      "exceptions": 0
+    },
+    "8": {
+      "episodes": 50,
+      "successes": 14,
+      "success_rate": 0.28,
+      "recovery_successes": 14,
+      "recovery_success_rate": 0.28,
+      "exceptions": 0
+    }
+  }
+}

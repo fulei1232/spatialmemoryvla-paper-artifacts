@@ -1,0 +1,102 @@
+{
+  "states_per_task": 10,
+  "ranking": [
+    {
+      "checkpoint": "step4000",
+      "episodes": 20,
+      "successes": 18,
+      "success_rate": 0.9,
+      "tasks": {
+        "0": {
+          "episodes": 10,
+          "successes": 9
+        },
+        "8": {
+          "episodes": 10,
+          "successes": 9
+        }
+      }
+    },
+    {
+      "checkpoint": "step5000",
+      "episodes": 20,
+      "successes": 18,
+      "success_rate": 0.9,
+      "tasks": {
+        "0": {
+          "episodes": 10,
+          "successes": 10
+        },
+        "8": {
+          "episodes": 10,
+          "successes": 8
+        }
+      }
+    },
+    {
+      "checkpoint": "step2000",
+      "episodes": 20,
+      "successes": 16,
+      "success_rate": 0.8,
+      "tasks": {
+        "0": {
+          "episodes": 10,
+          "successes": 9
+        },
+        "8": {
+          "episodes": 10,
+          "successes": 7
+        }
+      }
+    },
+    {
+      "checkpoint": "step1000",
+      "episodes": 20,
+      "successes": 15,
+      "success_rate": 0.75,
+      "tasks": {
+        "0": {
+          "episodes": 10,
+          "successes": 8
+        },
+        "8": {
+          "episodes": 10,
+          "successes": 7
+        }
+      }
+    },
+    {
+      "checkpoint": "step500",
+      "episodes": 20,
+      "successes": 11,
+      "success_rate": 0.55,
+      "tasks": {
+        "0": {
+          "episodes": 10,
+          "successes": 7
+        },
+        "8": {
+          "episodes": 10,
+          "successes": 4
+        }
+      }
+    },
+    {
+      "checkpoint": "step750",
+      "episodes": 20,
+      "successes": 8,
+      "success_rate": 0.4,
+      "tasks": {
+        "0": {
+          "episodes": 10,
+          "successes": 4
+        },
+        "8": {
+          "episodes": 10,
+          "successes": 4
+        }
+      }
+    }
+  ],
+  "best_checkpoint": "step4000"
+}

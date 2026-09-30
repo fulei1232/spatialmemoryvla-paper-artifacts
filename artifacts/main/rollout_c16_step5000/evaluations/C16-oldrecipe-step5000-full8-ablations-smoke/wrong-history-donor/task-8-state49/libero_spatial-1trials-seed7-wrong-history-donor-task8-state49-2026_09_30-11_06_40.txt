@@ -1,0 +1,10 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 49
+Starting episode 1 (global index 49)...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Current task success rate: 1.0
+Current total success rate: 1.0

@@ -1,0 +1,11 @@
+[2026-09-17T16:33:37+08:00] sweep start: visible=5, partial=3, full={8,12}; 50 states/task
+[2026-09-17T17:01:42+08:00] C16 full8 complete
+[2026-09-17T17:01:48+08:00] B full8 complete
+[2026-09-17T17:02:37+08:00] C1 full8 complete
+[2026-09-17T17:28:23+08:00] B full12 complete
+[2026-09-17T17:28:23+08:00] B all lengths complete
+[2026-09-17T17:28:36+08:00] C16 full12 complete
+[2026-09-17T17:28:37+08:00] C16 all lengths complete
+[2026-09-17T17:29:23+08:00] C1 full12 complete
+[2026-09-17T17:29:23+08:00] C1 all lengths complete
+[2026-09-17T17:29:23+08:00] sweep complete

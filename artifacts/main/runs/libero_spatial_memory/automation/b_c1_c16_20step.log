@@ -1,0 +1,461 @@
+[1/3] B: spatial forcing without temporal memory
+Matched LIBERO-Spatial temporal-occlusion training
+group: spatial_forcing
+run id: libero_spatial_occ_B_20step
+dataset: /media/fulei/jlu/SpatialMemoryVLA/datasets/libero-rlds/libero_spatial_no_noops/1.0.0 (16 shards)
+initial checkpoint: /media/fulei/jlu/SpatialMemoryVLA/pretrained/memvla-libero-spatial/checkpoints/memvla-libero-spatial.pt
+GPUs / per-device / global batch: 4 / 8 / 32
+max steps / save interval: 20 / 20
+seed / memory length: 42 / 1
+dataloader: stream
+curriculum: probability=0.5, visible<0.30, ramp=0.20, full<0.75, then recovery
+run root: /media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory
+[2026-09-16 21:15:22,568] torch.distributed.run: [WARNING] 
+[2026-09-16 21:15:22,568] torch.distributed.run: [WARNING] *****************************************
+[2026-09-16 21:15:22,568] torch.distributed.run: [WARNING] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+[2026-09-16 21:15:22,568] torch.distributed.run: [WARNING] *****************************************
+/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+2026-09-16 21:15:26.214074: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-16 21:15:26.250017: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-16 21:15:26.250104: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-16 21:15:26.251178: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-16 21:15:26.257403: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-16 21:15:26.384592: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-16 21:15:26.384599: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-16 21:15:26.420392: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-16 21:15:26.424898: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-16 21:15:26.424899: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-16 21:15:26.424940: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-16 21:15:26.424956: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-16 21:15:26.426062: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-16 21:15:26.426062: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-16 21:15:26.431930: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-16 21:15:26.431930: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-16 21:15:26.455772: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-16 21:15:26.455815: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-16 21:15:26.456775: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-16 21:15:26.462166: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-16 21:15:27.052037: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-09-16 21:15:27.156465: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-09-16 21:15:27.164852: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-09-16 21:15:27.196971: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+09/16 [21:15:34] INFO     | >> [*] MemoryVLA Training :: Warming Up train.py:162
+                 INFO     | >>     |=> "Do or do not; there is no   train.py:181
+                          try."                                                 
+09/16 [21:15:35] INFO     | >> [*] Loading Base VLM                 train.py:197
+                          `prism-dinosiglip-224px+7b` from ID/Path              
+                 INFO     | >> [*] Loading VLA Checkpoint           train.py:213
+                 INFO     | >> [*] Loading from local checkpoint     load.py:123
+                          path                                                  
+                          `/media/fulei/jlu/SpatialMemoryVLA/pretrai            
+                          ned/memvla-libero-spatial/checkpoints/memv            
+                          la-libero-spatial.pt`                                 
+                 INFO     | >> [*] Found Config =>> Loading &        load.py:171
+                          Freezing prism-dinosiglip-224px+7b with:              
+                                       Vision Backbone =>>                      
+                          dinosiglip-vit-so-224px                               
+                                       LLM Backbone    =>>                      
+                          llama2-7b-pure                                        
+                                       Arch Specifier  =>>                      
+                          no-align+fused-gelu-mlp                               
+                                       Checkpoint Path =>>                      
+                          `/media/fulei/jlu/SpatialMemoryVLA/pretrai            
+                          ned/memvla-libero-spatial/checkpoints/memv            
+                          la-libero-spatial.pt`                                 
+                 INFO     | >> [*] Loading Vision Backbone           load.py:180
+                          dinosiglip-vit-so-224px                               
+09/16 [21:15:38] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (timm/vit_large_patch14_reg4_dinov2.lv                
+                          d142m)                                                
+09/16 [21:15:38] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (timm/vit_large_patch14_reg4_dinov2.lv                
+                          d142m)                                                
+09/16 [21:15:38] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (timm/vit_large_patch14_reg4_dinov2.lv                
+                          d142m)                                                
+09/16 [21:15:38] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (timm/vit_large_patch14_reg4_dinov2.lv                
+                          d142m)                                                
+09/16 [21:15:39] INFO     | >>  Safe alternative available for       _hub.py:180
+                          'pytorch_model.bin' (as                               
+                          'model.safetensors'). Loading weights                 
+                          using safetensors.                                    
+09/16 [21:15:39] INFO     | >>  Safe alternative available for       _hub.py:180
+                          'pytorch_model.bin' (as                               
+                          'model.safetensors'). Loading weights                 
+                          using safetensors.                                    
+09/16 [21:15:39] INFO     | >>  Safe alternative available for       _hub.py:180
+                          'pytorch_model.bin' (as                               
+                          'model.safetensors'). Loading weights                 
+                          using safetensors.                                    
+09/16 [21:15:39] INFO     | >>  Safe alternative available for       _hub.py:180
+                          'pytorch_model.bin' (as                               
+                          'model.safetensors'). Loading weights                 
+                          using safetensors.                                    
+                 INFO     | >> Resized position embedding: (37,  pos_embed.py:55
+                          37) to (16, 16).                                      
+                 INFO     | >> Resized position embedding: (37,  pos_embed.py:55
+                          37) to (16, 16).                                      
+                 INFO     | >> Resized position embedding: (37,  pos_embed.py:55
+                          37) to (16, 16).                                      
+                 INFO     | >> Resized position embedding: (37,  pos_embed.py:55
+                          37) to (16, 16).                                      
+09/16 [21:15:59] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (('timm/ViT-SO400M-14-SigLIP',                        
+                          'open_clip_pytorch_model.bin'))                       
+09/16 [21:15:59] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (('timm/ViT-SO400M-14-SigLIP',                        
+                          'open_clip_pytorch_model.bin'))                       
+09/16 [21:15:59] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (('timm/ViT-SO400M-14-SigLIP',                        
+                          'open_clip_pytorch_model.bin'))                       
+09/16 [21:15:59] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (('timm/ViT-SO400M-14-SigLIP',                        
+                          'open_clip_pytorch_model.bin'))                       
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'open_clip_pytorch_model.bin' (as                     
+                          'open_clip_model.safetensors'). Loading               
+                          weights using safetensors.                            
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'open_clip_pytorch_model.bin' (as                     
+                          'open_clip_model.safetensors'). Loading               
+                          weights using safetensors.                            
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'open_clip_pytorch_model.bin' (as                     
+                          'open_clip_model.safetensors'). Loading               
+                          weights using safetensors.                            
+09/16 [21:16:00] INFO     | >>  Safe alternative available for       _hub.py:180
+                          'open_clip_pytorch_model.bin' (as                     
+                          'open_clip_model.safetensors'). Loading               
+                          weights using safetensors.                            
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in LlamaForCausalLM is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in LlamaModel is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in LlamaForCausalLM is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+09/16 [21:16:20] INFO     | >> [*] Loading Pretrained LLM            load.py:187
+                          llama2-7b-pure via HF Transformers                    
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in LlamaForCausalLM is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in LlamaModel is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+                 INFO     | >>     |=> Loading llama2 LLM from   base_llm.py:121
+                          `/media/fulei/jlu/SpatialMemoryVLA/pre                
+                          trained/NousResearch-Llama-2-7b-hf`                   
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in LlamaModel is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in LlamaForCausalLM is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+Flash Attention 2.0 only supports torch.float16 and torch.bfloat16 dtypes, but the current dype in LlamaModel is torch.float32. You should run training or inference using Automatic Mixed-Precision via the `with torch.autocast(device_type='torch_device'):` decorator, or load the model with the `torch_dtype` argument. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="flash_attention_2", torch_dtype=torch.float16)`
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [02:08<02:08, 128.88s/it]Loading checkpoint shards:  50%|█████     | 1/2 [02:09<02:09, 129.00s/it]Loading checkpoint shards:  50%|█████     | 1/2 [02:09<02:09, 129.01s/it]Loading checkpoint shards:  50%|█████     | 1/2 [02:09<02:09, 129.03s/it]Loading checkpoint shards: 100%|██████████| 2/2 [02:56<00:00, 81.08s/it] Loading checkpoint shards: 100%|██████████| 2/2 [02:56<00:00, 88.27s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [02:56<00:00, 81.14s/it] Loading checkpoint shards: 100%|██████████| 2/2 [02:56<00:00, 88.32s/it]
+09/16 [21:19:17] INFO     | >>     |=> Loading llama2 (Fast)     base_llm.py:151
+                          Tokenizer via the AutoTokenizer API                   
+Loading checkpoint shards: 100%|██████████| 2/2 [02:56<00:00, 81.14s/it] Loading checkpoint shards: 100%|██████████| 2/2 [02:56<00:00, 88.32s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [02:56<00:00, 81.18s/it] Loading checkpoint shards: 100%|██████████| 2/2 [02:56<00:00, 88.34s/it]
+09/16 [21:19:20] INFO     | >> [*] Loading VLA                       load.py:196
+                          prism-dinosiglip-224px+7b from Checkpoint             
+09/16 [21:19:56] INFO     | >> using MLP layer as FFN  vision_transformer.py:122
+09/16 [21:20:00] INFO     | >> [*] Loading frozen VGGT spatial      train.py:233
+                          teacher from                                          
+                          `/media/fulei/jlu/SpatialMemoryVLA/pretra             
+                          ined/VGGT-1B/model.pt`                                
+                 INFO     | >> using MLP layer as FFN  vision_transformer.py:122
+09/16 [21:20:10] INFO     | >> Load dataset info from        dataset_info.py:599
+                          /media/fulei/jlu/SpatialMemoryVLA/                    
+                          datasets/libero-rlds/libero_spatia                    
+                          l_no_noops/1.0.0                                      
+                 INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split all,                         
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:10.602106: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+09/16 [21:20:10] INFO     | >> using MLP layer as FFN  vision_transformer.py:122
+  0%|          | 0/432 [00:00<?, ?it/s]  7%|▋         | 32/432 [00:00<00:01, 216.42it/s] 16%|█▌        | 68/432 [00:00<00:01, 271.60it/s] 22%|██▏       | 96/432 [00:00<00:01, 196.54it/s] 53%|█████▎    | 231/432 [00:00<00:00, 530.51it/s]100%|██████████| 432/432 [00:00<00:00, 719.01it/s]
+09/16 [21:20:11] INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split train,                       
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:11.910194: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+
+######################################################################################
+# Loading the following 1 datasets (incl. sampling weight):                         #
+# libero_spatial_no_noops: =================================================1.000000 #
+######################################################################################
+
+09/16 [21:20:12] INFO     | >> Load dataset info from        dataset_info.py:599
+                          /media/fulei/jlu/SpatialMemoryVLA/                    
+                          datasets/libero-rlds/libero_spatia                    
+                          l_no_noops/1.0.0                                      
+                 INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split train,                       
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:12.364976: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+09/16 [21:20:13] INFO     | >> [*] Invoking                         train.py:265
+                          `VLM.freeze_backbones()` for                          
+                          `prism-dinosiglip-224px+oxe+diffusion` =>             
+                          Stage: `align`                                        
+                 INFO     | >>     |=> [Frozen]    🥶 =>>       prismatic.py:151
+                          Vision Backbone                                       
+                          `dinosiglip-vit-so-224px`                             
+                 INFO     | >>     |=> [Frozen]    🥶 =>> LLM   prismatic.py:152
+                          Backbone `llama2-7b-pure`                             
+                 INFO     | >>     |=> [TRAINABLE] 🔥 =>>       prismatic.py:153
+                          Projector `no-align+fused-gelu-mlp`                   
+                 INFO     | >> [*] # Parameters (in millions):      train.py:271
+                          8389.330 Total, 919.478 Trainable                     
+                 INFO     | >> [*] Matched training configuration:  train.py:274
+                                   |-> Pretrained Checkpoint =                  
+                          /media/fulei/jlu/SpatialMemoryVLA/pretrai             
+                          ned/memvla-libero-spatial/checkpoints/mem             
+                          vla-libero-spatial.pt                                 
+                                   |-> Dataset Mix =                            
+                          libero_spatial_no_noops                               
+                                   |-> Experiment Mode =                        
+                          spatial_forcing                                       
+                                   |-> Trainable Parameter Count =              
+                          919478055                                             
+                                   |-> Max Steps = 20                           
+                                   |-> Global Batch Size = 32                   
+                                   |-> Learning Rate = 2e-05                    
+                 INFO     | >> [*] Creating VLA Open-X Dataset with train.py:285
+                          Mixture `libero_spatial_no_noops`                     
+                 INFO     | >> Load dataset info from        dataset_info.py:599
+                          /media/fulei/jlu/SpatialMemoryVLA/                    
+                          datasets/libero-rlds/libero_spatia                    
+                          l_no_noops/1.0.0                                      
+                 INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split all,                         
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:13.920524: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+09/16 [21:20:14] INFO     | >> [*] Loading existing dataset    data_utils.py:210
+                          statistics from                                       
+                          /media/fulei/jlu/SpatialMemoryVLA/da                  
+                          tasets/libero-rlds/libero_spatial_no                  
+                          _noops/1.0.0/dataset_statistics_69fa                  
+                          34be2d846f19a33a076d848460e59748e4e3                  
+                          e7ac99f442c53cb4c55b35ce.json.                        
+                 INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split train,                       
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:14.362768: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+
+######################################################################################
+# Loading the following 1 datasets (incl. sampling weight):                         #
+# libero_spatial_no_noops: =================================================1.000000 #
+######################################################################################
+
+                 INFO     | >> [*] Threads per Dataset: [1]       dataset.py:684
+                 INFO     | >> [*] Reads per Dataset: [1]         dataset.py:685
+                 INFO     | >> [*] Constructing datasets...       dataset.py:688
+                 INFO     | >> Load dataset info from        dataset_info.py:599
+                          /media/fulei/jlu/SpatialMemoryVLA/                    
+                          datasets/libero-rlds/libero_spatia                    
+                          l_no_noops/1.0.0                                      
+                 INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split train,                       
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:14.808033: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+09/16 [21:20:15] INFO     | >> [*] Applying frame transforms on   dataset.py:756
+                          dataset...                                            
+09/16 [21:20:16] INFO     | >> [*] Saved dataset statistics    data_utils.py:302
+                          file at path                                          
+                          /media/fulei/jlu/SpatialMemoryVLA/ru                  
+                          ns/libero_spatial_memory/libero_spat                  
+                          ial_occ_B_20step--image_aug/dataset_                  
+                          statistics.json                                       
+09/16 [21:20:20] INFO     | >> using MLP layer as FFN  vision_transformer.py:122
+09/16 [21:20:24] INFO     | >> Load dataset info from        dataset_info.py:599
+                          /media/fulei/jlu/SpatialMemoryVLA/                    
+                          datasets/libero-rlds/libero_spatia                    
+                          l_no_noops/1.0.0                                      
+                 INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split all,                         
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:24.590526: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+09/16 [21:20:25] INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split train,                       
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:25.021029: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+
+######################################################################################
+# Loading the following 1 datasets (incl. sampling weight):                         #
+# libero_spatial_no_noops: =================================================1.000000 #
+######################################################################################
+
+                 INFO     | >> Load dataset info from        dataset_info.py:599
+                          /media/fulei/jlu/SpatialMemoryVLA/                    
+                          datasets/libero-rlds/libero_spatia                    
+                          l_no_noops/1.0.0                                      
+                 INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split train,                       
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:25.450699: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+09/16 [21:20:33] INFO     | >> Load dataset info from        dataset_info.py:599
+                          /media/fulei/jlu/SpatialMemoryVLA/                    
+                          datasets/libero-rlds/libero_spatia                    
+                          l_no_noops/1.0.0                                      
+                 INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split all,                         
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:33.500808: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+                 INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split train,                       
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:33.939506: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+
+######################################################################################
+# Loading the following 1 datasets (incl. sampling weight):                         #
+# libero_spatial_no_noops: =================================================1.000000 #
+######################################################################################
+
+09/16 [21:20:34] INFO     | >> Load dataset info from        dataset_info.py:599
+                          /media/fulei/jlu/SpatialMemoryVLA/                    
+                          datasets/libero-rlds/libero_spatia                    
+                          l_no_noops/1.0.0                                      
+                 INFO     | >> Constructing tf.data.Dataset logging_logger.py:49
+                          libero_spatial for split train,                       
+                          from                                                  
+                          /media/fulei/jlu/SpatialMemoryVLA                     
+                          /datasets/libero-rlds/libero_spat                     
+                          ial_no_noops/1.0.0                                    
+2026-09-16 21:20:34.377937: I tensorflow/core/grappler/optimizers/data/replicate_on_split.cc:32] Running replicate on split optimization
+09/16 [21:20:35] INFO     | >> [*] Initializing Train Strategy      train.py:316
+                          `fsdp-full-shard`                                     
+                 INFO     | >> [*] Casting Vision Backbone to *Half  fsdp.py:200
+                          Precision* via `.to(dtype=...)`                       
+09/16 [21:20:48] INFO     | >> [*] FSDP Full-Shard Strategy =>>      fsdp.py:298
+                          Finalized Training Setup:                             
+                                   |-> Global (Effective) Batch Size            
+                          = 32                                                  
+                                   |-> Per-Device Batch Size = 8                
+                                   |-> Distributed World Size = 4               
+                                   |-> Gradient Accumulation Steps =            
+                          1                                                     
+                                                                                
+                                   |-> LLM Backbone FSDP Gradient               
+                          Checkpointing = False                                 
+                                   |-> Use FSDP Mixed Precision =               
+                          True                                                  
+                                           |-> Parameter Precision =            
+                          torch.bfloat16                                        
+                                           |-> Reduction Precision =            
+                          torch.float32                                         
+                                           |-> Buffer Precision =               
+                          torch.float32                                         
+                                                                                
+                                   |-> Default AdamW LR = 2e-05                 
+                                   |-> AdamW Weight Decay = 0.0                 
+                                   |-> LR Scheduler Type = constant             
+                                   |-> LR Scheduler Warmup Steps                
+                          (Ratio) = 0 (0.0)                                     
+                                   |-> Dataset Size = 52992 Examples            
+                                   |-> Max Steps = 20                           
+                                                                                
+                 INFO     | >> [*] Creating Metrics with Active     train.py:342
+                          Trackers => `('jsonl',)`                              
+                 INFO     | >> [*] Starting VLA Training Loop       train.py:355
+=>> [Epoch 000] Global Step 000000 =>> LR :: 0.000000:   0%|          | 0/20 [00:00<?, ?it/s]2026-09-16 21:20:58.471633: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:93: Filling up shuffle buffer (this may take a while): 6719 of 128000
+2026-09-16 21:20:58.473168: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 7026 of 128000
+2026-09-16 21:20:58.481038: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 7345 of 128000
+2026-09-16 21:20:58.483661: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 6707 of 128000
+2026-09-16 21:21:08.475236: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 14428 of 128000
+2026-09-16 21:21:08.486570: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 13770 of 128000
+2026-09-16 21:21:18.465834: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:93: Filling up shuffle buffer (this may take a while): 21045 of 128000
+2026-09-16 21:21:18.480285: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 24017 of 128000
+2026-09-16 21:21:28.470918: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:93: Filling up shuffle buffer (this may take a while): 25477 of 128000
+2026-09-16 21:21:28.471783: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 24452 of 128000
+2026-09-16 21:21:28.485607: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 24462 of 128000
+2026-09-16 21:21:38.470770: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:93: Filling up shuffle buffer (this may take a while): 28650 of 128000
+2026-09-16 21:21:38.478242: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 31401 of 128000
+2026-09-16 21:21:48.473583: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 33358 of 128000
+2026-09-16 21:21:48.479256: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 33447 of 128000
+[2026-09-16 21:21:49,431] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 889356 closing signal SIGTERM
+[2026-09-16 21:21:49,434] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 889357 closing signal SIGTERM
+[2026-09-16 21:21:49,435] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 889358 closing signal SIGTERM
+[2026-09-16 21:21:54,554] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: -9) local_rank: 3 (pid: 889359) of binary: /root/SpatialMemoryVLA/.venv/bin/python
+Traceback (most recent call last):
+  File "/root/SpatialMemoryVLA/.venv/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+  File "/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+=======================================================
+train.py FAILED
+-------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+-------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-09-16_21:21:49
+  host      : aibox-r0c95b141c19-5d4c65f58-zfkh2
+  rank      : 3 (local_rank: 3)
+  exitcode  : -9 (pid: 889359)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 889359
+=======================================================

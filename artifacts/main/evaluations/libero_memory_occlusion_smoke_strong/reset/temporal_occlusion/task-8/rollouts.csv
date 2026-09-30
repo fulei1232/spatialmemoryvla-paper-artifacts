@@ -1,0 +1,3 @@
+model,task_name,runtime_task_index,initial_state_id,hard_case,success,policy_calls,timeout
+C16-reset,pick up the black bowl next to the plate and place it on the plate,8,0,temporal_occlusion,True,19,False
+C16-reset,pick up the black bowl next to the plate and place it on the plate,8,1,temporal_occlusion,True,19,False

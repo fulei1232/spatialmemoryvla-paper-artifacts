@@ -1,0 +1,167 @@
+/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+2026-09-16 20:08:25.284489: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-16 20:08:25.319955: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-16 20:08:25.320031: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-16 20:08:25.321082: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-16 20:08:25.326705: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-16 20:08:26.035097: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+09/16 [20:08:32] INFO     | >> [*] Loading from local checkpoint     load.py:123
+                          path                                                  
+                          `/media/fulei/jlu/SpatialMemoryVLA/runs/ro            
+                          bomme_memory/spatial_memory_robomme_occ_c_            
+                          mem1_500step--image_aug/checkpoints/step-0            
+                          00500-epoch-05-loss=0.0293.pt`                        
+                 INFO     | >> [*] Found Config =>> Loading &        load.py:171
+                          Freezing prism-dinosiglip-224px+7b with:              
+                                       Vision Backbone =>>                      
+                          dinosiglip-vit-so-224px                               
+                                       LLM Backbone    =>>                      
+                          llama2-7b-pure                                        
+                                       Arch Specifier  =>>                      
+                          no-align+fused-gelu-mlp                               
+                                       Checkpoint Path =>>                      
+                          `/media/fulei/jlu/SpatialMemoryVLA/runs/ro            
+                          bomme_memory/spatial_memory_robomme_occ_c_            
+                          mem1_500step--image_aug/checkpoints/step-0            
+                          00500-epoch-05-loss=0.0293.pt`                        
+                 INFO     | >> [*] Loading Vision Backbone           load.py:180
+                          dinosiglip-vit-so-224px                               
+09/16 [20:08:35] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (timm/vit_large_patch14_reg4_dinov2.lv                
+                          d142m)                                                
+09/16 [20:08:36] INFO     | >>  Safe alternative available for       _hub.py:180
+                          'pytorch_model.bin' (as                               
+                          'model.safetensors'). Loading weights                 
+                          using safetensors.                                    
+                 INFO     | >> Resized position embedding: (37,  pos_embed.py:55
+                          37) to (16, 16).                                      
+09/16 [20:08:41] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (('timm/ViT-SO400M-14-SigLIP',                        
+                          'open_clip_pytorch_model.bin'))                       
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'open_clip_pytorch_model.bin' (as                     
+                          'open_clip_model.safetensors'). Loading               
+                          weights using safetensors.                            
+                 INFO     | >> [*] Loading Pretrained LLM            load.py:187
+                          llama2-7b-pure via HF Transformers                    
+                 INFO     | >>     |=> Building empty llama2 LLM base_llm.py:134
+                          from                                                  
+                          `/media/fulei/jlu/SpatialMemoryVLA/pre                
+                          trained/NousResearch-Llama-2-7b-hf`                   
+09/16 [20:09:56] INFO     | >>     |=> Loading llama2 (Fast)     base_llm.py:151
+                          Tokenizer via the AutoTokenizer API                   
+09/16 [20:09:59] INFO     | >> [*] Loading VLA                       load.py:196
+                          prism-dinosiglip-224px+7b from Checkpoint             
+09/16 [20:10:38] INFO     | >> [*] Spatial contract verified:  memory_vla.py:589
+                          VLA [B,256,4096] -> align                             
+                          [B,256,2048] -> perception memory                     
+                          [B,256,256]                                           
+09/16 [20:15:59] INFO     | >> [*] Loading from local checkpoint     load.py:123
+                          path                                                  
+                          `/media/fulei/jlu/SpatialMemoryVLA/runs/ro            
+                          bomme_memory/spatial_memory_robomme_occ_c_            
+                          mem16_500step--image_aug/checkpoints/step-            
+                          000500-epoch-05-loss=0.0295.pt`                       
+                 INFO     | >> [*] Found Config =>> Loading &        load.py:171
+                          Freezing prism-dinosiglip-224px+7b with:              
+                                       Vision Backbone =>>                      
+                          dinosiglip-vit-so-224px                               
+                                       LLM Backbone    =>>                      
+                          llama2-7b-pure                                        
+                                       Arch Specifier  =>>                      
+                          no-align+fused-gelu-mlp                               
+                                       Checkpoint Path =>>                      
+                          `/media/fulei/jlu/SpatialMemoryVLA/runs/ro            
+                          bomme_memory/spatial_memory_robomme_occ_c_            
+                          mem16_500step--image_aug/checkpoints/step-            
+                          000500-epoch-05-loss=0.0295.pt`                       
+                 INFO     | >> [*] Loading Vision Backbone           load.py:180
+                          dinosiglip-vit-so-224px                               
+09/16 [20:16:02] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (timm/vit_large_patch14_reg4_dinov2.lv                
+                          d142m)                                                
+09/16 [20:16:03] INFO     | >>  Safe alternative available for       _hub.py:180
+                          'pytorch_model.bin' (as                               
+                          'model.safetensors'). Loading weights                 
+                          using safetensors.                                    
+                 INFO     | >> Resized position embedding: (37,  pos_embed.py:55
+                          37) to (16, 16).                                      
+09/16 [20:16:07] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (('timm/ViT-SO400M-14-SigLIP',                        
+                          'open_clip_pytorch_model.bin'))                       
+09/16 [20:16:08] INFO     | >>  Safe alternative available for       _hub.py:180
+                          'open_clip_pytorch_model.bin' (as                     
+                          'open_clip_model.safetensors'). Loading               
+                          weights using safetensors.                            
+                 INFO     | >> [*] Loading Pretrained LLM            load.py:187
+                          llama2-7b-pure via HF Transformers                    
+                 INFO     | >>     |=> Building empty llama2 LLM base_llm.py:134
+                          from                                                  
+                          `/media/fulei/jlu/SpatialMemoryVLA/pre                
+                          trained/NousResearch-Llama-2-7b-hf`                   
+09/16 [20:17:21] INFO     | >>     |=> Loading llama2 (Fast)     base_llm.py:151
+                          Tokenizer via the AutoTokenizer API                   
+09/16 [20:17:24] INFO     | >> [*] Loading VLA                       load.py:196
+                          prism-dinosiglip-224px+7b from Checkpoint             
+09/16 [20:18:02] INFO     | >> [*] Spatial contract verified:  memory_vla.py:589
+                          VLA [B,256,4096] -> align                             
+                          [B,256,2048] -> perception memory                     
+                          [B,256,256]                                           
+{
+  "loss_success_threshold": 0.1,
+  "metric_note": "offline_success_proxy is action-loss threshold, not simulator success",
+  "results": {
+    "C1": {
+      "normal": {
+        "samples": 3200,
+        "action_loss": 0.042878527434077114,
+        "offline_success_proxy": 0.9825,
+        "history_size": 0.9375,
+        "cog_alpha": 0.7890331323817372,
+        "per_alpha": 0.5942834502086043
+      },
+      "occlusion": {
+        "samples": 3200,
+        "action_loss": 0.04289128568256274,
+        "offline_success_proxy": 0.9825,
+        "history_size": 0.9375,
+        "cog_alpha": 0.7890210985019803,
+        "per_alpha": 0.5939240065589547
+      },
+      "paired_occlusion_recovery": {
+        "paired_samples": 3200,
+        "occlusion_loss_delta": 1.275824848562479e-05,
+        "occlusion_loss_delta_median": 0.0
+      }
+    },
+    "C16": {
+      "normal": {
+        "samples": 3200,
+        "action_loss": 0.042860821911599484,
+        "offline_success_proxy": 0.985,
+        "history_size": 7.5,
+        "cog_alpha": 0.7864577711932361,
+        "per_alpha": 0.5936561692506075
+      },
+      "occlusion": {
+        "samples": 3200,
+        "action_loss": 0.042876361161470415,
+        "offline_success_proxy": 0.985,
+        "history_size": 7.5,
+        "cog_alpha": 0.7864438954740762,
+        "per_alpha": 0.5933073755539954
+      },
+      "paired_occlusion_recovery": {
+        "paired_samples": 3200,
+        "occlusion_loss_delta": 1.5539249870926143e-05,
+        "occlusion_loss_delta_median": 0.0
+      }
+    }
+  }
+}

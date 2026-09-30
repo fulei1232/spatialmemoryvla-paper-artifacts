@@ -1,0 +1,81 @@
+{
+  "B": {
+    "episodes": 10,
+    "successes": 0,
+    "success_rate": 0.0,
+    "exceptions": 0,
+    "interventions": 10,
+    "safe_relocations": 10,
+    "pose_verified": 10,
+    "observation_refreshed": 10,
+    "timestep_continuous": 10,
+    "no_unexpected_contacts_after": 10,
+    "initial_state_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "mean_min_eef_distance_to_old": 0.09859413206783321,
+    "mean_min_eef_distance_to_new": 0.18837144367616215
+  },
+  "C1": {
+    "episodes": 10,
+    "successes": 0,
+    "success_rate": 0.0,
+    "exceptions": 0,
+    "interventions": 10,
+    "safe_relocations": 10,
+    "pose_verified": 10,
+    "observation_refreshed": 10,
+    "timestep_continuous": 10,
+    "no_unexpected_contacts_after": 10,
+    "initial_state_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "mean_min_eef_distance_to_old": 0.07045825821729315,
+    "mean_min_eef_distance_to_new": 0.16006494088979226
+  },
+  "C16": {
+    "episodes": 10,
+    "successes": 0,
+    "success_rate": 0.0,
+    "exceptions": 0,
+    "interventions": 10,
+    "safe_relocations": 10,
+    "pose_verified": 10,
+    "observation_refreshed": 10,
+    "timestep_continuous": 10,
+    "no_unexpected_contacts_after": 10,
+    "initial_state_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "mean_min_eef_distance_to_old": 0.08538571966867875,
+    "mean_min_eef_distance_to_new": 0.17410834718398802
+  },
+  "paired_initial_states": true
+}

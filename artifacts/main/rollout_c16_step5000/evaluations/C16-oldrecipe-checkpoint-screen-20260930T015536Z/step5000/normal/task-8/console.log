@@ -1,0 +1,100 @@
+2026-09-30 10:09:34.227242: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-30 10:09:34.265302: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-30 10:09:34.265366: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-30 10:09:34.266778: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-30 10:09:34.273934: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-30 10:09:35.026453: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /media/fulei/jlu/SpatialMemoryVLA/rollout_c16_step5000/.venv-rollout/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/SpatialMemoryVLA/rollout_c16_step5000/evaluations/C16-oldrecipe-checkpoint-screen-20260930T015536Z/step5000/normal/task-8/libero_spatial-10trials-seed7-C16-step5000-normal-task8-2026_09_30-10_09_36.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+  0%|          | 0/10 [00:00<?, ?it/s]Skipping task 0...
+Skipping task 1...
+Skipping task 2...
+Skipping task 3...
+Skipping task 4...
+Skipping task 5...
+Skipping task 6...
+Skipping task 7...
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:11<01:40, 11.16s/it][A
+ 20%|██        | 2/10 [00:19<01:16,  9.58s/it][A
+ 30%|███       | 3/10 [00:35<01:26, 12.43s/it][A
+ 40%|████      | 4/10 [00:43<01:05, 10.84s/it][A
+ 50%|█████     | 5/10 [00:59<01:02, 12.42s/it][A
+ 60%|██████    | 6/10 [01:07<00:44, 11.07s/it][A
+ 70%|███████   | 7/10 [01:18<00:32, 10.97s/it][A
+ 80%|████████  | 8/10 [01:26<00:20, 10.11s/it][A
+ 90%|█████████ | 9/10 [01:35<00:09,  9.76s/it][A
+100%|██████████| 10/10 [01:44<00:00,  9.36s/it][A100%|██████████| 10/10 [01:44<00:00, 10.40s/it]
+ 90%|█████████ | 9/10 [01:47<00:11, 11.94s/it]100%|██████████| 10/10 [01:47<00:00, 10.74s/it]
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 1 (global index 0)...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 2 (global index 1)...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 3 (global index 2)...
+Success: False
+# episodes completed so far: 3
+# successes: 2 (66.7%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 4 (global index 3)...
+Success: True
+# episodes completed so far: 4
+# successes: 3 (75.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 5 (global index 4)...
+Success: False
+# episodes completed so far: 5
+# successes: 3 (60.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 6 (global index 5)...
+Success: True
+# episodes completed so far: 6
+# successes: 4 (66.7%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 7 (global index 6)...
+Success: True
+# episodes completed so far: 7
+# successes: 5 (71.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 8 (global index 7)...
+Success: True
+# episodes completed so far: 8
+# successes: 6 (75.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 9 (global index 8)...
+Success: True
+# episodes completed so far: 9
+# successes: 7 (77.8%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 10 (global index 9)...
+Success: True
+# episodes completed so far: 10
+# successes: 8 (80.0%)
+Current task success rate: 0.8
+Current total success rate: 0.8
+Skipping task 9...

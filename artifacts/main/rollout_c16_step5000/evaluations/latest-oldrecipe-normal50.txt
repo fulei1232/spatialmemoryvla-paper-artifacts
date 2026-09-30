@@ -1,0 +1,1 @@
+/media/fulei/jlu/SpatialMemoryVLA/rollout_c16_step5000/evaluations/C16-oldrecipe-4k-vs-5k-normal50-20260930T021230Z

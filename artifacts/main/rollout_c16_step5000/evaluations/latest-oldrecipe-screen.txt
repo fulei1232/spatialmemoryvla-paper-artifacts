@@ -1,0 +1,1 @@
+/media/fulei/jlu/SpatialMemoryVLA/rollout_c16_step5000/evaluations/C16-oldrecipe-checkpoint-screen-20260930T015536Z

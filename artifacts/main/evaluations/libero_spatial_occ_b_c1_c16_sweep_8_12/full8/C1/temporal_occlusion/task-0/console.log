@@ -1,0 +1,380 @@
+2026-09-17 16:36:28.847398: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-17 16:36:28.884971: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-17 16:36:28.885023: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-17 16:36:28.886399: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-17 16:36:28.892464: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-17 16:36:29.541839: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_occ_b_c1_c16_sweep_8_12/full8/C1/temporal_occlusion/task-0/libero_spatial-50trials-seed7-C1-full8-task0-2026_09_17-16_36_30.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+  0%|          | 0/10 [00:00<?, ?it/s]
+  0%|          | 0/50 [00:00<?, ?it/s][A
+  2%|▏         | 1/50 [00:16<13:39, 16.73s/it][A
+  4%|▍         | 2/50 [00:29<11:31, 14.41s/it][A
+  6%|▌         | 3/50 [00:44<11:25, 14.58s/it][A
+  8%|▊         | 4/50 [01:00<11:42, 15.28s/it][A
+ 10%|█         | 5/50 [01:16<11:33, 15.41s/it][A
+ 12%|█▏        | 6/50 [01:28<10:22, 14.16s/it][A
+ 14%|█▍        | 7/50 [01:43<10:30, 14.67s/it][A
+ 16%|█▌        | 8/50 [02:00<10:42, 15.29s/it][A
+ 18%|█▊        | 9/50 [02:12<09:42, 14.21s/it][A
+ 20%|██        | 10/50 [02:28<09:56, 14.90s/it][A
+ 22%|██▏       | 11/50 [02:45<10:01, 15.43s/it][A
+ 24%|██▍       | 12/50 [03:01<09:55, 15.68s/it][A
+ 26%|██▌       | 13/50 [03:13<08:59, 14.57s/it][A
+ 28%|██▊       | 14/50 [03:29<09:05, 15.14s/it][A
+ 30%|███       | 15/50 [03:42<08:19, 14.27s/it][A
+ 32%|███▏      | 16/50 [03:58<08:26, 14.90s/it][A
+ 34%|███▍      | 17/50 [04:13<08:10, 14.87s/it][A
+ 36%|███▌      | 18/50 [04:29<08:06, 15.21s/it][A
+ 38%|███▊      | 19/50 [04:41<07:20, 14.20s/it][A
+ 40%|████      | 20/50 [04:53<06:46, 13.56s/it][A
+ 42%|████▏     | 21/50 [05:07<06:40, 13.80s/it][A
+ 44%|████▍     | 22/50 [05:23<06:45, 14.47s/it][A
+ 46%|████▌     | 23/50 [05:34<05:59, 13.33s/it][A
+ 48%|████▊     | 24/50 [05:50<06:08, 14.19s/it][A
+ 50%|█████     | 25/50 [06:06<06:08, 14.74s/it][A
+ 52%|█████▏    | 26/50 [06:22<06:05, 15.23s/it][A
+ 54%|█████▍    | 27/50 [06:34<05:26, 14.18s/it][A
+ 56%|█████▌    | 28/50 [06:51<05:26, 14.83s/it][A
+ 58%|█████▊    | 29/50 [07:07<05:21, 15.30s/it][A
+ 60%|██████    | 30/50 [07:23<05:12, 15.65s/it][A
+ 62%|██████▏   | 31/50 [07:40<05:02, 15.91s/it][A
+ 64%|██████▍   | 32/50 [07:52<04:23, 14.65s/it][A
+ 66%|██████▌   | 33/50 [08:04<03:57, 13.95s/it][A
+ 68%|██████▊   | 34/50 [08:21<03:55, 14.73s/it][A
+ 70%|███████   | 35/50 [08:37<03:50, 15.35s/it][A
+ 72%|███████▏  | 36/50 [08:49<03:20, 14.33s/it][A
+ 74%|███████▍  | 37/50 [09:05<03:13, 14.86s/it][A
+ 76%|███████▌  | 38/50 [09:17<02:46, 13.90s/it][A
+ 78%|███████▊  | 39/50 [09:33<02:40, 14.63s/it][A
+ 80%|████████  | 40/50 [09:50<02:31, 15.10s/it][A
+ 82%|████████▏ | 41/50 [10:05<02:17, 15.28s/it][A
+ 84%|████████▍ | 42/50 [10:21<02:03, 15.43s/it][A
+ 86%|████████▌ | 43/50 [10:33<01:40, 14.35s/it][A
+ 88%|████████▊ | 44/50 [10:49<01:28, 14.82s/it][A
+ 90%|█████████ | 45/50 [11:05<01:15, 15.11s/it][A
+ 92%|█████████▏| 46/50 [11:21<01:01, 15.45s/it][A
+ 94%|█████████▍| 47/50 [11:33<00:43, 14.55s/it][A
+ 96%|█████████▌| 48/50 [11:50<00:30, 15.12s/it][A
+ 98%|█████████▊| 49/50 [12:06<00:15, 15.38s/it][A
+100%|██████████| 50/50 [12:22<00:00, 15.70s/it][A100%|██████████| 50/50 [12:22<00:00, 14.85s/it]
+ 10%|█         | 1/10 [12:26<1:51:55, 746.15s/it]100%|██████████| 10/10 [12:26<00:00, 74.61s/it]  
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1 (global index 0)...
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 2 (global index 1)...
+Success: True
+# episodes completed so far: 2
+# successes: 1 (50.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 3 (global index 2)...
+Success: True
+# episodes completed so far: 3
+# successes: 2 (66.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 4 (global index 3)...
+Success: False
+# episodes completed so far: 4
+# successes: 2 (50.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 5 (global index 4)...
+Success: False
+# episodes completed so far: 5
+# successes: 2 (40.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 6 (global index 5)...
+Success: True
+# episodes completed so far: 6
+# successes: 3 (50.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 7 (global index 6)...
+Success: False
+# episodes completed so far: 7
+# successes: 3 (42.9%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 8 (global index 7)...
+Success: False
+# episodes completed so far: 8
+# successes: 3 (37.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 9 (global index 8)...
+Success: True
+# episodes completed so far: 9
+# successes: 4 (44.4%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 10 (global index 9)...
+Success: False
+# episodes completed so far: 10
+# successes: 4 (40.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 11 (global index 10)...
+Success: False
+# episodes completed so far: 11
+# successes: 4 (36.4%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 12 (global index 11)...
+Success: False
+# episodes completed so far: 12
+# successes: 4 (33.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 13 (global index 12)...
+Success: True
+# episodes completed so far: 13
+# successes: 5 (38.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 14 (global index 13)...
+Success: False
+# episodes completed so far: 14
+# successes: 5 (35.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 15 (global index 14)...
+Success: True
+# episodes completed so far: 15
+# successes: 6 (40.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 16 (global index 15)...
+Success: False
+# episodes completed so far: 16
+# successes: 6 (37.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 17 (global index 16)...
+Success: True
+# episodes completed so far: 17
+# successes: 7 (41.2%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 18 (global index 17)...
+Success: False
+# episodes completed so far: 18
+# successes: 7 (38.9%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 19 (global index 18)...
+Success: True
+# episodes completed so far: 19
+# successes: 8 (42.1%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 20 (global index 19)...
+Success: True
+# episodes completed so far: 20
+# successes: 9 (45.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 21 (global index 20)...
+Success: True
+# episodes completed so far: 21
+# successes: 10 (47.6%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 22 (global index 21)...
+Success: False
+# episodes completed so far: 22
+# successes: 10 (45.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 23 (global index 22)...
+Success: True
+# episodes completed so far: 23
+# successes: 11 (47.8%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 24 (global index 23)...
+Success: False
+# episodes completed so far: 24
+# successes: 11 (45.8%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 25 (global index 24)...
+Success: False
+# episodes completed so far: 25
+# successes: 11 (44.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 26 (global index 25)...
+Success: False
+# episodes completed so far: 26
+# successes: 11 (42.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 27 (global index 26)...
+Success: True
+# episodes completed so far: 27
+# successes: 12 (44.4%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 28 (global index 27)...
+Success: False
+# episodes completed so far: 28
+# successes: 12 (42.9%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 29 (global index 28)...
+Success: False
+# episodes completed so far: 29
+# successes: 12 (41.4%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 30 (global index 29)...
+Success: False
+# episodes completed so far: 30
+# successes: 12 (40.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 31 (global index 30)...
+Success: False
+# episodes completed so far: 31
+# successes: 12 (38.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 32 (global index 31)...
+Success: True
+# episodes completed so far: 32
+# successes: 13 (40.6%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 33 (global index 32)...
+Success: True
+# episodes completed so far: 33
+# successes: 14 (42.4%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 34 (global index 33)...
+Success: False
+# episodes completed so far: 34
+# successes: 14 (41.2%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 35 (global index 34)...
+Success: False
+# episodes completed so far: 35
+# successes: 14 (40.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 36 (global index 35)...
+Success: True
+# episodes completed so far: 36
+# successes: 15 (41.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 37 (global index 36)...
+Success: False
+# episodes completed so far: 37
+# successes: 15 (40.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 38 (global index 37)...
+Success: True
+# episodes completed so far: 38
+# successes: 16 (42.1%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 39 (global index 38)...
+Success: False
+# episodes completed so far: 39
+# successes: 16 (41.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 40 (global index 39)...
+Success: False
+# episodes completed so far: 40
+# successes: 16 (40.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 41 (global index 40)...
+Success: False
+# episodes completed so far: 41
+# successes: 16 (39.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 42 (global index 41)...
+Success: False
+# episodes completed so far: 42
+# successes: 16 (38.1%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 43 (global index 42)...
+Success: True
+# episodes completed so far: 43
+# successes: 17 (39.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 44 (global index 43)...
+Success: False
+# episodes completed so far: 44
+# successes: 17 (38.6%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 45 (global index 44)...
+Success: False
+# episodes completed so far: 45
+# successes: 17 (37.8%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 46 (global index 45)...
+Success: False
+# episodes completed so far: 46
+# successes: 17 (37.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 47 (global index 46)...
+Success: True
+# episodes completed so far: 47
+# successes: 18 (38.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 48 (global index 47)...
+Success: False
+# episodes completed so far: 48
+# successes: 18 (37.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 49 (global index 48)...
+Success: False
+# episodes completed so far: 49
+# successes: 18 (36.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 50 (global index 49)...
+Success: False
+# episodes completed so far: 50
+# successes: 18 (36.0%)
+Current task success rate: 0.36
+Current total success rate: 0.36
+Skipping task 1...
+Skipping task 2...
+Skipping task 3...
+Skipping task 4...
+Skipping task 5...
+Skipping task 6...
+Skipping task 7...
+Skipping task 8...
+Skipping task 9...

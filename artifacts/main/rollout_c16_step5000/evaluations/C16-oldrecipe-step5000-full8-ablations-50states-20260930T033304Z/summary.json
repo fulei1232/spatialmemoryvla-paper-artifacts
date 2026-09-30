@@ -1,0 +1,54 @@
+{
+  "states_per_task": 50,
+  "condition": "full8",
+  "modes": {
+    "reset-memory": {
+      "episodes": 100,
+      "successes": 39,
+      "success_rate": 0.39,
+      "recovery_successes": 39,
+      "recovery_success_rate": 0.39,
+      "exceptions": 0,
+      "tasks": {
+        "0": {
+          "episodes": 50,
+          "successes": 27,
+          "success_rate": 0.54,
+          "recovery_successes": 27,
+          "exceptions": 0
+        },
+        "8": {
+          "episodes": 50,
+          "successes": 12,
+          "success_rate": 0.24,
+          "recovery_successes": 12,
+          "exceptions": 0
+        }
+      }
+    },
+    "wrong-history": {
+      "episodes": 100,
+      "successes": 48,
+      "success_rate": 0.48,
+      "recovery_successes": 48,
+      "recovery_success_rate": 0.48,
+      "exceptions": 0,
+      "tasks": {
+        "0": {
+          "episodes": 50,
+          "successes": 44,
+          "success_rate": 0.88,
+          "recovery_successes": 44,
+          "exceptions": 0
+        },
+        "8": {
+          "episodes": 50,
+          "successes": 4,
+          "success_rate": 0.08,
+          "recovery_successes": 4,
+          "exceptions": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "protocol": {
+    "complete": true,
+    "paired_task_initial_states": true,
+    "expected_episodes_per_condition": 4,
+    "occlusion_lifecycle_complete": {
+      "memory_occlusion": true,
+      "reset_occlusion": true
+    },
+    "occlusion_phase_totals": {
+      "memory_occlusion": {
+        "visible_history": 20,
+        "partial_occlusion": 12,
+        "full_occlusion": 16,
+        "recovered_visible": 55
+      },
+      "reset_occlusion": {
+        "visible_history": 20,
+        "partial_occlusion": 12,
+        "full_occlusion": 16,
+        "recovered_visible": 52
+      }
+    }
+  },
+  "metrics": {
+    "memory_normal": {
+      "episodes": 4,
+      "successes": 4,
+      "success_rate": 1.0,
+      "mean_policy_calls": 11.75
+    },
+    "memory_occlusion": {
+      "episodes": 4,
+      "successes": 1,
+      "success_rate": 0.25,
+      "mean_policy_calls": 25.75
+    },
+    "reset_occlusion": {
+      "episodes": 4,
+      "successes": 2,
+      "success_rate": 0.5,
+      "mean_policy_calls": 25.0
+    }
+  },
+  "memory_advantage_under_occlusion": -0.25,
+  "episodes": {
+    "memory_normal": [
+      {
+        "model": "C16-memory",
+        "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "runtime_task_index": 0,
+        "initial_state_id": 0,
+        "hard_case": "normal",
+        "success": true,
+        "policy_calls": 10,
+        "timeout": false
+      },
+      {
+        "model": "C16-memory",
+        "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "runtime_task_index": 0,
+        "initial_state_id": 1,
+        "hard_case": "normal",
+        "success": true,
+        "policy_calls": 11,
+        "timeout": false
+      },
+      {
+        "model": "C16-memory",
+        "task_name": "pick up the black bowl next to the plate and place it on the plate",
+        "runtime_task_index": 8,
+        "initial_state_id": 0,
+        "hard_case": "normal",
+        "success": true,
+        "policy_calls": 13,
+        "timeout": false
+      },
+      {
+        "model": "C16-memory",
+        "task_name": "pick up the black bowl next to the plate and place it on the plate",
+        "runtime_task_index": 8,
+        "initial_state_id": 1,
+        "hard_case": "normal",
+        "success": true,
+        "policy_calls": 13,
+        "timeout": false
+      }
+    ],
+    "memory_occlusion": [
+      {
+        "model": "C16-memory",
+        "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "runtime_task_index": 0,
+        "initial_state_id": 0,
+        "hard_case": "temporal_occlusion",
+        "success": false,
+        "policy_calls": 28,
+        "timeout": true
+      },
+      {
+        "model": "C16-memory",
+        "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "runtime_task_index": 0,
+        "initial_state_id": 1,
+        "hard_case": "temporal_occlusion",
+        "success": false,
+        "policy_calls": 28,
+        "timeout": true
+      },
+      {
+        "model": "C16-memory",
+        "task_name": "pick up the black bowl next to the plate and place it on the plate",
+        "runtime_task_index": 8,
+        "initial_state_id": 0,
+        "hard_case": "temporal_occlusion",
+        "success": false,
+        "policy_calls": 28,
+        "timeout": true
+      },
+      {
+        "model": "C16-memory",
+        "task_name": "pick up the black bowl next to the plate and place it on the plate",
+        "runtime_task_index": 8,
+        "initial_state_id": 1,
+        "hard_case": "temporal_occlusion",
+        "success": true,
+        "policy_calls": 19,
+        "timeout": false
+      }
+    ],
+    "reset_occlusion": [
+      {
+        "model": "C16-reset",
+        "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "runtime_task_index": 0,
+        "initial_state_id": 0,
+        "hard_case": "temporal_occlusion",
+        "success": false,
+        "policy_calls": 28,
+        "timeout": true
+      },
+      {
+        "model": "C16-reset",
+        "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "runtime_task_index": 0,
+        "initial_state_id": 1,
+        "hard_case": "temporal_occlusion",
+        "success": false,
+        "policy_calls": 28,
+        "timeout": true
+      },
+      {
+        "model": "C16-reset",
+        "task_name": "pick up the black bowl next to the plate and place it on the plate",
+        "runtime_task_index": 8,
+        "initial_state_id": 0,
+        "hard_case": "temporal_occlusion",
+        "success": true,
+        "policy_calls": 19,
+        "timeout": false
+      },
+      {
+        "model": "C16-reset",
+        "task_name": "pick up the black bowl next to the plate and place it on the plate",
+        "runtime_task_index": 8,
+        "initial_state_id": 1,
+        "hard_case": "temporal_occlusion",
+        "success": true,
+        "policy_calls": 25,
+        "timeout": false
+      }
+    ]
+  }
+}

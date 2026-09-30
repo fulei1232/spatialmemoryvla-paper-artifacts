@@ -1,0 +1,353 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 0
+Starting episode 1 (global index 0)...
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 1
+Starting episode 2 (global index 1)...
+Success: False
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 2
+Starting episode 3 (global index 2)...
+Success: False
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 3
+Starting episode 4 (global index 3)...
+Success: False
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 4
+Starting episode 5 (global index 4)...
+Success: False
+# episodes completed so far: 5
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 5
+Starting episode 6 (global index 5)...
+Success: False
+# episodes completed so far: 6
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 6
+Starting episode 7 (global index 6)...
+Success: False
+# episodes completed so far: 7
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 7
+Starting episode 8 (global index 7)...
+Success: False
+# episodes completed so far: 8
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 8
+Starting episode 9 (global index 8)...
+Success: False
+# episodes completed so far: 9
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 9
+Starting episode 10 (global index 9)...
+Success: False
+# episodes completed so far: 10
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 10
+Starting episode 11 (global index 10)...
+Success: False
+# episodes completed so far: 11
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 11
+Starting episode 12 (global index 11)...
+Success: True
+# episodes completed so far: 12
+# successes: 1 (8.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 12
+Starting episode 13 (global index 12)...
+Success: True
+# episodes completed so far: 13
+# successes: 2 (15.4%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 13
+Starting episode 14 (global index 13)...
+Success: False
+# episodes completed so far: 14
+# successes: 2 (14.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 14
+Starting episode 15 (global index 14)...
+Success: True
+# episodes completed so far: 15
+# successes: 3 (20.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 15
+Starting episode 16 (global index 15)...
+Success: False
+# episodes completed so far: 16
+# successes: 3 (18.8%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 16
+Starting episode 17 (global index 16)...
+Success: False
+# episodes completed so far: 17
+# successes: 3 (17.6%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 17
+Starting episode 18 (global index 17)...
+Success: True
+# episodes completed so far: 18
+# successes: 4 (22.2%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 18
+Starting episode 19 (global index 18)...
+Success: False
+# episodes completed so far: 19
+# successes: 4 (21.1%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 19
+Starting episode 20 (global index 19)...
+Success: False
+# episodes completed so far: 20
+# successes: 4 (20.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 20
+Starting episode 21 (global index 20)...
+Success: True
+# episodes completed so far: 21
+# successes: 5 (23.8%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 21
+Starting episode 22 (global index 21)...
+Success: False
+# episodes completed so far: 22
+# successes: 5 (22.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 22
+Starting episode 23 (global index 22)...
+Success: False
+# episodes completed so far: 23
+# successes: 5 (21.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 23
+Starting episode 24 (global index 23)...
+Success: False
+# episodes completed so far: 24
+# successes: 5 (20.8%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 24
+Starting episode 25 (global index 24)...
+Success: False
+# episodes completed so far: 25
+# successes: 5 (20.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 25
+Starting episode 26 (global index 25)...
+Success: False
+# episodes completed so far: 26
+# successes: 5 (19.2%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 26
+Starting episode 27 (global index 26)...
+Success: False
+# episodes completed so far: 27
+# successes: 5 (18.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 27
+Starting episode 28 (global index 27)...
+Success: False
+# episodes completed so far: 28
+# successes: 5 (17.9%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 28
+Starting episode 29 (global index 28)...
+Success: False
+# episodes completed so far: 29
+# successes: 5 (17.2%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 29
+Starting episode 30 (global index 29)...
+Success: False
+# episodes completed so far: 30
+# successes: 5 (16.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 30
+Starting episode 31 (global index 30)...
+Success: False
+# episodes completed so far: 31
+# successes: 5 (16.1%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 31
+Starting episode 32 (global index 31)...
+Success: False
+# episodes completed so far: 32
+# successes: 5 (15.6%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 32
+Starting episode 33 (global index 32)...
+Success: False
+# episodes completed so far: 33
+# successes: 5 (15.2%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 33
+Starting episode 34 (global index 33)...
+Success: False
+# episodes completed so far: 34
+# successes: 5 (14.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 34
+Starting episode 35 (global index 34)...
+Success: False
+# episodes completed so far: 35
+# successes: 5 (14.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 35
+Starting episode 36 (global index 35)...
+Success: False
+# episodes completed so far: 36
+# successes: 5 (13.9%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 36
+Starting episode 37 (global index 36)...
+Success: False
+# episodes completed so far: 37
+# successes: 5 (13.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 37
+Starting episode 38 (global index 37)...
+Success: True
+# episodes completed so far: 38
+# successes: 6 (15.8%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 38
+Starting episode 39 (global index 38)...
+Success: False
+# episodes completed so far: 39
+# successes: 6 (15.4%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 39
+Starting episode 40 (global index 39)...
+Success: False
+# episodes completed so far: 40
+# successes: 6 (15.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 40
+Starting episode 41 (global index 40)...
+Success: False
+# episodes completed so far: 41
+# successes: 6 (14.6%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 41
+Starting episode 42 (global index 41)...
+Success: False
+# episodes completed so far: 42
+# successes: 6 (14.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 42
+Starting episode 43 (global index 42)...
+Success: True
+# episodes completed so far: 43
+# successes: 7 (16.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 43
+Starting episode 44 (global index 43)...
+Success: False
+# episodes completed so far: 44
+# successes: 7 (15.9%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 44
+Starting episode 45 (global index 44)...
+Success: False
+# episodes completed so far: 45
+# successes: 7 (15.6%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 45
+Starting episode 46 (global index 45)...
+Success: False
+# episodes completed so far: 46
+# successes: 7 (15.2%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 46
+Starting episode 47 (global index 46)...
+Success: False
+# episodes completed so far: 47
+# successes: 7 (14.9%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 47
+Starting episode 48 (global index 47)...
+Success: True
+# episodes completed so far: 48
+# successes: 8 (16.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 48
+Starting episode 49 (global index 48)...
+Success: False
+# episodes completed so far: 49
+# successes: 8 (16.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 49
+Starting episode 50 (global index 49)...
+Success: True
+# episodes completed so far: 50
+# successes: 9 (18.0%)
+Current task success rate: 0.18
+Current total success rate: 0.18

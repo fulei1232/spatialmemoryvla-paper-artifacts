@@ -1,0 +1,44 @@
+2026-09-16 21:02:34.380550: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-16 21:02:34.415222: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-16 21:02:34.415280: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-16 21:02:34.416178: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-16 21:02:34.421333: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-16 21:02:35.176437: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_memory_occlusion_smoke_deterministic/memory/temporal_occlusion/task-8/libero_spatial-2trials-seed7-memory-temporal_occlusion-task8-2026_09_16-21_02_36.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+  0%|          | 0/10 [00:00<?, ?it/s]Skipping task 0...
+Skipping task 1...
+Skipping task 2...
+Skipping task 3...
+Skipping task 4...
+Skipping task 5...
+Skipping task 6...
+Skipping task 7...
+
+  0%|          | 0/2 [00:00<?, ?it/s][A
+ 50%|█████     | 1/2 [00:15<00:15, 15.89s/it][A
+100%|██████████| 2/2 [00:27<00:00, 13.60s/it][A100%|██████████| 2/2 [00:27<00:00, 13.94s/it]
+ 90%|█████████ | 9/10 [00:31<00:03,  3.50s/it]100%|██████████| 10/10 [00:31<00:00,  3.15s/it]
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 1 (global index 0)...
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 2 (global index 1)...
+Success: True
+# episodes completed so far: 2
+# successes: 1 (50.0%)
+Current task success rate: 0.5
+Current total success rate: 0.5
+Skipping task 9...

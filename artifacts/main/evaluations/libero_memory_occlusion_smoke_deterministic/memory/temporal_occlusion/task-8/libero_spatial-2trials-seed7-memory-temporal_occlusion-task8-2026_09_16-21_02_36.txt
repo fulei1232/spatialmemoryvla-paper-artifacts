@@ -1,0 +1,19 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 0
+Starting episode 1 (global index 0)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_memory_occlusion_smoke_deterministic/memory/temporal_occlusion/task-8/libero_spatial-2trials-seed7-memory-temporal_occlusion-task8-2026_09_16-21_02_36_videos/2026_09_16/pick_up_the_black_bowl_next_to_the_plate_and_place/1-False-2026_09_16-21_02_36.mp4
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 1
+Starting episode 2 (global index 1)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_memory_occlusion_smoke_deterministic/memory/temporal_occlusion/task-8/libero_spatial-2trials-seed7-memory-temporal_occlusion-task8-2026_09_16-21_02_36_videos/2026_09_16/pick_up_the_black_bowl_next_to_the_plate_and_place/2-True-2026_09_16-21_02_36.mp4
+Success: True
+# episodes completed so far: 2
+# successes: 1 (50.0%)
+Current task success rate: 0.5
+Current total success rate: 0.5

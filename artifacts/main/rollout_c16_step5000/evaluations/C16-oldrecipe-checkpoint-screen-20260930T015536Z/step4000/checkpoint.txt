@@ -1,0 +1,1 @@
+/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory_resume/libero_spatial_occ_C_mem16_resume500_to5000_seed42/checkpoints/step-004000-epoch-02-loss=0.0455.pt

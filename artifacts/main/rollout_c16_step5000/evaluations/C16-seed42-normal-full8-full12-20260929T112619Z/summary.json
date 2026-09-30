@@ -1,0 +1,62 @@
+{
+  "output_root": "/media/fulei/jlu/SpatialMemoryVLA/rollout_c16_step5000/evaluations/C16-seed42-normal-full8-full12-20260929T112619Z",
+  "episodes": 300,
+  "successes": 12,
+  "success_rate": 0.04,
+  "tasks": [
+    {
+      "condition": "full12",
+      "task_id": 0,
+      "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": 50,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "condition": "full12",
+      "task_id": 8,
+      "task_name": "pick up the black bowl next to the plate and place it on the plate",
+      "episodes": 50,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "condition": "full8",
+      "task_id": 0,
+      "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": 50,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "condition": "full8",
+      "task_id": 8,
+      "task_name": "pick up the black bowl next to the plate and place it on the plate",
+      "episodes": 50,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "condition": "normal",
+      "task_id": 0,
+      "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": 50,
+      "successes": 6,
+      "success_rate": 0.12
+    },
+    {
+      "condition": "normal",
+      "task_id": 8,
+      "task_name": "pick up the black bowl next to the plate and place it on the plate",
+      "episodes": 50,
+      "successes": 6,
+      "success_rate": 0.12
+    }
+  ],
+  "paired_episode_set_verified": true,
+  "required_conditions": [
+    "normal",
+    "full8",
+    "full12"
+  ]
+}

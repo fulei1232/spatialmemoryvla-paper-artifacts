@@ -1,0 +1,28 @@
+{
+  "output_root": "/media/fulei/jlu/SpatialMemoryVLA/rollout_c16_step5000/evaluations/C16-oldrecipe-step5000-reset-memory-normal-20260930T061157Z",
+  "episodes": 100,
+  "successes": 96,
+  "success_rate": 0.96,
+  "tasks": [
+    {
+      "condition": "normal",
+      "task_id": 0,
+      "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": 50,
+      "successes": 49,
+      "success_rate": 0.98
+    },
+    {
+      "condition": "normal",
+      "task_id": 8,
+      "task_name": "pick up the black bowl next to the plate and place it on the plate",
+      "episodes": 50,
+      "successes": 47,
+      "success_rate": 0.94
+    }
+  ],
+  "paired_episode_set_verified": true,
+  "required_conditions": [
+    "normal"
+  ]
+}

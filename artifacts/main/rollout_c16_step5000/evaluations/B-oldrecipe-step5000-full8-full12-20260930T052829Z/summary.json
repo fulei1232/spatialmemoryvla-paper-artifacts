@@ -1,0 +1,45 @@
+{
+  "output_root": "/media/fulei/jlu/SpatialMemoryVLA/rollout_c16_step5000/evaluations/B-oldrecipe-step5000-full8-full12-20260930T052829Z",
+  "episodes": 200,
+  "successes": 65,
+  "success_rate": 0.325,
+  "tasks": [
+    {
+      "condition": "full12",
+      "task_id": 0,
+      "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": 50,
+      "successes": 13,
+      "success_rate": 0.26
+    },
+    {
+      "condition": "full12",
+      "task_id": 8,
+      "task_name": "pick up the black bowl next to the plate and place it on the plate",
+      "episodes": 50,
+      "successes": 3,
+      "success_rate": 0.06
+    },
+    {
+      "condition": "full8",
+      "task_id": 0,
+      "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": 50,
+      "successes": 11,
+      "success_rate": 0.22
+    },
+    {
+      "condition": "full8",
+      "task_id": 8,
+      "task_name": "pick up the black bowl next to the plate and place it on the plate",
+      "episodes": 50,
+      "successes": 38,
+      "success_rate": 0.76
+    }
+  ],
+  "paired_episode_set_verified": true,
+  "required_conditions": [
+    "full8",
+    "full12"
+  ]
+}

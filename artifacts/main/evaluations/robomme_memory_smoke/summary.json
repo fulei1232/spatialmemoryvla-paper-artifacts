@@ -1,0 +1,29 @@
+{
+  "loss_success_threshold": 0.1,
+  "metric_note": "offline_success_proxy is action-loss threshold, not simulator success",
+  "results": {
+    "C1": {
+      "normal": {
+        "samples": 16,
+        "action_loss": 0.06451268494129181,
+        "offline_success_proxy": 1.0,
+        "history_size": 0.9375,
+        "cog_alpha": 0.787864301353693,
+        "per_alpha": 0.5945050157606602
+      },
+      "occlusion": {
+        "samples": 16,
+        "action_loss": 0.06883864104747772,
+        "offline_success_proxy": 1.0,
+        "history_size": 0.9375,
+        "cog_alpha": 0.787864301353693,
+        "per_alpha": 0.5945050157606602
+      },
+      "paired_occlusion_recovery": {
+        "paired_samples": 16,
+        "occlusion_loss_delta": 0.004325956106185913,
+        "occlusion_loss_delta_median": 0.004325956106185913
+      }
+    }
+  }
+}

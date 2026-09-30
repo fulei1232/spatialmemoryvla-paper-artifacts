@@ -1,0 +1,73 @@
+action_dim: 7
+action_model_type: DiT-L
+consolidate_type: tome
+data_root_dir: /media/fulei/jlu/SpatialMemoryVLA/datasets/libero-rlds
+dataloader_type: stream
+episode_manifest_path: null
+experiment_mode: spatial_memory
+fusion_type: gate
+future_action_window_size: 15
+gate_diagnostics_path: /media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_C_mem1_20step_buf1024--image_aug/diagnostics/gate.csv
+group_size: 16
+hf_token: .hf_token
+image_aug: true
+is_resume: false
+load_all_data_for_training: true
+mem_length: 1
+memory_curriculum_enabled: true
+memory_curriculum_type: occlusion
+occlusion_duration_ratio: 0.2
+occlusion_probability: 0.5
+occlusion_recovery_ratio: 0.75
+occlusion_start_ratio: 0.3
+occlusion_strength: full
+per_token_size: 256
+pretrained_checkpoint: /media/fulei/jlu/SpatialMemoryVLA/pretrained/memvla-libero-spatial/checkpoints/memvla-libero-spatial.pt
+repeated_diffusion_steps: 1
+resume_epoch: null
+resume_step: null
+retrieval_layers: 2
+run_id: libero_spatial_occ_C_mem1_20step_buf1024--image_aug
+run_id_note: null
+run_root_dir: /media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory
+save_interval: 20
+seed: 42
+spatial_align_coeff: 0.5
+spatial_align_layer: 24
+spatial_debug_asserts: true
+spatial_teacher_dim: 2048
+spatial_teacher_feature_layer: -1
+spatial_teacher_path: /media/fulei/jlu/SpatialMemoryVLA/pretrained/VGGT-1B/model.pt
+trackers:
+- jsonl
+update_fused: false
+use_ema: false
+use_spatial_forcing: true
+use_spatial_memory: true
+use_timestep_pe: true
+use_vlm_norm: false
+vla:
+  base_vlm: prism-dinosiglip-224px+7b
+  data_mix: libero_spatial_no_noops
+  enable_gradient_checkpointing: false
+  enable_mixed_precision_training: true
+  epochs: 100
+  expected_world_size: 4
+  freeze_llm_backbone: true
+  freeze_vision_backbone: true
+  global_batch_size: 32
+  learning_rate: 2.0e-05
+  lr_scheduler_type: constant
+  max_grad_norm: 1.0
+  max_steps: 20
+  per_device_batch_size: 8
+  reduce_in_full_precision: true
+  shuffle_buffer_size: 1024
+  train_strategy: fsdp-full-shard
+  type: prism-dinosiglip-224px+oxe+diffusion
+  unfreeze_last_llm_layer: true
+  vla_id: prism-dinosiglip-224px+oxe+diffusion
+  warmup_ratio: 0.0
+  weight_decay: 0.0
+wandb_entity: ''
+wandb_project: ''

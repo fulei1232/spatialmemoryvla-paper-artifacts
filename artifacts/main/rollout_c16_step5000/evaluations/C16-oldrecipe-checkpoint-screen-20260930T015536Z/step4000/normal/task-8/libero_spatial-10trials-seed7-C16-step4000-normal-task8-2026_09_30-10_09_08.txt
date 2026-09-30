@@ -1,0 +1,73 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 0
+Starting episode 1 (global index 0)...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 1
+Starting episode 2 (global index 1)...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 2
+Starting episode 3 (global index 2)...
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 3
+Starting episode 4 (global index 3)...
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 4
+Starting episode 5 (global index 4)...
+Success: False
+# episodes completed so far: 5
+# successes: 4 (80.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 5
+Starting episode 6 (global index 5)...
+Success: True
+# episodes completed so far: 6
+# successes: 5 (83.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 6
+Starting episode 7 (global index 6)...
+Success: True
+# episodes completed so far: 7
+# successes: 6 (85.7%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 7
+Starting episode 8 (global index 7)...
+Success: True
+# episodes completed so far: 8
+# successes: 7 (87.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 8
+Starting episode 9 (global index 8)...
+Success: True
+# episodes completed so far: 9
+# successes: 8 (88.9%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 9
+Starting episode 10 (global index 9)...
+Success: True
+# episodes completed so far: 10
+# successes: 9 (90.0%)
+Current task success rate: 0.9
+Current total success rate: 0.9

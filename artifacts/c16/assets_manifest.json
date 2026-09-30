@@ -1,0 +1,51 @@
+[
+  {
+    "asset_name": "MemoryVLA LIBERO-Spatial initialization",
+    "source_repo": "shihao1895/memvla-libero-spatial",
+    "revision": "4d6572ce289736e459e38a48f8671b557a6fd078",
+    "local_path": "/media/SpatialMemoryVLA-c16/pretrained/memvla-libero-spatial/checkpoints/memvla-libero-spatial.pt",
+    "size_bytes": 33507487606
+  },
+  {
+    "asset_name": "LIBERO action normalization statistics",
+    "source_repo": "shihao1895/memvla-libero-spatial",
+    "revision": "4d6572ce289736e459e38a48f8671b557a6fd078",
+    "local_path": "/media/SpatialMemoryVLA-c16/pretrained/memvla-libero-spatial/dataset_statistics.json",
+    "size_bytes": 2117
+  },
+  {
+    "asset_name": "VGGT-1B teacher",
+    "source_repo": "facebook/VGGT-1B",
+    "revision": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+    "local_path": "/media/SpatialMemoryVLA-c16/pretrained/VGGT-1B/model.pt",
+    "size_bytes": 5026874952
+  },
+  {
+    "asset_name": "Llama-2-7b-hf safetensors",
+    "source_repo": "NousResearch/Llama-2-7b-hf",
+    "revision": "8efe6c9b93655b934e27bd9981e3ec13e55aee9d",
+    "local_path": "/media/SpatialMemoryVLA-c16/pretrained/NousResearch-Llama-2-7b-hf",
+    "size_bytes": 13479247511
+  },
+  {
+    "asset_name": "LIBERO-Spatial RLDS",
+    "source_repo": "shihao1895/libero-rlds",
+    "revision": "92c18c77d610218e838d8c8d4fc6410f3cbe7b18",
+    "local_path": "/media/SpatialMemoryVLA-c16/data/libero-rlds/libero_spatial_no_noops/1.0.0",
+    "size_bytes": 1914637764
+  },
+  {
+    "asset_name": "DINOv2 timm backbone",
+    "source_repo": "timm/vit_large_patch14_reg4_dinov2.lvd142m",
+    "revision": "f3c408e77602bb412aa65fb03dfa0d5f95cb3832",
+    "local_path": "/media/SpatialMemoryVLA-c16/hf-cache/hub/models--timm--vit_large_patch14_reg4_dinov2.lvd142m/snapshots/f3c408e77602bb412aa65fb03dfa0d5f95cb3832/pytorch_model.bin",
+    "size_bytes": 1217608166
+  },
+  {
+    "asset_name": "SigLIP timm backbone",
+    "source_repo": "timm/ViT-SO400M-14-SigLIP",
+    "revision": "9179d15177ece40964c50492136eda2f3e0c9f61",
+    "local_path": "/media/SpatialMemoryVLA-c16/hf-cache/hub/models--timm--ViT-SO400M-14-SigLIP/snapshots/9179d15177ece40964c50492136eda2f3e0c9f61/open_clip_pytorch_model.bin",
+    "size_bytes": 3509715022
+  }
+]

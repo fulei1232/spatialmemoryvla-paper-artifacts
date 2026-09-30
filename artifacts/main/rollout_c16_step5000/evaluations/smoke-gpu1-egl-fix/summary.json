@@ -1,0 +1,56 @@
+{
+  "output_root": "/media/fulei/jlu/SpatialMemoryVLA/rollout_c16_step5000/evaluations/smoke-gpu1-egl-fix",
+  "episodes": 6,
+  "successes": 0,
+  "success_rate": 0.0,
+  "tasks": [
+    {
+      "condition": "full12",
+      "task_id": 0,
+      "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "condition": "full12",
+      "task_id": 8,
+      "task_name": "pick up the black bowl next to the plate and place it on the plate",
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "condition": "full8",
+      "task_id": 0,
+      "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "condition": "full8",
+      "task_id": 8,
+      "task_name": "pick up the black bowl next to the plate and place it on the plate",
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "condition": "normal",
+      "task_id": 0,
+      "task_name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "condition": "normal",
+      "task_id": 8,
+      "task_name": "pick up the black bowl next to the plate and place it on the plate",
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0
+    }
+  ]
+}

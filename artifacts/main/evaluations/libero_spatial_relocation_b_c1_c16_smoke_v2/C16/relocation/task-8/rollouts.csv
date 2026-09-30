@@ -1,0 +1,11 @@
+model,task_name,runtime_task_index,initial_state_id,episode_id,hard_case,success,policy_calls,timeout,success_phase,reached_full_occlusion,reached_recovery,recovery_success,intervention_applied,intervention_timestep,intervention_policy_call,relocation_safe
+C16,pick up the black bowl next to the plate and place it on the plate,8,0,libero_spatial/task-8/state-0,relocation,False,28,True,,False,False,False,True,42,4,False
+C16,pick up the black bowl next to the plate and place it on the plate,8,1,libero_spatial/task-8/state-1,relocation,False,28,True,,False,False,False,True,42,4,False
+C16,pick up the black bowl next to the plate and place it on the plate,8,2,libero_spatial/task-8/state-2,relocation,False,28,True,,False,False,False,True,42,4,False
+C16,pick up the black bowl next to the plate and place it on the plate,8,3,libero_spatial/task-8/state-3,relocation,False,28,True,,False,False,False,True,42,4,False
+C16,pick up the black bowl next to the plate and place it on the plate,8,4,libero_spatial/task-8/state-4,relocation,False,28,True,,False,False,False,True,42,4,False
+C16,pick up the black bowl next to the plate and place it on the plate,8,5,libero_spatial/task-8/state-5,relocation,False,28,True,,False,False,False,True,42,4,False
+C16,pick up the black bowl next to the plate and place it on the plate,8,6,libero_spatial/task-8/state-6,relocation,False,28,True,,False,False,False,True,42,4,False
+C16,pick up the black bowl next to the plate and place it on the plate,8,7,libero_spatial/task-8/state-7,relocation,False,28,True,,False,False,False,True,42,4,False
+C16,pick up the black bowl next to the plate and place it on the plate,8,8,libero_spatial/task-8/state-8,relocation,False,28,True,,False,False,False,True,42,4,False
+C16,pick up the black bowl next to the plate and place it on the plate,8,9,libero_spatial/task-8/state-9,relocation,False,28,True,,False,False,False,True,42,4,False

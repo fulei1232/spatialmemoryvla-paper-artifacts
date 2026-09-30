@@ -1,0 +1,407 @@
+{
+  "protocol": {
+    "complete": true,
+    "expected_episodes_per_model_condition": 2,
+    "paired_task_initial_states": {
+      "normal": true,
+      "temporal_occlusion": true
+    },
+    "models": [
+      "B",
+      "C1",
+      "C16"
+    ],
+    "conditions": [
+      "normal",
+      "temporal_occlusion"
+    ]
+  },
+  "metrics": {
+    "B": {
+      "normal": {
+        "overall": {
+          "episodes": 2,
+          "successes": 1,
+          "success_rate": 0.5,
+          "success_rate_wilson95": [
+            0.09452865480086614,
+            0.9054713451991339
+          ],
+          "mean_policy_calls": 18.5,
+          "mean_policy_calls_successes": 9.0,
+          "reached_full_occlusion": 0,
+          "reached_recovery": 0,
+          "recovery_successes": 0,
+          "recovery_success_rate": null,
+          "success_phases": {
+            "normal": 1
+          },
+          "timeouts": 1
+        },
+        "tasks": {
+          "0": {
+            "episodes": 1,
+            "successes": 1,
+            "success_rate": 1.0,
+            "success_rate_wilson95": [
+              0.20654329147389294,
+              1.0
+            ],
+            "mean_policy_calls": 9.0,
+            "mean_policy_calls_successes": 9.0,
+            "reached_full_occlusion": 0,
+            "reached_recovery": 0,
+            "recovery_successes": 0,
+            "recovery_success_rate": null,
+            "success_phases": {
+              "normal": 1
+            },
+            "timeouts": 0
+          },
+          "8": {
+            "episodes": 1,
+            "successes": 0,
+            "success_rate": 0.0,
+            "success_rate_wilson95": [
+              0.0,
+              0.7934567085261071
+            ],
+            "mean_policy_calls": 28.0,
+            "mean_policy_calls_successes": null,
+            "reached_full_occlusion": 0,
+            "reached_recovery": 0,
+            "recovery_successes": 0,
+            "recovery_success_rate": null,
+            "success_phases": {},
+            "timeouts": 1
+          }
+        }
+      },
+      "temporal_occlusion": {
+        "overall": {
+          "episodes": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "success_rate_wilson95": [
+            0.0,
+            0.6576280471103807
+          ],
+          "mean_policy_calls": 28.0,
+          "mean_policy_calls_successes": null,
+          "reached_full_occlusion": 2,
+          "reached_recovery": 2,
+          "recovery_successes": 0,
+          "recovery_success_rate": 0.0,
+          "success_phases": {},
+          "timeouts": 2
+        },
+        "tasks": {
+          "0": {
+            "episodes": 1,
+            "successes": 0,
+            "success_rate": 0.0,
+            "success_rate_wilson95": [
+              0.0,
+              0.7934567085261071
+            ],
+            "mean_policy_calls": 28.0,
+            "mean_policy_calls_successes": null,
+            "reached_full_occlusion": 1,
+            "reached_recovery": 1,
+            "recovery_successes": 0,
+            "recovery_success_rate": 0.0,
+            "success_phases": {},
+            "timeouts": 1
+          },
+          "8": {
+            "episodes": 1,
+            "successes": 0,
+            "success_rate": 0.0,
+            "success_rate_wilson95": [
+              0.0,
+              0.7934567085261071
+            ],
+            "mean_policy_calls": 28.0,
+            "mean_policy_calls_successes": null,
+            "reached_full_occlusion": 1,
+            "reached_recovery": 1,
+            "recovery_successes": 0,
+            "recovery_success_rate": 0.0,
+            "success_phases": {},
+            "timeouts": 1
+          }
+        }
+      }
+    },
+    "C1": {
+      "normal": {
+        "overall": {
+          "episodes": 2,
+          "successes": 1,
+          "success_rate": 0.5,
+          "success_rate_wilson95": [
+            0.09452865480086614,
+            0.9054713451991339
+          ],
+          "mean_policy_calls": 18.5,
+          "mean_policy_calls_successes": 9.0,
+          "reached_full_occlusion": 0,
+          "reached_recovery": 0,
+          "recovery_successes": 0,
+          "recovery_success_rate": null,
+          "success_phases": {
+            "normal": 1
+          },
+          "timeouts": 1
+        },
+        "tasks": {
+          "0": {
+            "episodes": 1,
+            "successes": 1,
+            "success_rate": 1.0,
+            "success_rate_wilson95": [
+              0.20654329147389294,
+              1.0
+            ],
+            "mean_policy_calls": 9.0,
+            "mean_policy_calls_successes": 9.0,
+            "reached_full_occlusion": 0,
+            "reached_recovery": 0,
+            "recovery_successes": 0,
+            "recovery_success_rate": null,
+            "success_phases": {
+              "normal": 1
+            },
+            "timeouts": 0
+          },
+          "8": {
+            "episodes": 1,
+            "successes": 0,
+            "success_rate": 0.0,
+            "success_rate_wilson95": [
+              0.0,
+              0.7934567085261071
+            ],
+            "mean_policy_calls": 28.0,
+            "mean_policy_calls_successes": null,
+            "reached_full_occlusion": 0,
+            "reached_recovery": 0,
+            "recovery_successes": 0,
+            "recovery_success_rate": null,
+            "success_phases": {},
+            "timeouts": 1
+          }
+        }
+      },
+      "temporal_occlusion": {
+        "overall": {
+          "episodes": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "success_rate_wilson95": [
+            0.0,
+            0.6576280471103807
+          ],
+          "mean_policy_calls": 28.0,
+          "mean_policy_calls_successes": null,
+          "reached_full_occlusion": 2,
+          "reached_recovery": 2,
+          "recovery_successes": 0,
+          "recovery_success_rate": 0.0,
+          "success_phases": {},
+          "timeouts": 2
+        },
+        "tasks": {
+          "0": {
+            "episodes": 1,
+            "successes": 0,
+            "success_rate": 0.0,
+            "success_rate_wilson95": [
+              0.0,
+              0.7934567085261071
+            ],
+            "mean_policy_calls": 28.0,
+            "mean_policy_calls_successes": null,
+            "reached_full_occlusion": 1,
+            "reached_recovery": 1,
+            "recovery_successes": 0,
+            "recovery_success_rate": 0.0,
+            "success_phases": {},
+            "timeouts": 1
+          },
+          "8": {
+            "episodes": 1,
+            "successes": 0,
+            "success_rate": 0.0,
+            "success_rate_wilson95": [
+              0.0,
+              0.7934567085261071
+            ],
+            "mean_policy_calls": 28.0,
+            "mean_policy_calls_successes": null,
+            "reached_full_occlusion": 1,
+            "reached_recovery": 1,
+            "recovery_successes": 0,
+            "recovery_success_rate": 0.0,
+            "success_phases": {},
+            "timeouts": 1
+          }
+        }
+      }
+    },
+    "C16": {
+      "normal": {
+        "overall": {
+          "episodes": 2,
+          "successes": 1,
+          "success_rate": 0.5,
+          "success_rate_wilson95": [
+            0.09452865480086614,
+            0.9054713451991339
+          ],
+          "mean_policy_calls": 19.0,
+          "mean_policy_calls_successes": 10.0,
+          "reached_full_occlusion": 0,
+          "reached_recovery": 0,
+          "recovery_successes": 0,
+          "recovery_success_rate": null,
+          "success_phases": {
+            "normal": 1
+          },
+          "timeouts": 1
+        },
+        "tasks": {
+          "0": {
+            "episodes": 1,
+            "successes": 1,
+            "success_rate": 1.0,
+            "success_rate_wilson95": [
+              0.20654329147389294,
+              1.0
+            ],
+            "mean_policy_calls": 10.0,
+            "mean_policy_calls_successes": 10.0,
+            "reached_full_occlusion": 0,
+            "reached_recovery": 0,
+            "recovery_successes": 0,
+            "recovery_success_rate": null,
+            "success_phases": {
+              "normal": 1
+            },
+            "timeouts": 0
+          },
+          "8": {
+            "episodes": 1,
+            "successes": 0,
+            "success_rate": 0.0,
+            "success_rate_wilson95": [
+              0.0,
+              0.7934567085261071
+            ],
+            "mean_policy_calls": 28.0,
+            "mean_policy_calls_successes": null,
+            "reached_full_occlusion": 0,
+            "reached_recovery": 0,
+            "recovery_successes": 0,
+            "recovery_success_rate": null,
+            "success_phases": {},
+            "timeouts": 1
+          }
+        }
+      },
+      "temporal_occlusion": {
+        "overall": {
+          "episodes": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "success_rate_wilson95": [
+            0.0,
+            0.6576280471103807
+          ],
+          "mean_policy_calls": 28.0,
+          "mean_policy_calls_successes": null,
+          "reached_full_occlusion": 2,
+          "reached_recovery": 2,
+          "recovery_successes": 0,
+          "recovery_success_rate": 0.0,
+          "success_phases": {},
+          "timeouts": 2
+        },
+        "tasks": {
+          "0": {
+            "episodes": 1,
+            "successes": 0,
+            "success_rate": 0.0,
+            "success_rate_wilson95": [
+              0.0,
+              0.7934567085261071
+            ],
+            "mean_policy_calls": 28.0,
+            "mean_policy_calls_successes": null,
+            "reached_full_occlusion": 1,
+            "reached_recovery": 1,
+            "recovery_successes": 0,
+            "recovery_success_rate": 0.0,
+            "success_phases": {},
+            "timeouts": 1
+          },
+          "8": {
+            "episodes": 1,
+            "successes": 0,
+            "success_rate": 0.0,
+            "success_rate_wilson95": [
+              0.0,
+              0.7934567085261071
+            ],
+            "mean_policy_calls": 28.0,
+            "mean_policy_calls_successes": null,
+            "reached_full_occlusion": 1,
+            "reached_recovery": 1,
+            "recovery_successes": 0,
+            "recovery_success_rate": 0.0,
+            "success_phases": {},
+            "timeouts": 1
+          }
+        }
+      }
+    }
+  },
+  "paired_tests": {
+    "normal": {
+      "C16_vs_B": {
+        "pairs": 2,
+        "C16_wins": 0,
+        "C16_losses": 0,
+        "ties": 2,
+        "success_rate_delta": 0.0,
+        "exact_mcnemar_p": 1.0
+      },
+      "C16_vs_C1": {
+        "pairs": 2,
+        "C16_wins": 0,
+        "C16_losses": 0,
+        "ties": 2,
+        "success_rate_delta": 0.0,
+        "exact_mcnemar_p": 1.0
+      }
+    },
+    "temporal_occlusion": {
+      "C16_vs_B": {
+        "pairs": 2,
+        "C16_wins": 0,
+        "C16_losses": 0,
+        "ties": 2,
+        "success_rate_delta": 0.0,
+        "exact_mcnemar_p": 1.0
+      },
+      "C16_vs_C1": {
+        "pairs": 2,
+        "C16_wins": 0,
+        "C16_losses": 0,
+        "ties": 2,
+        "success_rate_delta": 0.0,
+        "exact_mcnemar_p": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+/root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+2026-09-17 09:56:12.298516: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-17 09:56:12.336516: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-17 09:56:12.336586: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-17 09:56:12.338195: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-17 09:56:12.345055: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-17 09:56:13.085787: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+*** unnorm_key: libero_spatial_no_noops ***
+09/17 [09:56:19] INFO     | >> [*] Loading from local checkpoint     load.py:123
+                          path                                                  
+                          `/media/fulei/jlu/SpatialMemoryVLA/runs/li            
+                          bero_spatial_memory/libero_spatial_occ_C_m            
+                          em16_500step_det_noaug_rds1/checkpoints/st            
+                          ep-000500-epoch-00-loss=0.0860.pt`                    
+                 INFO     | >> [*] Found Config =>> Loading &        load.py:171
+                          Freezing prism-dinosiglip-224px+7b with:              
+                                       Vision Backbone =>>                      
+                          dinosiglip-vit-so-224px                               
+                                       LLM Backbone    =>>                      
+                          llama2-7b-pure                                        
+                                       Arch Specifier  =>>                      
+                          no-align+fused-gelu-mlp                               
+                                       Checkpoint Path =>>                      
+                          `/media/fulei/jlu/SpatialMemoryVLA/runs/li            
+                          bero_spatial_memory/libero_spatial_occ_C_m            
+                          em16_500step_det_noaug_rds1/checkpoints/st            
+                          ep-000500-epoch-00-loss=0.0860.pt`                    
+                 INFO     | >> [*] Loading Vision Backbone           load.py:180
+                          dinosiglip-vit-so-224px                               
+09/17 [09:56:24] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (timm/vit_large_patch14_reg4_dinov2.lv                
+                          d142m)                                                
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'pytorch_model.bin' (as                               
+                          'model.safetensors'). Loading weights                 
+                          using safetensors.                                    
+                 INFO     | >> Resized position embedding: (37,  pos_embed.py:55
+                          37) to (16, 16).                                      
+09/17 [09:56:34] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (('timm/ViT-SO400M-14-SigLIP',                        
+                          'open_clip_pytorch_model.bin'))                       
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'open_clip_pytorch_model.bin' (as                     
+                          'open_clip_model.safetensors'). Loading               
+                          weights using safetensors.                            
+09/17 [09:56:40] INFO     | >> [*] Loading Pretrained LLM            load.py:187
+                          llama2-7b-pure via HF Transformers                    
+                 INFO     | >>     |=> Building empty llama2 LLM base_llm.py:134
+                          from                                                  
+                          `/media/fulei/jlu/SpatialMemoryVLA/pre                
+                          trained/NousResearch-Llama-2-7b-hf`                   
+09/17 [09:57:55] INFO     | >>     |=> Loading llama2 (Fast)     base_llm.py:151
+                          Tokenizer via the AutoTokenizer API                   
+09/17 [09:57:58] INFO     | >> [*] Loading VLA                       load.py:196
+                          prism-dinosiglip-224px+7b from Checkpoint             
+Using bfloat16 inference mode (auto-conversion for all modules).
+ * Serving Flask app 'deploy'
+ * Debug mode: off
+09/17 [09:58:58] INFO     | >> [31m[1mWARNING: This is a         _internal.py:97
+                          development server. Do not use it in a                
+                          production deployment. Use a                          
+                          production WSGI server instead.[0m                    
+                           * Running on all addresses (0.0.0.0)                 
+                           * Running on http://127.0.0.1:27822                  
+                           * Running on                                         
+                          http://10.108.64.229:27822                            
+                 INFO     | >> [33mPress CTRL+C to quit[0m       _internal.py:97
+09/17 [09:58:59] INFO     | >> 127.0.0.1 - - [17/Sep/2026        _internal.py:97
+                          09:58:59] "GET /health HTTP/1.1" 200 -                

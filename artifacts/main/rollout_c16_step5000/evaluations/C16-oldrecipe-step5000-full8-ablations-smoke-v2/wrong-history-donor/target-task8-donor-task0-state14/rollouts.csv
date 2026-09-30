@@ -1,0 +1,2 @@
+model,task_name,runtime_task_index,initial_state_id,episode_id,hard_case,success,policy_calls,timeout,success_phase,reached_full_occlusion,reached_recovery,recovery_success,intervention_applied,intervention_timestep,intervention_policy_call,relocation_safe
+C16-step5000-wrong-history-donor,pick up the black bowl between the plate and the ramekin and place it on the plate,0,14,libero_spatial/task-0/state-14,normal,True,10,False,normal,False,False,False,False,,,

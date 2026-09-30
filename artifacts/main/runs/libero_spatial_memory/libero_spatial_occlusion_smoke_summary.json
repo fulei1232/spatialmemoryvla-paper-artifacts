@@ -1,0 +1,136 @@
+{
+  "complete": true,
+  "matched_shared_configuration": true,
+  "matched_occlusion_sequence": true,
+  "runs": {
+    "B": {
+      "steps": 20,
+      "complete": true,
+      "checkpoint": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_B_20step_det_noaug/checkpoints/step-000020-epoch-00-loss=0.3475.pt",
+      "optimizer": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_B_20step_det_noaug/checkpoints/step-000020-epoch-00-loss=0.3475.optimizer",
+      "mem_length": 1,
+      "use_spatial_memory": false,
+      "action_loss": {
+        "first": 0.36747580766677856,
+        "last": 0.0380280502140522,
+        "mean": 0.07345306919887662,
+        "finite": true,
+        "max": 0.36747580766677856
+      },
+      "spatial_loss": {
+        "first": 1.0246644020080566,
+        "last": 0.6189098358154297,
+        "mean": 0.8251303941011429,
+        "finite": true,
+        "max": 1.0246644020080566
+      },
+      "total_loss": {
+        "first": 0.8798080086708069,
+        "last": 0.34748297929763794,
+        "mean": 0.486018268764019,
+        "finite": true,
+        "max": 0.8798080086708069
+      },
+      "grad_norm": {
+        "first": 3.2557079792022705,
+        "last": 1.4360547065734863,
+        "mean": 1.9148605167865753,
+        "finite": true,
+        "max": 3.2557079792022705
+      },
+      "diagnostics": {
+        "rows": 640,
+        "occluded_fraction": 0.090625,
+        "full_occlusion_fraction": 0.0234375,
+        "max_history_size": 1,
+        "occlusion_sequence_sha256": "92a7ca9e075571a8773a8b722ea4d48d68609c33b35e5b1468c94704f70047cd"
+      }
+    },
+    "C1": {
+      "steps": 20,
+      "complete": true,
+      "checkpoint": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_C_mem1_20step_det_noaug/checkpoints/step-000020-epoch-00-loss=0.3731.pt",
+      "optimizer": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_C_mem1_20step_det_noaug/checkpoints/step-000020-epoch-00-loss=0.3731.optimizer",
+      "mem_length": 1,
+      "use_spatial_memory": true,
+      "action_loss": {
+        "first": 0.45131319761276245,
+        "last": 0.04091387242078781,
+        "mean": 0.0888836009427905,
+        "finite": true,
+        "max": 0.45131319761276245
+      },
+      "spatial_loss": {
+        "first": 1.0246644020080566,
+        "last": 0.6644442677497864,
+        "mean": 0.8564975827932357,
+        "finite": true,
+        "max": 1.0246644020080566
+      },
+      "total_loss": {
+        "first": 0.9636453986167908,
+        "last": 0.3731360137462616,
+        "mean": 0.5171323925256729,
+        "finite": true,
+        "max": 0.9636453986167908
+      },
+      "grad_norm": {
+        "first": 8.305952072143555,
+        "last": 1.892313838005066,
+        "mean": 2.6671197354793548,
+        "finite": true,
+        "max": 8.305952072143555
+      },
+      "diagnostics": {
+        "rows": 640,
+        "occluded_fraction": 0.090625,
+        "full_occlusion_fraction": 0.0234375,
+        "max_history_size": 1,
+        "occlusion_sequence_sha256": "92a7ca9e075571a8773a8b722ea4d48d68609c33b35e5b1468c94704f70047cd"
+      }
+    },
+    "C16": {
+      "steps": 20,
+      "complete": true,
+      "checkpoint": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_C_mem16_20step_det_noaug/checkpoints/step-000020-epoch-00-loss=0.3742.pt",
+      "optimizer": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_C_mem16_20step_det_noaug/checkpoints/step-000020-epoch-00-loss=0.3742.optimizer",
+      "mem_length": 16,
+      "use_spatial_memory": true,
+      "action_loss": {
+        "first": 0.4508639872074127,
+        "last": 0.041928064078092575,
+        "mean": 0.0896237294189632,
+        "finite": true,
+        "max": 0.4508639872074127
+      },
+      "spatial_loss": {
+        "first": 1.0246644020080566,
+        "last": 0.6644505262374878,
+        "mean": 0.8567612081766128,
+        "finite": true,
+        "max": 1.0246644020080566
+      },
+      "total_loss": {
+        "first": 0.9631961584091187,
+        "last": 0.3741533160209656,
+        "mean": 0.5180043339729309,
+        "finite": true,
+        "max": 0.9631961584091187
+      },
+      "grad_norm": {
+        "first": 8.298795700073242,
+        "last": 1.8988498449325562,
+        "mean": 2.673303431272507,
+        "finite": true,
+        "max": 8.298795700073242
+      },
+      "diagnostics": {
+        "rows": 640,
+        "occluded_fraction": 0.090625,
+        "full_occlusion_fraction": 0.0234375,
+        "max_history_size": 16,
+        "occlusion_sequence_sha256": "92a7ca9e075571a8773a8b722ea4d48d68609c33b35e5b1468c94704f70047cd"
+      }
+    }
+  }
+}

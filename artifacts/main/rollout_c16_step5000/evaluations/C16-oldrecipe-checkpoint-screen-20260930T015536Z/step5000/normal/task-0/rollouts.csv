@@ -1,0 +1,11 @@
+model,task_name,runtime_task_index,initial_state_id,episode_id,hard_case,success,policy_calls,timeout,success_phase,reached_full_occlusion,reached_recovery,recovery_success,intervention_applied,intervention_timestep,intervention_policy_call,relocation_safe
+C16-step5000,pick up the black bowl between the plate and the ramekin and place it on the plate,0,0,libero_spatial/task-0/state-0,normal,True,10,False,normal,False,False,False,False,,,
+C16-step5000,pick up the black bowl between the plate and the ramekin and place it on the plate,0,1,libero_spatial/task-0/state-1,normal,True,10,False,normal,False,False,False,False,,,
+C16-step5000,pick up the black bowl between the plate and the ramekin and place it on the plate,0,2,libero_spatial/task-0/state-2,normal,True,10,False,normal,False,False,False,False,,,
+C16-step5000,pick up the black bowl between the plate and the ramekin and place it on the plate,0,3,libero_spatial/task-0/state-3,normal,True,11,False,normal,False,False,False,False,,,
+C16-step5000,pick up the black bowl between the plate and the ramekin and place it on the plate,0,4,libero_spatial/task-0/state-4,normal,True,10,False,normal,False,False,False,False,,,
+C16-step5000,pick up the black bowl between the plate and the ramekin and place it on the plate,0,5,libero_spatial/task-0/state-5,normal,True,9,False,normal,False,False,False,False,,,
+C16-step5000,pick up the black bowl between the plate and the ramekin and place it on the plate,0,6,libero_spatial/task-0/state-6,normal,True,10,False,normal,False,False,False,False,,,
+C16-step5000,pick up the black bowl between the plate and the ramekin and place it on the plate,0,7,libero_spatial/task-0/state-7,normal,True,10,False,normal,False,False,False,False,,,
+C16-step5000,pick up the black bowl between the plate and the ramekin and place it on the plate,0,8,libero_spatial/task-0/state-8,normal,True,10,False,normal,False,False,False,False,,,
+C16-step5000,pick up the black bowl between the plate and the ramekin and place it on the plate,0,9,libero_spatial/task-0/state-9,normal,True,11,False,normal,False,False,False,False,,,

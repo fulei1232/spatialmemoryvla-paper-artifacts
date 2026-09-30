@@ -1,0 +1,232 @@
+{
+  "protocol": {
+    "complete": true,
+    "expected_episodes_per_model_condition": 100,
+    "paired_task_initial_states": {
+      "temporal_occlusion": true
+    },
+    "models": [
+      "B",
+      "C1",
+      "C16"
+    ],
+    "conditions": [
+      "temporal_occlusion"
+    ]
+  },
+  "metrics": {
+    "B": {
+      "temporal_occlusion": {
+        "overall": {
+          "episodes": 100,
+          "successes": 29,
+          "success_rate": 0.29,
+          "success_rate_wilson95": [
+            0.21014706973984146,
+            0.38539074940007934
+          ],
+          "mean_policy_calls": 26.0,
+          "mean_policy_calls_successes": 21.103448275862068,
+          "reached_full_occlusion": 100,
+          "reached_recovery": 98,
+          "recovery_successes": 27,
+          "recovery_success_rate": 0.2755102040816326,
+          "success_phases": {
+            "recovered_visible": 27,
+            "full_occlusion": 2
+          },
+          "timeouts": 71
+        },
+        "tasks": {
+          "0": {
+            "episodes": 50,
+            "successes": 17,
+            "success_rate": 0.34,
+            "success_rate_wilson95": [
+              0.2243676963506106,
+              0.47846431458517147
+            ],
+            "mean_policy_calls": 25.16,
+            "mean_policy_calls_successes": 19.647058823529413,
+            "reached_full_occlusion": 50,
+            "reached_recovery": 48,
+            "recovery_successes": 15,
+            "recovery_success_rate": 0.3125,
+            "success_phases": {
+              "recovered_visible": 15,
+              "full_occlusion": 2
+            },
+            "timeouts": 33
+          },
+          "8": {
+            "episodes": 50,
+            "successes": 12,
+            "success_rate": 0.24,
+            "success_rate_wilson95": [
+              0.14297252401872207,
+              0.3741294937519236
+            ],
+            "mean_policy_calls": 26.84,
+            "mean_policy_calls_successes": 23.166666666666668,
+            "reached_full_occlusion": 50,
+            "reached_recovery": 50,
+            "recovery_successes": 12,
+            "recovery_success_rate": 0.24,
+            "success_phases": {
+              "recovered_visible": 12
+            },
+            "timeouts": 38
+          }
+        }
+      }
+    },
+    "C1": {
+      "temporal_occlusion": {
+        "overall": {
+          "episodes": 100,
+          "successes": 20,
+          "success_rate": 0.2,
+          "success_rate_wilson95": [
+            0.1333659225590988,
+            0.28883096192650237
+          ],
+          "mean_policy_calls": 26.36,
+          "mean_policy_calls_successes": 19.8,
+          "reached_full_occlusion": 100,
+          "reached_recovery": 99,
+          "recovery_successes": 19,
+          "recovery_success_rate": 0.1919191919191919,
+          "success_phases": {
+            "recovered_visible": 19,
+            "full_occlusion": 1
+          },
+          "timeouts": 80
+        },
+        "tasks": {
+          "0": {
+            "episodes": 50,
+            "successes": 18,
+            "success_rate": 0.36,
+            "success_rate_wilson95": [
+              0.24138562967182875,
+              0.49859237989698046
+            ],
+            "mean_policy_calls": 24.9,
+            "mean_policy_calls_successes": 19.38888888888889,
+            "reached_full_occlusion": 50,
+            "reached_recovery": 49,
+            "recovery_successes": 17,
+            "recovery_success_rate": 0.3469387755102041,
+            "success_phases": {
+              "recovered_visible": 17,
+              "full_occlusion": 1
+            },
+            "timeouts": 32
+          },
+          "8": {
+            "episodes": 50,
+            "successes": 2,
+            "success_rate": 0.04,
+            "success_rate_wilson95": [
+              0.011038652660826577,
+              0.13460337877954667
+            ],
+            "mean_policy_calls": 27.82,
+            "mean_policy_calls_successes": 23.5,
+            "reached_full_occlusion": 50,
+            "reached_recovery": 50,
+            "recovery_successes": 2,
+            "recovery_success_rate": 0.04,
+            "success_phases": {
+              "recovered_visible": 2
+            },
+            "timeouts": 48
+          }
+        }
+      }
+    },
+    "C16": {
+      "temporal_occlusion": {
+        "overall": {
+          "episodes": 100,
+          "successes": 38,
+          "success_rate": 0.38,
+          "success_rate_wilson95": [
+            0.2909744920013438,
+            0.47790426179289663
+          ],
+          "mean_policy_calls": 25.26,
+          "mean_policy_calls_successes": 20.789473684210527,
+          "reached_full_occlusion": 100,
+          "reached_recovery": 100,
+          "recovery_successes": 38,
+          "recovery_success_rate": 0.38,
+          "success_phases": {
+            "recovered_visible": 38
+          },
+          "timeouts": 62
+        },
+        "tasks": {
+          "0": {
+            "episodes": 50,
+            "successes": 26,
+            "success_rate": 0.52,
+            "success_rate_wilson95": [
+              0.3851151225880844,
+              0.6520308760449429
+            ],
+            "mean_policy_calls": 23.52,
+            "mean_policy_calls_successes": 19.384615384615383,
+            "reached_full_occlusion": 50,
+            "reached_recovery": 50,
+            "recovery_successes": 26,
+            "recovery_success_rate": 0.52,
+            "success_phases": {
+              "recovered_visible": 26
+            },
+            "timeouts": 24
+          },
+          "8": {
+            "episodes": 50,
+            "successes": 12,
+            "success_rate": 0.24,
+            "success_rate_wilson95": [
+              0.14297252401872207,
+              0.3741294937519236
+            ],
+            "mean_policy_calls": 27.0,
+            "mean_policy_calls_successes": 23.833333333333332,
+            "reached_full_occlusion": 50,
+            "reached_recovery": 50,
+            "recovery_successes": 12,
+            "recovery_success_rate": 0.24,
+            "success_phases": {
+              "recovered_visible": 12
+            },
+            "timeouts": 38
+          }
+        }
+      }
+    }
+  },
+  "paired_tests": {
+    "temporal_occlusion": {
+      "C16_vs_B": {
+        "pairs": 100,
+        "C16_wins": 23,
+        "C16_losses": 14,
+        "ties": 63,
+        "success_rate_delta": 0.09000000000000002,
+        "exact_mcnemar_p": 0.18774155899882317
+      },
+      "C16_vs_C1": {
+        "pairs": 100,
+        "C16_wins": 30,
+        "C16_losses": 12,
+        "ties": 58,
+        "success_rate_delta": 0.18,
+        "exact_mcnemar_p": 0.007915897334896727
+      }
+    }
+  }
+}

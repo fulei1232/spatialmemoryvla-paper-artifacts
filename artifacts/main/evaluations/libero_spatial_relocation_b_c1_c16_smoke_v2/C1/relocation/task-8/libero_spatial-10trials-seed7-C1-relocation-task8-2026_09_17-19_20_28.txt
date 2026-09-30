@@ -1,0 +1,83 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 0
+Starting episode 1 (global index 0)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_relocation_b_c1_c16_smoke_v2/C1/relocation/task-8/libero_spatial-10trials-seed7-C1-relocation-task8-2026_09_17-19_20_28_videos/2026_09_17/pick_up_the_black_bowl_next_to_the_plate_and_place/1-False-2026_09_17-19_20_28.mp4
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 1
+Starting episode 2 (global index 1)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_relocation_b_c1_c16_smoke_v2/C1/relocation/task-8/libero_spatial-10trials-seed7-C1-relocation-task8-2026_09_17-19_20_28_videos/2026_09_17/pick_up_the_black_bowl_next_to_the_plate_and_place/2-False-2026_09_17-19_20_28.mp4
+Success: False
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 2
+Starting episode 3 (global index 2)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_relocation_b_c1_c16_smoke_v2/C1/relocation/task-8/libero_spatial-10trials-seed7-C1-relocation-task8-2026_09_17-19_20_28_videos/2026_09_17/pick_up_the_black_bowl_next_to_the_plate_and_place/3-False-2026_09_17-19_20_28.mp4
+Success: False
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 3
+Starting episode 4 (global index 3)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_relocation_b_c1_c16_smoke_v2/C1/relocation/task-8/libero_spatial-10trials-seed7-C1-relocation-task8-2026_09_17-19_20_28_videos/2026_09_17/pick_up_the_black_bowl_next_to_the_plate_and_place/4-False-2026_09_17-19_20_28.mp4
+Success: False
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 4
+Starting episode 5 (global index 4)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_relocation_b_c1_c16_smoke_v2/C1/relocation/task-8/libero_spatial-10trials-seed7-C1-relocation-task8-2026_09_17-19_20_28_videos/2026_09_17/pick_up_the_black_bowl_next_to_the_plate_and_place/5-False-2026_09_17-19_20_28.mp4
+Success: False
+# episodes completed so far: 5
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 5
+Starting episode 6 (global index 5)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_relocation_b_c1_c16_smoke_v2/C1/relocation/task-8/libero_spatial-10trials-seed7-C1-relocation-task8-2026_09_17-19_20_28_videos/2026_09_17/pick_up_the_black_bowl_next_to_the_plate_and_place/6-False-2026_09_17-19_20_28.mp4
+Success: False
+# episodes completed so far: 6
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 6
+Starting episode 7 (global index 6)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_relocation_b_c1_c16_smoke_v2/C1/relocation/task-8/libero_spatial-10trials-seed7-C1-relocation-task8-2026_09_17-19_20_28_videos/2026_09_17/pick_up_the_black_bowl_next_to_the_plate_and_place/7-False-2026_09_17-19_20_28.mp4
+Success: False
+# episodes completed so far: 7
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 7
+Starting episode 8 (global index 7)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_relocation_b_c1_c16_smoke_v2/C1/relocation/task-8/libero_spatial-10trials-seed7-C1-relocation-task8-2026_09_17-19_20_28_videos/2026_09_17/pick_up_the_black_bowl_next_to_the_plate_and_place/8-False-2026_09_17-19_20_28.mp4
+Success: False
+# episodes completed so far: 8
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 8
+Starting episode 9 (global index 8)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_relocation_b_c1_c16_smoke_v2/C1/relocation/task-8/libero_spatial-10trials-seed7-C1-relocation-task8-2026_09_17-19_20_28_videos/2026_09_17/pick_up_the_black_bowl_next_to_the_plate_and_place/9-False-2026_09_17-19_20_28.mp4
+Success: False
+# episodes completed so far: 9
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 9
+Starting episode 10 (global index 9)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_relocation_b_c1_c16_smoke_v2/C1/relocation/task-8/libero_spatial-10trials-seed7-C1-relocation-task8-2026_09_17-19_20_28_videos/2026_09_17/pick_up_the_black_bowl_next_to_the_plate_and_place/10-False-2026_09_17-19_20_28.mp4
+Success: False
+# episodes completed so far: 10
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current total success rate: 0.0

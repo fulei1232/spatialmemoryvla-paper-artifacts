@@ -1,0 +1,40 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 0
+Starting episode 1 (global index 0)...
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 1
+Starting episode 2 (global index 1)...
+Success: False
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 2
+Starting episode 3 (global index 2)...
+Success: False
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 3
+Starting episode 4 (global index 3)...
+Success: False
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 4
+Starting episode 5 (global index 4)...
+Success: True
+# episodes completed so far: 5
+# successes: 1 (20.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 5
+Starting episode 6 (global index 5)...

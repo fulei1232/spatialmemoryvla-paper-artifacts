@@ -1,0 +1,380 @@
+2026-09-17 16:48:48.742673: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-17 16:48:48.780166: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-17 16:48:48.780244: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-17 16:48:48.781680: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-17 16:48:48.788129: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-17 16:48:49.465914: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/SpatialMemoryVLA/evaluations/libero_spatial_occ_b_c1_c16_sweep_8_12/full8/B/temporal_occlusion/task-8/libero_spatial-50trials-seed7-B-full8-task8-2026_09_17-16_48_50.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+  0%|          | 0/10 [00:00<?, ?it/s]Skipping task 0...
+Skipping task 1...
+Skipping task 2...
+Skipping task 3...
+Skipping task 4...
+Skipping task 5...
+Skipping task 6...
+Skipping task 7...
+
+  0%|          | 0/50 [00:00<?, ?it/s][A
+  2%|▏         | 1/50 [00:16<13:13, 16.20s/it][A
+  4%|▍         | 2/50 [00:32<12:53, 16.11s/it][A
+  6%|▌         | 3/50 [00:47<12:29, 15.94s/it][A
+  8%|▊         | 4/50 [01:00<11:19, 14.77s/it][A
+ 10%|█         | 5/50 [01:16<11:24, 15.22s/it][A
+ 12%|█▏        | 6/50 [01:33<11:24, 15.55s/it][A
+ 14%|█▍        | 7/50 [01:49<11:15, 15.70s/it][A
+ 16%|█▌        | 8/50 [02:05<11:06, 15.88s/it][A
+ 18%|█▊        | 9/50 [02:20<10:46, 15.76s/it][A
+ 20%|██        | 10/50 [02:36<10:28, 15.71s/it][A
+ 22%|██▏       | 11/50 [02:52<10:14, 15.77s/it][A
+ 24%|██▍       | 12/50 [03:08<09:57, 15.73s/it][A
+ 26%|██▌       | 13/50 [03:20<09:05, 14.73s/it][A
+ 28%|██▊       | 14/50 [03:36<08:59, 14.97s/it][A
+ 30%|███       | 15/50 [03:52<08:54, 15.28s/it][A
+ 32%|███▏      | 16/50 [04:08<08:48, 15.55s/it][A
+ 34%|███▍      | 17/50 [04:23<08:33, 15.57s/it][A
+ 36%|███▌      | 18/50 [04:39<08:21, 15.68s/it][A
+ 38%|███▊      | 19/50 [04:55<08:08, 15.77s/it][A
+ 40%|████      | 20/50 [05:12<07:57, 15.92s/it][A
+ 42%|████▏     | 21/50 [05:25<07:23, 15.29s/it][A
+ 44%|████▍     | 22/50 [05:42<07:16, 15.58s/it][A
+ 46%|████▌     | 23/50 [05:58<07:05, 15.76s/it][A
+ 48%|████▊     | 24/50 [06:12<06:34, 15.19s/it][A
+ 50%|█████     | 25/50 [06:27<06:22, 15.30s/it][A
+ 52%|█████▏    | 26/50 [06:41<05:58, 14.92s/it][A
+ 54%|█████▍    | 27/50 [06:57<05:51, 15.27s/it][A
+ 56%|█████▌    | 28/50 [07:13<05:37, 15.34s/it][A
+ 58%|█████▊    | 29/50 [07:29<05:26, 15.56s/it][A
+ 60%|██████    | 30/50 [07:45<05:14, 15.74s/it][A
+ 62%|██████▏   | 31/50 [08:01<04:59, 15.74s/it][A
+ 64%|██████▍   | 32/50 [08:17<04:46, 15.90s/it][A
+ 66%|██████▌   | 33/50 [08:30<04:16, 15.09s/it][A
+ 68%|██████▊   | 34/50 [08:45<03:59, 14.98s/it][A
+ 70%|███████   | 35/50 [09:01<03:49, 15.30s/it][A
+ 72%|███████▏  | 36/50 [09:15<03:30, 15.05s/it][A
+ 74%|███████▍  | 37/50 [09:32<03:19, 15.38s/it][A
+ 76%|███████▌  | 38/50 [09:47<03:06, 15.51s/it][A
+ 78%|███████▊  | 39/50 [10:01<02:44, 14.98s/it][A
+ 80%|████████  | 40/50 [10:17<02:31, 15.18s/it][A
+ 82%|████████▏ | 41/50 [10:33<02:18, 15.42s/it][A
+ 84%|████████▍ | 42/50 [10:49<02:05, 15.66s/it][A
+ 86%|████████▌ | 43/50 [11:02<01:44, 14.92s/it][A
+ 88%|████████▊ | 44/50 [11:18<01:30, 15.13s/it][A
+ 90%|█████████ | 45/50 [11:34<01:16, 15.30s/it][A
+ 92%|█████████▏| 46/50 [11:49<01:01, 15.48s/it][A
+ 94%|█████████▍| 47/50 [12:05<00:46, 15.49s/it][A
+ 96%|█████████▌| 48/50 [12:21<00:31, 15.77s/it][A
+ 98%|█████████▊| 49/50 [12:37<00:15, 15.58s/it][A
+100%|██████████| 50/50 [12:53<00:00, 15.98s/it][A100%|██████████| 50/50 [12:53<00:00, 15.48s/it]
+ 90%|█████████ | 9/10 [12:57<01:26, 86.39s/it]100%|██████████| 10/10 [12:57<00:00, 77.75s/it]
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 1 (global index 0)...
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 2 (global index 1)...
+Success: False
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 3 (global index 2)...
+Success: False
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 4 (global index 3)...
+Success: True
+# episodes completed so far: 4
+# successes: 1 (25.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 5 (global index 4)...
+Success: False
+# episodes completed so far: 5
+# successes: 1 (20.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 6 (global index 5)...
+Success: False
+# episodes completed so far: 6
+# successes: 1 (16.7%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 7 (global index 6)...
+Success: False
+# episodes completed so far: 7
+# successes: 1 (14.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 8 (global index 7)...
+Success: False
+# episodes completed so far: 8
+# successes: 1 (12.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 9 (global index 8)...
+Success: False
+# episodes completed so far: 9
+# successes: 1 (11.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 10 (global index 9)...
+Success: False
+# episodes completed so far: 10
+# successes: 1 (10.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 11 (global index 10)...
+Success: False
+# episodes completed so far: 11
+# successes: 1 (9.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 12 (global index 11)...
+Success: False
+# episodes completed so far: 12
+# successes: 1 (8.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 13 (global index 12)...
+Success: True
+# episodes completed so far: 13
+# successes: 2 (15.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 14 (global index 13)...
+Success: False
+# episodes completed so far: 14
+# successes: 2 (14.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 15 (global index 14)...
+Success: False
+# episodes completed so far: 15
+# successes: 2 (13.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 16 (global index 15)...
+Success: False
+# episodes completed so far: 16
+# successes: 2 (12.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 17 (global index 16)...
+Success: False
+# episodes completed so far: 17
+# successes: 2 (11.8%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 18 (global index 17)...
+Success: False
+# episodes completed so far: 18
+# successes: 2 (11.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 19 (global index 18)...
+Success: False
+# episodes completed so far: 19
+# successes: 2 (10.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 20 (global index 19)...
+Success: False
+# episodes completed so far: 20
+# successes: 2 (10.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 21 (global index 20)...
+Success: True
+# episodes completed so far: 21
+# successes: 3 (14.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 22 (global index 21)...
+Success: False
+# episodes completed so far: 22
+# successes: 3 (13.6%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 23 (global index 22)...
+Success: False
+# episodes completed so far: 23
+# successes: 3 (13.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 24 (global index 23)...
+Success: True
+# episodes completed so far: 24
+# successes: 4 (16.7%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 25 (global index 24)...
+Success: False
+# episodes completed so far: 25
+# successes: 4 (16.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 26 (global index 25)...
+Success: True
+# episodes completed so far: 26
+# successes: 5 (19.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 27 (global index 26)...
+Success: False
+# episodes completed so far: 27
+# successes: 5 (18.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 28 (global index 27)...
+Success: False
+# episodes completed so far: 28
+# successes: 5 (17.9%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 29 (global index 28)...
+Success: False
+# episodes completed so far: 29
+# successes: 5 (17.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 30 (global index 29)...
+Success: False
+# episodes completed so far: 30
+# successes: 5 (16.7%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 31 (global index 30)...
+Success: False
+# episodes completed so far: 31
+# successes: 5 (16.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 32 (global index 31)...
+Success: False
+# episodes completed so far: 32
+# successes: 5 (15.6%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 33 (global index 32)...
+Success: True
+# episodes completed so far: 33
+# successes: 6 (18.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 34 (global index 33)...
+Success: True
+# episodes completed so far: 34
+# successes: 7 (20.6%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 35 (global index 34)...
+Success: False
+# episodes completed so far: 35
+# successes: 7 (20.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 36 (global index 35)...
+Success: True
+# episodes completed so far: 36
+# successes: 8 (22.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 37 (global index 36)...
+Success: False
+# episodes completed so far: 37
+# successes: 8 (21.6%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 38 (global index 37)...
+Success: False
+# episodes completed so far: 38
+# successes: 8 (21.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 39 (global index 38)...
+Success: True
+# episodes completed so far: 39
+# successes: 9 (23.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 40 (global index 39)...
+Success: False
+# episodes completed so far: 40
+# successes: 9 (22.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 41 (global index 40)...
+Success: False
+# episodes completed so far: 41
+# successes: 9 (22.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 42 (global index 41)...
+Success: False
+# episodes completed so far: 42
+# successes: 9 (21.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 43 (global index 42)...
+Success: True
+# episodes completed so far: 43
+# successes: 10 (23.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 44 (global index 43)...
+Success: False
+# episodes completed so far: 44
+# successes: 10 (22.7%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 45 (global index 44)...
+Success: False
+# episodes completed so far: 45
+# successes: 10 (22.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 46 (global index 45)...
+Success: False
+# episodes completed so far: 46
+# successes: 10 (21.7%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 47 (global index 46)...
+Success: True
+# episodes completed so far: 47
+# successes: 11 (23.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 48 (global index 47)...
+Success: False
+# episodes completed so far: 48
+# successes: 11 (22.9%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 49 (global index 48)...
+Success: True
+# episodes completed so far: 49
+# successes: 12 (24.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 50 (global index 49)...
+Success: False
+# episodes completed so far: 50
+# successes: 12 (24.0%)
+Current task success rate: 0.24
+Current total success rate: 0.24
+Skipping task 9...

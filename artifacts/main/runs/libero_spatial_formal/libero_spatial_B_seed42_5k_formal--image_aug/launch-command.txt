@@ -1,0 +1,1 @@
+RUN_KIND=formal CUDA_VISIBLE_DEVICES=0,1,2,3 N_GPU=4 PER_DEVICE_BATCH_SIZE=8 GLOBAL_BATCH_SIZE=256 MAX_STEPS=5000 SEED=42 script/train/libero/train_libero_spatial_formal_b_seed42.sh

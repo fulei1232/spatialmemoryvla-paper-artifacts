@@ -1,0 +1,21 @@
+# Never add heavyweight or local runtime artifacts.
+*.pt
+*.optimizer
+*.safetensors
+*.bin
+*.ckpt
+*.mp4
+*.avi
+*.mkv
+*.npy
+*.npz
+*.pkl
+*.tfrecord*
+.venv*/
+.uv-cache/
+hf-cache/
+pretrained/
+datasets/
+__pycache__/
+*.pyc
+.DS_Store

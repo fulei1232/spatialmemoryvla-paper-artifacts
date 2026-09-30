@@ -1,0 +1,11 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Official initial state index: 0
+Starting episode 1 (global index 0)...
+Saved rollout MP4 at path /media/fulei/jlu/SpatialMemoryVLA/rollout_c16_step5000/evaluations/smoke-gpu1-egl-fix/full8/task-8/libero_spatial-1trials-seed7-smoke-full8-task8-2026_09_29-18_35_34_videos/2026_09_29/pick_up_the_black_bowl_next_to_the_plate_and_place/1-False-2026_09_29-18_35_34.mp4
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+Current total success rate: 0.0

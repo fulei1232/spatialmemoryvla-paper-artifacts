@@ -1,0 +1,52 @@
+{
+  "loss_success_threshold": 0.1,
+  "metric_note": "offline_success_proxy is action-loss threshold, not simulator success",
+  "results": {
+    "C1": {
+      "normal": {
+        "samples": 3200,
+        "action_loss": 0.042878527434077114,
+        "offline_success_proxy": 0.9825,
+        "history_size": 0.9375,
+        "cog_alpha": 0.7890331323817372,
+        "per_alpha": 0.5942834502086043
+      },
+      "occlusion": {
+        "samples": 3200,
+        "action_loss": 0.04289128568256274,
+        "offline_success_proxy": 0.9825,
+        "history_size": 0.9375,
+        "cog_alpha": 0.7890210985019803,
+        "per_alpha": 0.5939240065589547
+      },
+      "paired_occlusion_recovery": {
+        "paired_samples": 3200,
+        "occlusion_loss_delta": 1.275824848562479e-05,
+        "occlusion_loss_delta_median": 0.0
+      }
+    },
+    "C16": {
+      "normal": {
+        "samples": 3200,
+        "action_loss": 0.042860821911599484,
+        "offline_success_proxy": 0.985,
+        "history_size": 7.5,
+        "cog_alpha": 0.7864577711932361,
+        "per_alpha": 0.5936561692506075
+      },
+      "occlusion": {
+        "samples": 3200,
+        "action_loss": 0.042876361161470415,
+        "offline_success_proxy": 0.985,
+        "history_size": 7.5,
+        "cog_alpha": 0.7864438954740762,
+        "per_alpha": 0.5933073755539954
+      },
+      "paired_occlusion_recovery": {
+        "paired_samples": 3200,
+        "occlusion_loss_delta": 1.5539249870926143e-05,
+        "occlusion_loss_delta_median": 0.0
+      }
+    }
+  }
+}

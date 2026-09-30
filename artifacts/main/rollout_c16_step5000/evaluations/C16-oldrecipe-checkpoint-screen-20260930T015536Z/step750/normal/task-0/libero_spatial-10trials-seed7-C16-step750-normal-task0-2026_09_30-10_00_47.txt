@@ -1,0 +1,73 @@
+Task suite: libero_spatial
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 0
+Starting episode 1 (global index 0)...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 1
+Starting episode 2 (global index 1)...
+Success: False
+# episodes completed so far: 2
+# successes: 1 (50.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 2
+Starting episode 3 (global index 2)...
+Success: False
+# episodes completed so far: 3
+# successes: 1 (33.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 3
+Starting episode 4 (global index 3)...
+Success: False
+# episodes completed so far: 4
+# successes: 1 (25.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 4
+Starting episode 5 (global index 4)...
+Success: False
+# episodes completed so far: 5
+# successes: 1 (20.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 5
+Starting episode 6 (global index 5)...
+Success: True
+# episodes completed so far: 6
+# successes: 2 (33.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 6
+Starting episode 7 (global index 6)...
+Success: True
+# episodes completed so far: 7
+# successes: 3 (42.9%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 7
+Starting episode 8 (global index 7)...
+Success: False
+# episodes completed so far: 8
+# successes: 3 (37.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 8
+Starting episode 9 (global index 8)...
+Success: False
+# episodes completed so far: 9
+# successes: 3 (33.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Official initial state index: 9
+Starting episode 10 (global index 9)...
+Success: True
+# episodes completed so far: 10
+# successes: 4 (40.0%)
+Current task success rate: 0.4
+Current total success rate: 0.4

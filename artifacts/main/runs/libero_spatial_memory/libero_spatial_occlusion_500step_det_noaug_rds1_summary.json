@@ -1,0 +1,148 @@
+{
+  "complete": true,
+  "matched_shared_configuration": true,
+  "matched_occlusion_sequence": true,
+  "runs": {
+    "B": {
+      "steps": 500,
+      "complete": true,
+      "checkpoint": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_B_500step_det_noaug_rds1/checkpoints/step-000500-epoch-00-loss=0.0809.pt",
+      "optimizer": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_B_500step_det_noaug_rds1/checkpoints/step-000500-epoch-00-loss=0.0809.optimizer",
+      "mem_length": 1,
+      "use_spatial_memory": false,
+      "action_loss": {
+        "first": 0.36747580766677856,
+        "last": 0.06986092776060104,
+        "mean": 0.07470254511386155,
+        "mean_last_50": 0.0675900986418128,
+        "finite": true,
+        "max": 0.36747580766677856
+      },
+      "spatial_loss": {
+        "first": 1.0246644020080566,
+        "last": 0.02213412895798683,
+        "mean": 0.10491196564212442,
+        "mean_last_50": 0.02740078844130039,
+        "finite": true,
+        "max": 1.0246644020080566
+      },
+      "total_loss": {
+        "first": 0.8798080086708069,
+        "last": 0.08092799037694931,
+        "mean": 0.12715852803736924,
+        "mean_last_50": 0.0812904928997159,
+        "finite": true,
+        "max": 0.8798080086708069
+      },
+      "grad_norm": {
+        "first": 3.2557082176208496,
+        "last": 1.1059244871139526,
+        "mean": 1.6493601509332656,
+        "mean_last_50": 1.5255785381793976,
+        "finite": true,
+        "max": 3.520657777786255
+      },
+      "diagnostics": {
+        "rows": 16000,
+        "occluded_fraction": 0.25575,
+        "full_occlusion_fraction": 0.1419375,
+        "max_history_size": 1,
+        "occlusion_sequence_sha256": "7ff2f6f6d893686504d62d8ba0d88c65cf3144259677fa732b03ef51eb2de5d7"
+      }
+    },
+    "C1": {
+      "steps": 500,
+      "complete": true,
+      "checkpoint": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_C_mem1_500step_det_noaug_rds1/checkpoints/step-000500-epoch-00-loss=0.0876.pt",
+      "optimizer": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_C_mem1_500step_det_noaug_rds1/checkpoints/step-000500-epoch-00-loss=0.0876.optimizer",
+      "mem_length": 1,
+      "use_spatial_memory": true,
+      "action_loss": {
+        "first": 0.45131319761276245,
+        "last": 0.07356248050928116,
+        "mean": 0.0767093686517328,
+        "mean_last_50": 0.06893043296411633,
+        "finite": true,
+        "max": 0.45131319761276245
+      },
+      "spatial_loss": {
+        "first": 1.0246644020080566,
+        "last": 0.028043197467923164,
+        "mean": 0.11437484446913004,
+        "mean_last_50": 0.03185271229594946,
+        "finite": true,
+        "max": 1.0246644020080566
+      },
+      "total_loss": {
+        "first": 0.9636453986167908,
+        "last": 0.08758407831192017,
+        "mean": 0.13389679070189595,
+        "mean_last_50": 0.08485678885132074,
+        "finite": true,
+        "max": 0.9636453986167908
+      },
+      "grad_norm": {
+        "first": 8.305950164794922,
+        "last": 1.5341174602508545,
+        "mean": 1.6892135095596315,
+        "mean_last_50": 1.5917726504802703,
+        "finite": true,
+        "max": 8.305950164794922
+      },
+      "diagnostics": {
+        "rows": 16000,
+        "occluded_fraction": 0.25575,
+        "full_occlusion_fraction": 0.1419375,
+        "max_history_size": 1,
+        "occlusion_sequence_sha256": "7ff2f6f6d893686504d62d8ba0d88c65cf3144259677fa732b03ef51eb2de5d7"
+      }
+    },
+    "C16": {
+      "steps": 500,
+      "complete": true,
+      "checkpoint": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_C_mem16_500step_det_noaug_rds1/checkpoints/step-000500-epoch-00-loss=0.0860.pt",
+      "optimizer": "/media/fulei/jlu/SpatialMemoryVLA/runs/libero_spatial_memory/libero_spatial_occ_C_mem16_500step_det_noaug_rds1/checkpoints/step-000500-epoch-00-loss=0.0860.optimizer",
+      "mem_length": 16,
+      "use_spatial_memory": true,
+      "action_loss": {
+        "first": 0.4508639872074127,
+        "last": 0.07197470963001251,
+        "mean": 0.07637796149402856,
+        "mean_last_50": 0.06782903965562583,
+        "finite": true,
+        "max": 0.4508639872074127
+      },
+      "spatial_loss": {
+        "first": 1.0246644020080566,
+        "last": 0.02811872959136963,
+        "mean": 0.11372672187909484,
+        "mean_last_50": 0.03181754726916552,
+        "finite": true,
+        "max": 1.0246644020080566
+      },
+      "total_loss": {
+        "first": 0.9631961584091187,
+        "last": 0.08603407442569733,
+        "mean": 0.13324132255092264,
+        "mean_last_50": 0.08373781297355891,
+        "finite": true,
+        "max": 0.9631961584091187
+      },
+      "grad_norm": {
+        "first": 8.298796653747559,
+        "last": 1.503206729888916,
+        "mean": 1.696221559882164,
+        "mean_last_50": 1.6396569287776948,
+        "finite": true,
+        "max": 8.298796653747559
+      },
+      "diagnostics": {
+        "rows": 16000,
+        "occluded_fraction": 0.25575,
+        "full_occlusion_fraction": 0.1419375,
+        "max_history_size": 16,
+        "occlusion_sequence_sha256": "7ff2f6f6d893686504d62d8ba0d88c65cf3144259677fa732b03ef51eb2de5d7"
+      }
+    }
+  }
+}
