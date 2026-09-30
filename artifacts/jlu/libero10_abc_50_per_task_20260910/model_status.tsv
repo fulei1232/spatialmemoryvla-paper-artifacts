@@ -1,0 +1,7 @@
+timestamp	model	status	detail
+2026-09-10T10:28:42+08:00	A	running	/media/fulei/jlu/memoryvla_libero10_A--image_aug/checkpoints/step-010000-epoch-25-loss=0.0192.pt
+2026-09-10T13:07:20+08:00	A	completed	all_suites_attempted
+2026-09-10T13:11:19+08:00	B	running	/media/fulei/jlu/spatial_forcing_libero10_B--image_aug/checkpoints/step-010000-epoch-25-loss=0.0172.pt
+2026-09-10T15:50:54+08:00	B	completed	all_suites_attempted
+2026-09-10T15:54:49+08:00	C	running	/media/fulei/jlu/spatial_memory_libero10_C--image_aug/checkpoints/step-010000-epoch-25-loss=0.0239.pt
+2026-09-10T18:30:23+08:00	C	completed	all_suites_attempted

@@ -1,0 +1,380 @@
+2026-09-06 17:11:15.194426: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-06 17:11:15.233819: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-06 17:11:15.233873: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-06 17:11:15.235369: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-06 17:11:15.242127: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-06 17:11:15.986464: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /home/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/libero_abc_spatial_50_per_task_20260906/C/libero_spatial/task-004/libero_spatial-50trials-seed7-C-50ep-task4-seed7-ac8-2026_09_06-17_11_17.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+  0%|          | 0/10 [00:00<?, ?it/s]Skipping task 0...
+Skipping task 1...
+Skipping task 2...
+Skipping task 3...
+
+  0%|          | 0/50 [00:00<?, ?it/s][A
+  2%|▏         | 1/50 [00:40<33:10, 40.63s/it][A
+  4%|▍         | 2/50 [01:18<31:15, 39.07s/it][A
+  6%|▌         | 3/50 [01:53<29:15, 37.35s/it][A
+  8%|▊         | 4/50 [02:33<29:19, 38.26s/it][A
+ 10%|█         | 5/50 [03:12<28:56, 38.59s/it][A
+ 12%|█▏        | 6/50 [03:48<27:32, 37.56s/it][A
+ 14%|█▍        | 7/50 [04:24<26:33, 37.05s/it][A
+ 16%|█▌        | 8/50 [05:24<31:07, 44.47s/it][A
+ 18%|█▊        | 9/50 [06:00<28:36, 41.87s/it][A
+ 20%|██        | 10/50 [06:39<27:10, 40.77s/it][A
+ 22%|██▏       | 11/50 [07:16<25:55, 39.87s/it][A
+ 24%|██▍       | 12/50 [07:53<24:35, 38.82s/it][A
+ 26%|██▌       | 13/50 [08:34<24:25, 39.61s/it][A
+ 28%|██▊       | 14/50 [09:14<23:50, 39.73s/it][A
+ 30%|███       | 15/50 [09:57<23:46, 40.75s/it][A
+ 32%|███▏      | 16/50 [10:33<22:13, 39.22s/it][A
+ 34%|███▍      | 17/50 [11:09<21:01, 38.24s/it][A
+ 36%|███▌      | 18/50 [11:45<20:00, 37.50s/it][A
+ 38%|███▊      | 19/50 [12:49<23:29, 45.48s/it][A
+ 40%|████      | 20/50 [13:26<21:27, 42.92s/it][A
+ 42%|████▏     | 21/50 [14:03<19:50, 41.05s/it][A
+ 44%|████▍     | 22/50 [14:41<18:47, 40.27s/it][A
+ 46%|████▌     | 23/50 [15:18<17:36, 39.14s/it][A
+ 48%|████▊     | 24/50 [15:59<17:18, 39.94s/it][A
+ 50%|█████     | 25/50 [16:36<16:14, 38.98s/it][A
+ 52%|█████▏    | 26/50 [17:13<15:24, 38.52s/it][A
+ 54%|█████▍    | 27/50 [17:51<14:37, 38.13s/it][A
+ 56%|█████▌    | 28/50 [18:31<14:11, 38.70s/it][A
+ 58%|█████▊    | 29/50 [19:10<13:35, 38.81s/it][A
+ 60%|██████    | 30/50 [19:47<12:43, 38.18s/it][A
+ 62%|██████▏   | 31/50 [20:26<12:11, 38.49s/it][A
+ 64%|██████▍   | 32/50 [21:03<11:27, 38.20s/it][A
+ 66%|██████▌   | 33/50 [21:39<10:35, 37.38s/it][A
+ 68%|██████▊   | 34/50 [22:40<11:51, 44.46s/it][A
+ 70%|███████   | 35/50 [23:20<10:47, 43.16s/it][A
+ 72%|███████▏  | 36/50 [23:57<09:40, 41.49s/it][A
+ 74%|███████▍  | 37/50 [24:57<10:09, 46.87s/it][A
+ 76%|███████▌  | 38/50 [25:34<08:46, 43.88s/it][A
+ 78%|███████▊  | 39/50 [26:12<07:43, 42.13s/it][A
+ 80%|████████  | 40/50 [26:50<06:49, 40.93s/it][A
+ 82%|████████▏ | 41/50 [27:27<05:57, 39.71s/it][A
+ 84%|████████▍ | 42/50 [28:03<05:08, 38.61s/it][A
+ 86%|████████▌ | 43/50 [28:37<04:21, 37.29s/it][A
+ 88%|████████▊ | 44/50 [29:11<03:38, 36.37s/it][A
+ 90%|█████████ | 45/50 [29:46<02:59, 35.93s/it][A
+ 92%|█████████▏| 46/50 [30:21<02:22, 35.70s/it][A
+ 94%|█████████▍| 47/50 [30:55<01:45, 35.08s/it][A
+ 96%|█████████▌| 48/50 [31:33<01:11, 35.97s/it][A
+ 98%|█████████▊| 49/50 [32:07<00:35, 35.28s/it][A
+100%|██████████| 50/50 [32:42<00:00, 35.16s/it][A100%|██████████| 50/50 [32:42<00:00, 39.24s/it]
+ 50%|█████     | 5/10 [32:46<32:46, 393.28s/it]100%|██████████| 10/10 [32:46<00:00, 196.64s/it]
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 2...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 3...
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 4...
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 5...
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 6...
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 7...
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 8...
+Success: False
+# episodes completed so far: 8
+# successes: 7 (87.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 9...
+Success: True
+# episodes completed so far: 9
+# successes: 8 (88.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 10...
+Success: True
+# episodes completed so far: 10
+# successes: 9 (90.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 11...
+Success: True
+# episodes completed so far: 11
+# successes: 10 (90.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 12...
+Success: True
+# episodes completed so far: 12
+# successes: 11 (91.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 13...
+Success: True
+# episodes completed so far: 13
+# successes: 12 (92.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 14...
+Success: True
+# episodes completed so far: 14
+# successes: 13 (92.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 15...
+Success: True
+# episodes completed so far: 15
+# successes: 14 (93.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 16...
+Success: True
+# episodes completed so far: 16
+# successes: 15 (93.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 17...
+Success: True
+# episodes completed so far: 17
+# successes: 16 (94.1%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 18...
+Success: True
+# episodes completed so far: 18
+# successes: 17 (94.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 19...
+Success: False
+# episodes completed so far: 19
+# successes: 17 (89.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 20...
+Success: True
+# episodes completed so far: 20
+# successes: 18 (90.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 21...
+Success: True
+# episodes completed so far: 21
+# successes: 19 (90.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 22...
+Success: True
+# episodes completed so far: 22
+# successes: 20 (90.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 23...
+Success: True
+# episodes completed so far: 23
+# successes: 21 (91.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 24...
+Success: True
+# episodes completed so far: 24
+# successes: 22 (91.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 25...
+Success: True
+# episodes completed so far: 25
+# successes: 23 (92.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 26...
+Success: True
+# episodes completed so far: 26
+# successes: 24 (92.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 27...
+Success: True
+# episodes completed so far: 27
+# successes: 25 (92.6%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 28...
+Success: True
+# episodes completed so far: 28
+# successes: 26 (92.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 29...
+Success: True
+# episodes completed so far: 29
+# successes: 27 (93.1%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 30...
+Success: True
+# episodes completed so far: 30
+# successes: 28 (93.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 31...
+Success: True
+# episodes completed so far: 31
+# successes: 29 (93.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 32...
+Success: True
+# episodes completed so far: 32
+# successes: 30 (93.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 33...
+Success: True
+# episodes completed so far: 33
+# successes: 31 (93.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 34...
+Success: False
+# episodes completed so far: 34
+# successes: 31 (91.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 35...
+Success: True
+# episodes completed so far: 35
+# successes: 32 (91.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 36...
+Success: True
+# episodes completed so far: 36
+# successes: 33 (91.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 37...
+Success: False
+# episodes completed so far: 37
+# successes: 33 (89.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 38...
+Success: True
+# episodes completed so far: 38
+# successes: 34 (89.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 39...
+Success: True
+# episodes completed so far: 39
+# successes: 35 (89.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 40...
+Success: True
+# episodes completed so far: 40
+# successes: 36 (90.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 41...
+Success: True
+# episodes completed so far: 41
+# successes: 37 (90.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 42...
+Success: True
+# episodes completed so far: 42
+# successes: 38 (90.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 43...
+Success: True
+# episodes completed so far: 43
+# successes: 39 (90.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 44...
+Success: True
+# episodes completed so far: 44
+# successes: 40 (90.9%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 45...
+Success: True
+# episodes completed so far: 45
+# successes: 41 (91.1%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 46...
+Success: True
+# episodes completed so far: 46
+# successes: 42 (91.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 47...
+Success: True
+# episodes completed so far: 47
+# successes: 43 (91.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 48...
+Success: True
+# episodes completed so far: 48
+# successes: 44 (91.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 49...
+Success: True
+# episodes completed so far: 49
+# successes: 45 (91.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 50...
+Success: True
+# episodes completed so far: 50
+# successes: 46 (92.0%)
+Current task success rate: 0.92
+Current total success rate: 0.92
+Skipping task 5...
+Skipping task 6...
+Skipping task 7...
+Skipping task 8...
+Skipping task 9...

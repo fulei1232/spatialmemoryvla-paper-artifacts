@@ -1,0 +1,382 @@
+2026-09-10 15:54:50.886966: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-10 15:54:50.926536: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-10 15:54:50.926607: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-10 15:54:50.927730: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-10 15:54:50.933638: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-10 15:54:51.656038: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /home/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/libero10_abc_50_per_task_20260910/C/libero_10/task-005/libero_10-50trials-seed7-C-50ep-task5-seed7-ac8-2026_09_10-15_54_52.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_10
+  0%|          | 0/10 [00:00<?, ?it/s]Skipping task 0...
+Skipping task 1...
+Skipping task 2...
+Skipping task 3...
+Skipping task 4...
+
+  0%|          | 0/50 [00:00<?, ?it/s][A
+  2%|▏         | 1/50 [00:28<23:19, 28.56s/it][A
+  4%|▍         | 2/50 [00:59<23:51, 29.83s/it][A
+  6%|▌         | 3/50 [01:29<23:29, 29.98s/it][A
+  8%|▊         | 4/50 [01:59<22:56, 29.92s/it][A
+ 10%|█         | 5/50 [02:27<21:51, 29.15s/it][A
+ 12%|█▏        | 6/50 [02:53<20:48, 28.38s/it][A
+ 14%|█▍        | 7/50 [03:20<19:53, 27.76s/it][A
+ 16%|█▌        | 8/50 [03:50<19:53, 28.42s/it][A
+ 18%|█▊        | 9/50 [04:15<18:42, 27.38s/it][A
+ 20%|██        | 10/50 [04:42<18:10, 27.25s/it][A
+ 22%|██▏       | 11/50 [05:11<18:09, 27.93s/it][A
+ 24%|██▍       | 12/50 [05:40<17:49, 28.15s/it][A
+ 26%|██▌       | 13/50 [06:09<17:32, 28.46s/it][A
+ 28%|██▊       | 14/50 [06:36<16:52, 28.14s/it][A
+ 30%|███       | 15/50 [07:07<16:50, 28.87s/it][A
+ 32%|███▏      | 16/50 [07:33<15:51, 28.00s/it][A
+ 34%|███▍      | 17/50 [08:00<15:13, 27.68s/it][A
+ 36%|███▌      | 18/50 [08:28<14:53, 27.93s/it][A
+ 38%|███▊      | 19/50 [09:40<21:11, 41.02s/it][A
+ 40%|████      | 20/50 [10:11<18:57, 37.92s/it][A
+ 42%|████▏     | 21/50 [10:41<17:10, 35.54s/it][A
+ 44%|████▍     | 22/50 [11:11<15:53, 34.04s/it][A
+ 46%|████▌     | 23/50 [11:40<14:37, 32.51s/it][A
+ 48%|████▊     | 24/50 [12:09<13:33, 31.30s/it][A
+ 50%|█████     | 25/50 [12:37<12:36, 30.28s/it][A
+ 52%|█████▏    | 26/50 [13:06<12:02, 30.11s/it][A
+ 54%|█████▍    | 27/50 [14:21<16:41, 43.56s/it][A
+ 56%|█████▌    | 28/50 [14:50<14:23, 39.23s/it][A
+ 58%|█████▊    | 29/50 [16:05<17:24, 49.73s/it][A
+ 60%|██████    | 30/50 [16:36<14:44, 44.22s/it][A
+ 62%|██████▏   | 31/50 [17:05<12:31, 39.53s/it][A
+ 64%|██████▍   | 32/50 [17:34<10:57, 36.54s/it][A
+ 66%|██████▌   | 33/50 [18:09<10:12, 36.04s/it][A
+ 68%|██████▊   | 34/50 [18:42<09:24, 35.28s/it][A
+ 70%|███████   | 35/50 [19:15<08:38, 34.57s/it][A
+ 72%|███████▏  | 36/50 [19:46<07:46, 33.35s/it][A
+ 74%|███████▍  | 37/50 [20:15<06:55, 31.95s/it][A
+ 76%|███████▌  | 38/50 [20:42<06:06, 30.56s/it][A
+ 78%|███████▊  | 39/50 [21:10<05:28, 29.84s/it][A
+ 80%|████████  | 40/50 [21:39<04:55, 29.57s/it][A
+ 82%|████████▏ | 41/50 [22:53<06:25, 42.86s/it][A
+ 84%|████████▍ | 42/50 [23:23<05:12, 39.09s/it][A
+ 86%|████████▌ | 43/50 [23:52<04:12, 36.00s/it][A
+ 88%|████████▊ | 44/50 [25:06<04:44, 47.45s/it][A
+ 90%|█████████ | 45/50 [25:33<03:27, 41.42s/it][A
+ 92%|█████████▏| 46/50 [26:04<02:32, 38.23s/it][A
+ 94%|█████████▍| 47/50 [26:32<01:45, 35.16s/it][A
+ 96%|█████████▌| 48/50 [27:01<01:06, 33.23s/it][A
+ 98%|█████████▊| 49/50 [27:29<00:31, 31.82s/it][A
+100%|██████████| 50/50 [28:02<00:00, 32.08s/it][A100%|██████████| 50/50 [28:02<00:00, 33.65s/it]
+ 60%|██████    | 6/10 [28:06<18:44, 281.08s/it]100%|██████████| 10/10 [28:06<00:00, 168.65s/it]
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 1 (global index 0)...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 2 (global index 1)...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 3 (global index 2)...
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 4 (global index 3)...
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 5 (global index 4)...
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 6 (global index 5)...
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 7 (global index 6)...
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 8 (global index 7)...
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 9 (global index 8)...
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 10 (global index 9)...
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 11 (global index 10)...
+Success: True
+# episodes completed so far: 11
+# successes: 11 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 12 (global index 11)...
+Success: True
+# episodes completed so far: 12
+# successes: 12 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 13 (global index 12)...
+Success: True
+# episodes completed so far: 13
+# successes: 13 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 14 (global index 13)...
+Success: True
+# episodes completed so far: 14
+# successes: 14 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 15 (global index 14)...
+Success: True
+# episodes completed so far: 15
+# successes: 15 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 16 (global index 15)...
+Success: True
+# episodes completed so far: 16
+# successes: 16 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 17 (global index 16)...
+Success: True
+# episodes completed so far: 17
+# successes: 17 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 18 (global index 17)...
+Success: True
+# episodes completed so far: 18
+# successes: 18 (100.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 19 (global index 18)...
+Success: False
+# episodes completed so far: 19
+# successes: 18 (94.7%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 20 (global index 19)...
+Success: True
+# episodes completed so far: 20
+# successes: 19 (95.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 21 (global index 20)...
+Success: True
+# episodes completed so far: 21
+# successes: 20 (95.2%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 22 (global index 21)...
+Success: True
+# episodes completed so far: 22
+# successes: 21 (95.5%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 23 (global index 22)...
+Success: True
+# episodes completed so far: 23
+# successes: 22 (95.7%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 24 (global index 23)...
+Success: True
+# episodes completed so far: 24
+# successes: 23 (95.8%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 25 (global index 24)...
+Success: True
+# episodes completed so far: 25
+# successes: 24 (96.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 26 (global index 25)...
+Success: True
+# episodes completed so far: 26
+# successes: 25 (96.2%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 27 (global index 26)...
+Success: False
+# episodes completed so far: 27
+# successes: 25 (92.6%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 28 (global index 27)...
+Success: True
+# episodes completed so far: 28
+# successes: 26 (92.9%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 29 (global index 28)...
+Success: False
+# episodes completed so far: 29
+# successes: 26 (89.7%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 30 (global index 29)...
+Success: True
+# episodes completed so far: 30
+# successes: 27 (90.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 31 (global index 30)...
+Success: True
+# episodes completed so far: 31
+# successes: 28 (90.3%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 32 (global index 31)...
+Success: True
+# episodes completed so far: 32
+# successes: 29 (90.6%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 33 (global index 32)...
+Success: True
+# episodes completed so far: 33
+# successes: 30 (90.9%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 34 (global index 33)...
+Success: True
+# episodes completed so far: 34
+# successes: 31 (91.2%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 35 (global index 34)...
+Success: True
+# episodes completed so far: 35
+# successes: 32 (91.4%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 36 (global index 35)...
+Success: True
+# episodes completed so far: 36
+# successes: 33 (91.7%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 37 (global index 36)...
+Success: True
+# episodes completed so far: 37
+# successes: 34 (91.9%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 38 (global index 37)...
+Success: True
+# episodes completed so far: 38
+# successes: 35 (92.1%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 39 (global index 38)...
+Success: True
+# episodes completed so far: 39
+# successes: 36 (92.3%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 40 (global index 39)...
+Success: True
+# episodes completed so far: 40
+# successes: 37 (92.5%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 41 (global index 40)...
+Success: False
+# episodes completed so far: 41
+# successes: 37 (90.2%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 42 (global index 41)...
+Success: True
+# episodes completed so far: 42
+# successes: 38 (90.5%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 43 (global index 42)...
+Success: True
+# episodes completed so far: 43
+# successes: 39 (90.7%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 44 (global index 43)...
+Success: False
+# episodes completed so far: 44
+# successes: 39 (88.6%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 45 (global index 44)...
+Success: True
+# episodes completed so far: 45
+# successes: 40 (88.9%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 46 (global index 45)...
+Success: True
+# episodes completed so far: 46
+# successes: 41 (89.1%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 47 (global index 46)...
+Success: True
+# episodes completed so far: 47
+# successes: 42 (89.4%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 48 (global index 47)...
+Success: True
+# episodes completed so far: 48
+# successes: 43 (89.6%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 49 (global index 48)...
+Success: True
+# episodes completed so far: 49
+# successes: 44 (89.8%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 50 (global index 49)...
+Success: True
+# episodes completed so far: 50
+# successes: 45 (90.0%)
+Current task success rate: 0.9
+Current total success rate: 0.9
+Skipping task 6...
+Skipping task 7...
+Skipping task 8...
+Skipping task 9...
+WARNING: Nan, Inf or huge value in QACC at DOF 9. The simulation is unstable. Time = 0.5480.
+

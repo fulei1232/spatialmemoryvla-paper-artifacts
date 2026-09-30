@@ -1,0 +1,7 @@
+timestamp	model	status	detail
+2026-09-06T14:52:14+08:00	A	running	/media/fulei/jlu/memoryvla_libero_spatial_ab_A--image_aug/checkpoints/step-010000-epoch-48-loss=0.0157.pt
+2026-09-06T15:57:43+08:00	A	completed	all_suites_attempted
+2026-09-06T16:01:43+08:00	B	running	/media/fulei/jlu/memoryvla_spatial_forcing_libero_spatial_ab_B--image_aug/checkpoints/step-010000-epoch-48-loss=0.0171.pt
+2026-09-06T17:07:09+08:00	B	completed	all_suites_attempted
+2026-09-06T17:11:13+08:00	C	running	/media/fulei/jlu/spatial_memory_libero_spatial_functional--image_aug/checkpoints/step-010000-epoch-48-loss=0.0210.pt
+2026-09-06T18:14:59+08:00	C	completed	all_suites_attempted

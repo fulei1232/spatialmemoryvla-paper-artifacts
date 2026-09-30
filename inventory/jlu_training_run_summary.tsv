@@ -1,0 +1,9 @@
+run	data_mix	mode	spatial_forcing	spatial_memory	metric_records	unique_steps	max_step	max_epoch	final_loss	min_logged_loss	final_action_loss	final_spatial_loss	mean_step_time_sec	pt_checkpoints
+memoryvla_libero10_A--image_aug	libero_10_no_noops	memoryvla	False	False	10000	10000	10000	25	0.019213587045669556	0.0068801348097622395	0.019213587045669556	0.0	4.00436568377018	5
+memoryvla_libero10_A--image_aug.cancelled-20260908_163922	libero_10_no_noops	memoryvla	False	False	0	0								0
+memoryvla_libero10_A--image_aug.interrupted-20260908_163210	libero_10_no_noops	memoryvla	False	False	812	812	812	2	0.0351896695792675	0.0231467355042696	0.0351896695792675	0.0	4.560301001142398	0
+memoryvla_libero_spatial_ab_A--image_aug	libero_spatial_no_noops		False	False	12000	10000	10000	48	0.015686286613345146	0.004630724433809519	0.015686286613345146	0.0	3.952993168155352	5
+memoryvla_spatial_forcing_libero_spatial_ab_B--image_aug	libero_spatial_no_noops		True	False	10000	10000	10000	48	0.01705099269747734	0.005432065576314926	0.015749923884868622	0.0026021369267255068	5.251378207993508	5
+spatial_forcing_libero10_B--image_aug	libero_10_no_noops	spatial_forcing	True	False	10000	10000	10000	25	0.01719113066792488	0.007490815129131079	0.015561220236122608	0.0032598194666206837	5.577871739673615	5
+spatial_memory_libero10_C--image_aug	libero_10_no_noops	spatial_memory	True	True	10000	10000	10000	25	0.023931296542286873	0.008390070870518684	0.021988440304994583	0.003885713405907154	5.32387301735878	5
+spatial_memory_libero_spatial_functional--image_aug	libero_spatial_no_noops		True	True	10000	10000	10000	48	0.02095353975892067	0.007789235562086105	0.018911339342594147	0.004084398970007896	5.2933373369932175	5

@@ -1,0 +1,380 @@
+2026-09-10 15:54:50.824387: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-10 15:54:50.863303: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-10 15:54:50.863348: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-10 15:54:50.864514: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-10 15:54:50.870367: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-10 15:54:51.594464: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /home/SpatialMemoryVLA/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Logging to local log file: /media/fulei/jlu/libero10_abc_50_per_task_20260910/C/libero_10/task-002/libero_10-50trials-seed7-C-50ep-task2-seed7-ac8-2026_09_10-15_54_52.txt
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_10
+  0%|          | 0/10 [00:00<?, ?it/s]Skipping task 0...
+Skipping task 1...
+
+  0%|          | 0/50 [00:00<?, ?it/s][A
+  2%|▏         | 1/50 [01:02<51:26, 63.00s/it][A
+  4%|▍         | 2/50 [02:12<53:34, 66.97s/it][A
+  6%|▌         | 3/50 [03:21<53:13, 67.94s/it][A
+  8%|▊         | 4/50 [04:22<49:59, 65.21s/it][A
+ 10%|█         | 5/50 [06:28<1:05:10, 86.90s/it][A
+ 12%|█▏        | 6/50 [07:37<59:13, 80.76s/it]  [A
+ 14%|█▍        | 7/50 [08:45<54:56, 76.66s/it][A
+ 16%|█▌        | 8/50 [10:51<1:04:44, 92.48s/it][A
+ 18%|█▊        | 9/50 [11:50<56:02, 82.02s/it]  [A
+ 20%|██        | 10/50 [13:57<1:04:00, 96.01s/it][A
+ 22%|██▏       | 11/50 [14:59<55:30, 85.40s/it]  [A
+ 24%|██▍       | 12/50 [17:07<1:02:20, 98.43s/it][A
+ 26%|██▌       | 13/50 [19:17<1:06:34, 107.97s/it][A
+ 28%|██▊       | 14/50 [20:19<56:31, 94.20s/it]   [A
+ 30%|███       | 15/50 [22:26<1:00:43, 104.10s/it][A
+ 32%|███▏      | 16/50 [23:27<51:34, 91.00s/it]   [A
+ 34%|███▍      | 17/50 [24:39<46:54, 85.28s/it][A
+ 36%|███▌      | 18/50 [26:48<52:28, 98.41s/it][A
+ 38%|███▊      | 19/50 [28:56<55:22, 107.17s/it][A
+ 40%|████      | 20/50 [29:57<46:44, 93.48s/it] [A
+ 42%|████▏     | 21/50 [32:03<49:53, 103.22s/it][A
+ 44%|████▍     | 22/50 [33:07<42:36, 91.30s/it] [A
+ 46%|████▌     | 23/50 [34:05<36:39, 81.46s/it][A
+ 48%|████▊     | 24/50 [35:10<33:12, 76.64s/it][A
+ 50%|█████     | 25/50 [36:16<30:31, 73.26s/it][A
+ 52%|█████▏    | 26/50 [37:16<27:44, 69.37s/it][A
+ 54%|█████▍    | 27/50 [38:18<25:47, 67.28s/it][A
+ 56%|█████▌    | 28/50 [39:22<24:17, 66.26s/it][A
+ 58%|█████▊    | 29/50 [40:22<22:30, 64.32s/it][A
+ 60%|██████    | 30/50 [41:22<21:02, 63.12s/it][A
+ 62%|██████▏   | 31/50 [42:20<19:25, 61.34s/it][A
+ 64%|██████▍   | 32/50 [43:30<19:11, 63.98s/it][A
+ 66%|██████▌   | 33/50 [44:32<18:00, 63.57s/it][A
+ 68%|██████▊   | 34/50 [46:36<21:45, 81.60s/it][A
+ 70%|███████   | 35/50 [47:36<18:47, 75.17s/it][A
+ 72%|███████▏  | 36/50 [49:38<20:47, 89.13s/it][A
+ 74%|███████▍  | 37/50 [50:42<17:39, 81.50s/it][A
+ 76%|███████▌  | 38/50 [51:39<14:51, 74.28s/it][A
+ 78%|███████▊  | 39/50 [52:49<13:23, 73.04s/it][A
+ 80%|████████  | 40/50 [53:46<11:20, 68.01s/it][A
+ 82%|████████▏ | 41/50 [55:49<12:40, 84.50s/it][A
+ 84%|████████▍ | 42/50 [56:50<10:19, 77.48s/it][A
+ 86%|████████▌ | 43/50 [57:51<08:28, 72.65s/it][A
+ 88%|████████▊ | 44/50 [59:15<07:36, 76.13s/it][A
+ 90%|█████████ | 45/50 [1:00:21<06:05, 73.10s/it][A
+ 92%|█████████▏| 46/50 [1:01:19<04:34, 68.57s/it][A
+ 94%|█████████▍| 47/50 [1:02:21<03:19, 66.42s/it][A
+ 96%|█████████▌| 48/50 [1:03:21<02:09, 64.55s/it][A
+ 98%|█████████▊| 49/50 [1:04:24<01:04, 64.12s/it][A
+100%|██████████| 50/50 [1:06:24<00:00, 80.91s/it][A100%|██████████| 50/50 [1:06:24<00:00, 79.69s/it]
+ 30%|███       | 3/10 [1:06:27<2:35:03, 1329.05s/it]100%|██████████| 10/10 [1:06:27<00:00, 398.71s/it]  
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 1 (global index 0)...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 2 (global index 1)...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 3 (global index 2)...
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 4 (global index 3)...
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 5 (global index 4)...
+Success: False
+# episodes completed so far: 5
+# successes: 4 (80.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 6 (global index 5)...
+Success: True
+# episodes completed so far: 6
+# successes: 5 (83.3%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 7 (global index 6)...
+Success: True
+# episodes completed so far: 7
+# successes: 6 (85.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 8 (global index 7)...
+Success: False
+# episodes completed so far: 8
+# successes: 6 (75.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 9 (global index 8)...
+Success: True
+# episodes completed so far: 9
+# successes: 7 (77.8%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 10 (global index 9)...
+Success: False
+# episodes completed so far: 10
+# successes: 7 (70.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 11 (global index 10)...
+Success: True
+# episodes completed so far: 11
+# successes: 8 (72.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 12 (global index 11)...
+Success: False
+# episodes completed so far: 12
+# successes: 8 (66.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 13 (global index 12)...
+Success: False
+# episodes completed so far: 13
+# successes: 8 (61.5%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 14 (global index 13)...
+Success: True
+# episodes completed so far: 14
+# successes: 9 (64.3%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 15 (global index 14)...
+Success: False
+# episodes completed so far: 15
+# successes: 9 (60.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 16 (global index 15)...
+Success: True
+# episodes completed so far: 16
+# successes: 10 (62.5%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 17 (global index 16)...
+Success: True
+# episodes completed so far: 17
+# successes: 11 (64.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 18 (global index 17)...
+Success: False
+# episodes completed so far: 18
+# successes: 11 (61.1%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 19 (global index 18)...
+Success: False
+# episodes completed so far: 19
+# successes: 11 (57.9%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 20 (global index 19)...
+Success: True
+# episodes completed so far: 20
+# successes: 12 (60.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 21 (global index 20)...
+Success: False
+# episodes completed so far: 21
+# successes: 12 (57.1%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 22 (global index 21)...
+Success: True
+# episodes completed so far: 22
+# successes: 13 (59.1%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 23 (global index 22)...
+Success: True
+# episodes completed so far: 23
+# successes: 14 (60.9%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 24 (global index 23)...
+Success: True
+# episodes completed so far: 24
+# successes: 15 (62.5%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 25 (global index 24)...
+Success: True
+# episodes completed so far: 25
+# successes: 16 (64.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 26 (global index 25)...
+Success: True
+# episodes completed so far: 26
+# successes: 17 (65.4%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 27 (global index 26)...
+Success: True
+# episodes completed so far: 27
+# successes: 18 (66.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 28 (global index 27)...
+Success: True
+# episodes completed so far: 28
+# successes: 19 (67.9%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 29 (global index 28)...
+Success: True
+# episodes completed so far: 29
+# successes: 20 (69.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 30 (global index 29)...
+Success: True
+# episodes completed so far: 30
+# successes: 21 (70.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 31 (global index 30)...
+Success: True
+# episodes completed so far: 31
+# successes: 22 (71.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 32 (global index 31)...
+Success: True
+# episodes completed so far: 32
+# successes: 23 (71.9%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 33 (global index 32)...
+Success: True
+# episodes completed so far: 33
+# successes: 24 (72.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 34 (global index 33)...
+Success: False
+# episodes completed so far: 34
+# successes: 24 (70.6%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 35 (global index 34)...
+Success: True
+# episodes completed so far: 35
+# successes: 25 (71.4%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 36 (global index 35)...
+Success: False
+# episodes completed so far: 36
+# successes: 25 (69.4%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 37 (global index 36)...
+Success: True
+# episodes completed so far: 37
+# successes: 26 (70.3%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 38 (global index 37)...
+Success: True
+# episodes completed so far: 38
+# successes: 27 (71.1%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 39 (global index 38)...
+Success: True
+# episodes completed so far: 39
+# successes: 28 (71.8%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 40 (global index 39)...
+Success: True
+# episodes completed so far: 40
+# successes: 29 (72.5%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 41 (global index 40)...
+Success: False
+# episodes completed so far: 41
+# successes: 29 (70.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 42 (global index 41)...
+Success: True
+# episodes completed so far: 42
+# successes: 30 (71.4%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 43 (global index 42)...
+Success: True
+# episodes completed so far: 43
+# successes: 31 (72.1%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 44 (global index 43)...
+Success: True
+# episodes completed so far: 44
+# successes: 32 (72.7%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 45 (global index 44)...
+Success: True
+# episodes completed so far: 45
+# successes: 33 (73.3%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 46 (global index 45)...
+Success: True
+# episodes completed so far: 46
+# successes: 34 (73.9%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 47 (global index 46)...
+Success: True
+# episodes completed so far: 47
+# successes: 35 (74.5%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 48 (global index 47)...
+Success: True
+# episodes completed so far: 48
+# successes: 36 (75.0%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 49 (global index 48)...
+Success: True
+# episodes completed so far: 49
+# successes: 37 (75.5%)
+
+Task: turn on the stove and put the moka pot on it
+Starting episode 50 (global index 49)...
+Success: False
+# episodes completed so far: 50
+# successes: 37 (74.0%)
+Current task success rate: 0.74
+Current total success rate: 0.74
+Skipping task 3...
+Skipping task 4...
+Skipping task 5...
+Skipping task 6...
+Skipping task 7...
+Skipping task 8...
+Skipping task 9...

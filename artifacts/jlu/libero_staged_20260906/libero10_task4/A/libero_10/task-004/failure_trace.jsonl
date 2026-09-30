@@ -1,0 +1,1 @@
+{"suite": "libero_10", "task_id": 4, "task_description": "put the white mug on the left plate and put the yellow and white mug on the right plate", "episode": 1, "official_initial_state_index": 0, "success": false, "timeout": true, "steps": 530, "replay_frames": 65, "exception": null}
